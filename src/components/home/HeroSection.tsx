@@ -49,7 +49,7 @@ const HeroSection: React.FC = () => {
               size='lg'
               leftIcon={<Utensils size={20} />}
               onClick={() => navigate('/foods')}
-              className='animate-fade-in animation-delay-300'
+              className='font-semibold text-white transition-all duration-300 transform animate-fade-in animation-delay-300 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 hover:scale-105 hover:shadow-lg'
             >
               Explore Foods
             </Button>
@@ -58,7 +58,7 @@ const HeroSection: React.FC = () => {
               size='lg'
               leftIcon={<MapPin size={20} />}
               onClick={() => navigate('/towns')}
-              className='animate-fade-in animation-delay-600'
+              className='font-semibold text-white transition-all duration-300 transform border animate-fade-in animation-delay-600 bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:scale-105 hover:shadow-lg border-white/20'
             >
               Discover Towns
             </Button>
