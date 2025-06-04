@@ -1,16 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import {
-  Search,
-  Menu,
-  X,
-  MapPin,
-  Utensils,
-  Map,
-  Info,
-  Heart,
-} from 'lucide-react';
-import Button from '../ui/Button';
+import { Search, Menu, X, MapPin, Utensils, Map, Info } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);

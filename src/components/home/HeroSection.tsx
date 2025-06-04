@@ -5,72 +5,77 @@ import Button from '../ui/Button';
 
 const HeroSection: React.FC = () => {
   const navigate = useNavigate();
-  
+
   return (
-    <div className="relative h-screen">
+    <div className='relative h-screen'>
       {/* Background image with overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ 
-          backgroundImage: 'url(https://images.pexels.com/photos/5845416/pexels-photo-5845416.jpeg?auto=compress&cs=tinysrgb&w=1800)', 
+      <div
+        className='absolute inset-0 bg-center bg-no-repeat bg-cover'
+        style={{
+          backgroundImage:
+            'url(https://ashokmasale.com/wp-content/uploads/2024/08/6a0dc5a38598a14b374dfdb95642e124-1-1024x600.jpg)',
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className='absolute inset-0 bg-black bg-opacity-50'></div>
       </div>
-      
+
       {/* Content */}
-      <div className="relative h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
-            Explore the Flavors and Wonders of 
-            <span className="text-amber-400"> Myanmar</span>
-          </h1>
-          
-          <p className="text-xl text-white mb-8 max-w-2xl mx-auto opacity-90">
-            Discover delicious authentic cuisine and breathtaking destinations across Myanmar's diverse regions.
+      <div className='relative flex flex-col items-center justify-center h-full px-4 text-center sm:px-6 lg:px-8'>
+        <div className='max-w-4xl mx-auto'>
+          <div className='mb-6 text-4xl font-bold leading-loose text-white sm:text-5xl md:text-6xl animate-fade-in'>
+            <h1>Explore the Flavors and Wonders</h1>
+            <h1 className='mt-1'>
+              of
+              <span className='text-yellow-500'> Myanmar</span>
+            </h1>
+          </div>
+
+          <p className='max-w-2xl mx-auto mb-8 text-xl text-white opacity-90'>
+            Discover delicious authentic cuisine and breathtaking destinations
+            across Myanmar's diverse regions.
           </p>
-          
-          <div className="relative max-w-lg mx-auto mb-10">
-            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500" />
-            <input 
-              type="text" 
-              placeholder="Search for foods or destinations..." 
-              className="w-full pl-12 pr-4 py-4 rounded-full shadow-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-amber-500 text-lg"
+
+          <div className='relative max-w-lg mx-auto mb-10'>
+            <Search className='absolute w-5 h-5 text-gray-500 transform -translate-y-1/2 left-4 top-1/2' />
+            <input
+              type='text'
+              placeholder='Search for foods or destinations...'
+              className='w-full py-4 pl-12 pr-4 text-lg text-gray-800 rounded-full shadow-lg focus:outline-none focus:ring-2 focus:ring-amber-500'
             />
           </div>
-          
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button 
-              size="lg"
+
+          <div className='flex flex-col justify-center gap-4 sm:flex-row'>
+            <Button
+              size='lg'
               leftIcon={<Utensils size={20} />}
               onClick={() => navigate('/foods')}
-              className="animate-fade-in animation-delay-300"
+              className='animate-fade-in animation-delay-300'
             >
               Explore Foods
             </Button>
-            <Button 
-              variant="secondary"
-              size="lg" 
+            <Button
+              variant='secondary'
+              size='lg'
               leftIcon={<MapPin size={20} />}
               onClick={() => navigate('/towns')}
-              className="animate-fade-in animation-delay-600"
+              className='animate-fade-in animation-delay-600'
             >
               Discover Towns
             </Button>
           </div>
         </div>
       </div>
-      
+
       {/* Scroll indicator */}
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <svg 
-          className="w-6 h-6 text-white" 
-          fill="none" 
-          strokeWidth="2" 
-          viewBox="0 0 24 24" 
-          stroke="currentColor"
+      <div className='absolute transform -translate-x-1/2 bottom-6 left-1/2 animate-bounce'>
+        <svg
+          className='w-6 h-6 text-white'
+          fill='none'
+          strokeWidth='2'
+          viewBox='0 0 24 24'
+          stroke='currentColor'
         >
-          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          <path d='M19 14l-7 7m0 0l-7-7m7 7V3'></path>
         </svg>
       </div>
     </div>
