@@ -53,7 +53,7 @@ export const foods: Food[] = [
     id: 'shan-noodles',
     name: 'Shan Noodles',
     description:
-      'https://hsaba.com/wp-content/uploads/2009/01/shan_noodles_hsaba.jpg',
+      'A beloved dish from Shan State featuring thin rice noodles with marinated chicken or pork, tomatoes, and garlic in a flavorful broth. Often served with a side of pickled vegetables.',
     image:
       'https://hsaba.com/wp-content/uploads/2009/01/shan_noodles_hsaba.jpg',
     rating: 4.6,
