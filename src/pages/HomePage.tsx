@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layout/Layout';
 import HeroSection from '../components/home/HeroSection';
 import PopularFoods from '../components/home/PopularFoods';
-import FeaturedDestinations from '../components/home/FeaturedDestinations';
+// import FeaturedDestinations from '../components/home/FeaturedDestinations';
 import TopCities from '../components/home/TopCities';
 import Beaches from '../components/home/Beaches';
 import ShanHighlands from '../components/home/ShanHighlands';
@@ -12,10 +12,10 @@ const HomePage: React.FC = () => {
   return (
     <Layout>
       <HeroSection />
-      <FeaturedDestinations />
       <TopCities />
-      <PopularFoods />
+      {/* <FeaturedDestinations /> */}
       <Beaches />
+      <PopularFoods />
       <ShanHighlands />
       <SoutheastMyanmar />
 
@@ -55,24 +55,24 @@ const HomePage: React.FC = () => {
             <div className='grid grid-cols-2 gap-4'>
               <div className='space-y-4'>
                 <img
-                  src='https://images.pexels.com/photos/5409039/pexels-photo-5409039.jpeg?auto=compress&cs=tinysrgb&w=600'
+                  src='https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1620075696/Myanmar-Traditional-Dishes-To-Try-Main/Myanmar-Traditional-Dishes-To-Try-Main-1120x732.jpg'
                   alt='Myanmar street food'
                   className='object-cover w-full h-48 rounded-lg shadow-md'
                 />
                 <img
-                  src='https://images.pexels.com/photos/5409027/pexels-photo-5409027.jpeg?auto=compress&cs=tinysrgb&w=600'
+                  src='https://myanmarshalom.com/wp-content/uploads/2020/07/bamboo-delight-730x470.jpg'
                   alt='Cooking traditions'
                   className='object-cover w-full h-64 rounded-lg shadow-md'
                 />
               </div>
               <div className='pt-6 space-y-4'>
                 <img
-                  src='https://images.pexels.com/photos/5409029/pexels-photo-5409029.jpeg?auto=compress&cs=tinysrgb&w=600'
+                  src='https://sethlui.com/wp-content/uploads/2016/09/myanmar-foods-003.jpg'
                   alt='Local ingredients'
                   className='object-cover w-full h-64 rounded-lg shadow-md'
                 />
                 <img
-                  src='https://images.pexels.com/photos/15335843/pexels-photo-15335843/free-photo-of-person-in-burmese-traditional-clothes-picking-tea-leaves.jpeg?auto=compress&cs=tinysrgb&w=600'
+                  src='https://motherslovetea.com/wp-content/uploads/2017/09/slider1-1.jpg'
                   alt='Tea leaf harvesting'
                   className='object-cover w-full h-48 rounded-lg shadow-md'
                 />
@@ -101,7 +101,9 @@ const HomePage: React.FC = () => {
           </p>
           <div className='inline-flex rounded-md shadow'>
             <a
-              href='/map'
+              href='https://www.google.com/maps/place/Myanmar'
+              target='_blank'
+              rel='noopener noreferrer'
               className='px-8 py-3 text-base font-medium text-gray-900 transition-colors bg-white border border-transparent rounded-md hover:bg-gray-50'
             >
               Explore Interactive Map

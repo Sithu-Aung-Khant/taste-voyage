@@ -7,7 +7,7 @@ export const towns: Town[] = [
     description:
       'The former capital and largest city of Myanmar, known for its colonial architecture and sacred Buddhist sites like the Shwedagon Pagoda.',
     image:
-      'https://images.pexels.com/photos/5845416/pexels-photo-5845416.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://www.eyeonasia.gov.sg/images/asean-countries/Yangon%20snapshot%20iso.jpg',
     rating: 4.6,
     region: 'Yangon Region',
     coordinates: {
@@ -27,8 +27,7 @@ export const towns: Town[] = [
     name: 'Mandalay',
     description:
       'The second-largest city and last royal capital of Myanmar, known for its cultural heritage, traditional crafts, and the royal palace.',
-    image:
-      'https://images.pexels.com/photos/3689859/pexels-photo-3689859.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://www.hotelredcanal.com/wp-content/uploads/2017/05/10.jpg',
     rating: 4.5,
     region: 'Mandalay Region',
     coordinates: {
@@ -91,7 +90,7 @@ export const towns: Town[] = [
     description:
       'The capital of Kayin State, known for its stunning karst landscape, caves, and tranquil rural setting.',
     image:
-      'https://images.pexels.com/photos/4011398/pexels-photo-4011398.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://t3.ftcdn.net/jpg/01/68/42/34/360_F_168423401_XIdoOa4LHYPDDyZXM4eWVtGsQwO4phaD.jpg',
     rating: 4.5,
     region: 'Kayin State',
     coordinates: {
@@ -112,7 +111,7 @@ export const towns: Town[] = [
     description:
       "Myanmar's premier beach destination with pristine white sand, clear blue waters, and swaying coconut palms.",
     image:
-      'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://asialinkstravel.com/ckfinder/userfiles/images/Ngapali-beach-1.jpg',
     rating: 4.9,
     region: 'Rakhine State',
     coordinates: {
@@ -133,7 +132,7 @@ export const towns: Town[] = [
     description:
       'A pristine beach destination known for its long stretch of white sand and clear waters, perfect for relaxation and water activities.',
     image:
-      'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://www.mcs-myanmartravel.com/wp-content/uploads/2015/07/ngwesaung.jpg',
     rating: 4.7,
     region: 'Ayeyarwady Region',
     coordinates: {
@@ -154,7 +153,7 @@ export const towns: Town[] = [
     description:
       'A popular beach resort town known for its beautiful beaches, fishing villages, and relaxed atmosphere.',
     image:
-      'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://pix6.agoda.net/hotelImages/110/1101602/1101602_16101310580047708855.jpg?s=600x450',
     rating: 4.5,
     region: 'Ayeyarwady Region',
     coordinates: {
@@ -175,7 +174,7 @@ export const towns: Town[] = [
     description:
       'The capital of Shan State, known for its cool climate, hill tribe culture, and the famous Tazaungdaing Festival with hot air balloons.',
     image:
-      'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/62de641ce3132f6ca331495e_Fire%20Balloon%201.jpg',
     rating: 4.6,
     region: 'Shan State',
     coordinates: {
@@ -196,7 +195,7 @@ export const towns: Town[] = [
     description:
       'A former British hill station known for its cool climate, trekking routes, and colonial architecture.',
     image:
-      'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Kalaw_0.jpg',
     rating: 4.7,
     region: 'Shan State',
     coordinates: {
@@ -217,7 +216,7 @@ export const towns: Town[] = [
     description:
       'The gateway to Inle Lake, known for its traditional wooden architecture and vibrant local markets.',
     image:
-      'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://www.remotelands.com/storage/media/1123/conversions/b130126005-banner-size.jpg',
     rating: 4.8,
     region: 'Shan State',
     coordinates: {
@@ -238,7 +237,7 @@ export const towns: Town[] = [
     description:
       'The capital of Kayin State, known for its stunning karst landscape, caves, and tranquil rural setting.',
     image:
-      'https://images.pexels.com/photos/4011398/pexels-photo-4011398.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://t3.ftcdn.net/jpg/01/68/42/34/360_F_168423401_XIdoOa4LHYPDDyZXM4eWVtGsQwO4phaD.jpg',
     rating: 4.5,
     region: 'Kayin State',
     coordinates: {
@@ -259,7 +258,7 @@ export const towns: Town[] = [
     description:
       'The fourth-largest city in Myanmar, known for its colonial architecture, riverside setting, and historic pagodas.',
     image:
-      'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://c8.alamy.com/comp/K46JWK/buddhist-pagoda-at-moke-ta-ma-burma-towering-above-mawlamyine-highway-K46JWK.jpg',
     rating: 4.4,
     region: 'Mon State',
     coordinates: {
