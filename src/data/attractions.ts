@@ -11,28 +11,21 @@ export const attractions: Attraction[] = [
     id: 'shwedagon-pagoda',
     name: 'Shwedagon Pagoda',
     image:
-      'https://images.unsplash.com/photo-1598935898639-81586f7d2129?w=800&auto=format&fit=crop',
-    townId: 'yangon',
-  },
-  {
-    id: 'sule-pagoda',
-    name: 'Sule Pagoda',
-    image:
-      'https://images.unsplash.com/photo-1545063914-a1a6c2435e55?w=800&auto=format&fit=crop',
+      'https://lp-cms-production.imgix.net/2019-06/GettyImages-504376689_super.jpg',
     townId: 'yangon',
   },
   {
     id: 'bogyoke-market',
     name: 'Bogyoke Aung San Market',
     image:
-      'https://images.unsplash.com/photo-1555921015-5532091f6026?w=800&auto=format&fit=crop',
+      'https://www.yangongui.de/wp-content/uploads/IMG_2249_edit-1024x683.jpg',
     townId: 'yangon',
   },
   {
     id: 'national-museum',
     name: 'National Museum',
     image:
-      'https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=800&auto=format&fit=crop',
+      'https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ygdly62litugr9qmpurl/YangonNationalMuseumTour.jpg',
     townId: 'yangon',
   },
 
