@@ -10,6 +10,7 @@ export interface Town {
     lng: number;
   };
   attractions: string[];
+  restaurants?: string[];
   signatureDishes: string[];
 }
 

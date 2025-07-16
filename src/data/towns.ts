@@ -20,6 +20,13 @@ export const towns: Town[] = [
       'Bogyoke Aung San Market',
       'National Museum',
     ],
+    restaurants: [
+      'Feel Myanmar Food',
+      '999 Shan Noodle Shop',
+      'Rangoon Tea House',
+      'Shan Yoe Yar',
+      'Monsoon Restaurant & Bar',
+    ],
     signatureDishes: ['mohinga', 'shan-noodles', 'burmese-curry'],
   },
   {
