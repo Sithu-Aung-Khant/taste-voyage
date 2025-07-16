@@ -1,8 +1,14 @@
 import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, MapPin, ExternalLink } from 'lucide-react';
+import { ArrowLeft, MapPin } from 'lucide-react';
 import { towns } from '../data/towns';
+import { getAttractionsByTownId } from '../data/attractions';
+import { getRestaurantsByTownId } from '../data/restaurants';
+import { getDishByName } from '../data/dishes';
 import StarRating from '../components/ui/StarRating';
+import AttractionCard from '../components/town/AttractionCard';
+import RestaurantCard from '../components/town/RestaurantCard';
+import DishCard from '../components/town/DishCard';
 
 const TownDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -33,15 +39,11 @@ const TownDetailPage: React.FC = () => {
     navigate(-1);
   };
 
-  const getGoogleMapsUrl = (name: string) => {
-    return `https://www.google.com/maps/search/${encodeURIComponent(name)}`;
-  };
-
-  const getWikipediaUrl = (dish: string) => {
-    return `https://en.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(
-      dish
-    )}`;
-  };
+  const attractions = getAttractionsByTownId(town.id);
+  const restaurants = town.restaurants ? getRestaurantsByTownId(town.id) : [];
+  const dishes = town.signatureDishes
+    .map((dishName) => getDishByName(dishName))
+    .filter(Boolean);
 
   return (
     <div className='min-h-screen bg-gray-50'>
@@ -91,40 +93,32 @@ const TownDetailPage: React.FC = () => {
           <h2 className='text-2xl font-bold text-gray-900 mb-4'>
             Popular Attractions
           </h2>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-            {town.attractions.map((attraction) => (
-              <a
-                key={attraction}
-                href={getGoogleMapsUrl(attraction + ' ' + town.name)}
-                target='_blank'
-                rel='noopener noreferrer'
-                className='flex items-center p-4 border rounded-lg hover:bg-amber-50 transition-colors'
-              >
-                <span className='flex-grow text-gray-700'>{attraction}</span>
-                <ExternalLink className='w-4 h-4 text-amber-600' />
-              </a>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+            {attractions.map((attraction) => (
+              <AttractionCard
+                key={attraction.id}
+                name={attraction.name}
+                townName={town.name}
+                image={attraction.image}
+              />
             ))}
           </div>
         </div>
 
         {/* Restaurants */}
-        {town.restaurants && (
+        {restaurants.length > 0 && (
           <div className='bg-white rounded-lg shadow-md p-6 mb-8'>
             <h2 className='text-2xl font-bold text-gray-900 mb-4'>
               Recommended Restaurants
             </h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-              {town.restaurants.map((restaurant) => (
-                <a
-                  key={restaurant}
-                  href={getGoogleMapsUrl(restaurant + ' ' + town.name)}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='flex items-center p-4 border rounded-lg hover:bg-amber-50 transition-colors'
-                >
-                  <span className='flex-grow text-gray-700'>{restaurant}</span>
-                  <ExternalLink className='w-4 h-4 text-amber-600' />
-                </a>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+              {restaurants.map((restaurant) => (
+                <RestaurantCard
+                  key={restaurant.id}
+                  name={restaurant.name}
+                  townName={town.name}
+                  image={restaurant.image}
+                />
               ))}
             </div>
           </div>
@@ -135,23 +129,13 @@ const TownDetailPage: React.FC = () => {
           <h2 className='text-2xl font-bold text-gray-900 mb-4'>
             Signature Dishes
           </h2>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-            {town.signatureDishes.map((dish) => (
-              <a
-                key={dish}
-                href={getWikipediaUrl(dish)}
-                target='_blank'
-                rel='noopener noreferrer'
-                className='flex items-center p-4 border rounded-lg hover:bg-amber-50 transition-colors'
-              >
-                <span className='flex-grow text-gray-700'>
-                  {dish
-                    .split('-')
-                    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-                    .join(' ')}
-                </span>
-                <ExternalLink className='w-4 h-4 text-amber-600' />
-              </a>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+            {dishes.map((dish) => (
+              <DishCard
+                key={dish?.id}
+                name={dish?.name || ''}
+                image={dish?.image || ''}
+              />
             ))}
           </div>
         </div>
