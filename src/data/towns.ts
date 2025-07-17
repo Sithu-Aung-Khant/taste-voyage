@@ -5,7 +5,7 @@ export const towns: Town[] = [
     id: 'yangon',
     name: 'Yangon',
     description:
-      'The former capital and largest city of Myanmar, known for its colonial architecture and sacred Buddhist sites like the Shwedagon Pagoda.',
+      'The former capital and largest city of Myanmar, Yangon is a vibrant metropolis blending colonial-era architecture with bustling street markets and tranquil lakes. It is renowned for its sacred Buddhist sites, especially the golden Shwedagon Pagoda, which dominates the skyline. Visitors can explore a rich tapestry of cultures, diverse cuisine, and a lively arts scene.',
     image:
       'https://www.eyeonasia.gov.sg/images/asean-countries/Yangon%20snapshot%20iso.jpg',
     rating: 4.6,
@@ -33,7 +33,7 @@ export const towns: Town[] = [
     id: 'mandalay',
     name: 'Mandalay',
     description:
-      'The second-largest city and last royal capital of Myanmar, known for its cultural heritage, traditional crafts, and the royal palace.',
+      'Mandalay, the last royal capital of Myanmar, is a city steeped in history and tradition. It is famous for its ancient palaces, vibrant monasteries, and skilled artisans crafting gold leaf and intricate woodwork. The city offers a gateway to cultural treasures, scenic hills, and the timeless Irrawaddy River.',
     image: 'https://www.hotelredcanal.com/wp-content/uploads/2017/05/10.jpg',
     rating: 4.5,
     region: 'Mandalay Region',
@@ -53,7 +53,7 @@ export const towns: Town[] = [
     id: 'bagan',
     name: 'Bagan',
     description:
-      'An ancient city in central Myanmar known for its thousands of Buddhist temples, pagodas, and stupas dating from the 11th to 13th centuries.',
+      'Bagan is an ancient city in central Myanmar, home to over 2,000 Buddhist temples, pagodas, and stupas that rise majestically from the plains. This UNESCO World Heritage Site offers breathtaking sunrise and sunset views, hot air balloon rides, and a glimpse into the spiritual heart of Myanmar. Its archaeological wonders and serene landscapes make it a must-visit destination.',
     image:
       'https://images.pexels.com/photos/9732138/pexels-photo-9732138.jpeg?auto=compress&cs=tinysrgb&w=1200',
     rating: 4.8,
@@ -74,7 +74,7 @@ export const towns: Town[] = [
     id: 'inle-lake',
     name: 'Inle Lake',
     description:
-      'A freshwater lake known for its floating villages, gardens, and the unique leg-rowing technique of the Intha people.',
+      'Inle Lake is a tranquil freshwater lake in Shan State, famous for its floating villages, lush gardens, and the unique leg-rowing fishermen of the Intha people. The area is rich in biodiversity and traditional crafts, with vibrant markets and stilt-house communities. Visitors can experience serene boat rides, local cuisine, and the region’s distinctive culture.',
     image:
       'https://images.pexels.com/photos/5238583/pexels-photo-5238583.jpeg?auto=compress&cs=tinysrgb&w=1200',
     rating: 4.7,
@@ -95,7 +95,7 @@ export const towns: Town[] = [
     id: 'hpa-an',
     name: 'Hpa-An',
     description:
-      'The capital of Kayin State, known for its stunning karst landscape, caves, and tranquil rural setting.',
+      'Nestled amid dramatic limestone mountains, Hpa-An is the capital of Kayin State and a haven for nature lovers. The town is surrounded by lush rice paddies, mysterious caves adorned with Buddhist art, and tranquil riverside scenery. Its laid-back atmosphere and stunning landscapes make it a favorite for trekkers and explorers.',
     image:
       'https://t3.ftcdn.net/jpg/01/68/42/34/360_F_168423401_XIdoOa4LHYPDDyZXM4eWVtGsQwO4phaD.jpg',
     rating: 4.5,
@@ -116,7 +116,7 @@ export const towns: Town[] = [
     id: 'ngapali',
     name: 'Ngapali Beach',
     description:
-      "Myanmar's premier beach destination with pristine white sand, clear blue waters, and swaying coconut palms.",
+      'Ngapali Beach is Myanmar’s premier coastal retreat, boasting powdery white sands, crystal-clear waters, and swaying coconut palms. The area is perfect for relaxation, water sports, and fresh seafood feasts. Local fishing villages and vibrant sunsets add to the charm of this idyllic beach destination.',
     image:
       'https://asialinkstravel.com/ckfinder/userfiles/images/Ngapali-beach-1.jpg',
     rating: 4.9,
@@ -137,7 +137,7 @@ export const towns: Town[] = [
     id: 'ngwe-saung',
     name: 'Ngwe Saung',
     description:
-      'A pristine beach destination known for its long stretch of white sand and clear waters, perfect for relaxation and water activities.',
+      'Ngwe Saung is a serene beach town along the Bay of Bengal, known for its long stretches of white sand and clear turquoise waters. It offers a peaceful escape with opportunities for island hopping, snorkeling, and sunset watching. The laid-back vibe and natural beauty make it a favorite among travelers seeking relaxation.',
     image:
       'https://www.mcs-myanmartravel.com/wp-content/uploads/2015/07/ngwesaung.jpg',
     rating: 4.7,
@@ -158,7 +158,7 @@ export const towns: Town[] = [
     id: 'chaung-tha',
     name: 'Chaung Tha',
     description:
-      'A popular beach resort town known for its beautiful beaches, fishing villages, and relaxed atmosphere.',
+      'Chaung Tha is a lively beach resort town popular with locals and visitors alike. It features golden sands, gentle waves, and a relaxed, friendly atmosphere. The town is dotted with fishing villages, local markets, and offers a range of water activities for all ages.',
     image:
       'https://pix6.agoda.net/hotelImages/110/1101602/1101602_16101310580047708855.jpg?s=600x450',
     rating: 4.5,
@@ -179,7 +179,7 @@ export const towns: Town[] = [
     id: 'taunggyi',
     name: 'Taunggyi',
     description:
-      'The capital of Shan State, known for its cool climate, hill tribe culture, and the famous Tazaungdaing Festival with hot air balloons.',
+      'Taunggyi, the capital of Shan State, sits atop cool highlands and is famous for its vibrant hill tribe culture and annual Tazaungdaing Festival, featuring spectacular hot air balloons. The city is surrounded by scenic vineyards, bustling markets, and ancient pagodas. Its unique blend of traditions and natural beauty attracts visitors year-round.',
     image:
       'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/62de641ce3132f6ca331495e_Fire%20Balloon%201.jpg',
     rating: 4.6,
@@ -200,7 +200,7 @@ export const towns: Town[] = [
     id: 'kalaw',
     name: 'Kalaw',
     description:
-      'A former British hill station known for its cool climate, trekking routes, and colonial architecture.',
+      'Kalaw is a charming hill station with a cool climate, pine forests, and colonial-era buildings. It is a trekking paradise, offering scenic routes through ethnic villages and rolling hills. The town’s relaxed pace and fresh mountain air make it a perfect retreat for nature lovers.',
     image:
       'https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Kalaw_0.jpg',
     rating: 4.7,
@@ -221,7 +221,7 @@ export const towns: Town[] = [
     id: 'nyaung-shwe',
     name: 'Nyaung Shwe',
     description:
-      'The gateway to Inle Lake, known for its traditional wooden architecture and vibrant local markets.',
+      'Nyaung Shwe is the bustling gateway to Inle Lake, known for its traditional wooden architecture and lively local markets. The town is a hub for boat tours, cycling, and exploring the unique culture of the Intha people. Its welcoming atmosphere and scenic surroundings make it a favorite stop for travelers.',
     image:
       'https://www.remotelands.com/storage/media/1123/conversions/b130126005-banner-size.jpg',
     rating: 4.8,
@@ -242,7 +242,7 @@ export const towns: Town[] = [
     id: 'hap-an',
     name: 'Hpa-An',
     description:
-      'The capital of Kayin State, known for its stunning karst landscape, caves, and tranquil rural setting.',
+      'Nestled amid dramatic limestone mountains, Hpa-An is the capital of Kayin State and a haven for nature lovers. The town is surrounded by lush rice paddies, mysterious caves adorned with Buddhist art, and tranquil riverside scenery. Its laid-back atmosphere and stunning landscapes make it a favorite for trekkers and explorers.',
     image:
       'https://t3.ftcdn.net/jpg/01/68/42/34/360_F_168423401_XIdoOa4LHYPDDyZXM4eWVtGsQwO4phaD.jpg',
     rating: 4.5,
@@ -263,7 +263,7 @@ export const towns: Town[] = [
     id: 'mawlamyaing',
     name: 'Mawlamyaing',
     description:
-      'The fourth-largest city in Myanmar, known for its colonial architecture, riverside setting, and historic pagodas.',
+      'Mawlamyaing, the fourth-largest city in Myanmar, is set along the Thanlwin River and is known for its colonial architecture and riverside charm. The city features historic pagodas, bustling markets, and scenic islands nearby. Its blend of Mon, Burmese, and colonial influences creates a unique cultural tapestry.',
     image:
       'https://c8.alamy.com/comp/K46JWK/buddhist-pagoda-at-moke-ta-ma-burma-towering-above-mawlamyine-highway-K46JWK.jpg',
     rating: 4.4,
