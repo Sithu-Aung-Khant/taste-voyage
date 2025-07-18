@@ -18,14 +18,14 @@ const TownDetailPage: React.FC = () => {
 
   if (!town) {
     return (
-      <div className='min-h-screen flex items-center justify-center'>
+      <div className='flex items-center justify-center min-h-screen'>
         <div className='text-center'>
-          <h1 className='text-2xl font-bold text-gray-900 mb-4'>
+          <h1 className='mb-4 text-2xl font-bold text-gray-900'>
             Town not found
           </h1>
           <Link
             to='/'
-            className='text-amber-600 hover:text-amber-700 font-medium flex items-center justify-center'
+            className='flex items-center justify-center font-medium text-amber-600 hover:text-amber-700'
           >
             <ArrowLeft className='w-4 h-4 mr-2' />
             Go back home
@@ -52,14 +52,14 @@ const TownDetailPage: React.FC = () => {
         <img
           src={town.image}
           alt={town.name}
-          className='w-full h-full object-cover'
+          className='object-cover w-full h-full'
         />
         <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent'></div>
         <div className='absolute bottom-0 left-0 right-0 p-8'>
-          <div className='max-w-7xl mx-auto'>
-            <h1 className='text-white text-4xl font-bold mb-2'>{town.name}</h1>
-            <div className='flex items-center text-white/90 space-x-2'>
-              <MapPin className='h-5 w-5' />
+          <div className='mx-auto max-w-7xl'>
+            <h1 className='mb-2 text-4xl font-bold text-white'>{town.name}</h1>
+            <div className='flex items-center space-x-2 text-white/90'>
+              <MapPin className='w-5 h-5' />
               <span className='text-lg'>{town.region}</span>
             </div>
           </div>
@@ -67,37 +67,38 @@ const TownDetailPage: React.FC = () => {
       </div>
 
       {/* Content */}
-      <div className='max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8'>
+      <div className='px-4 py-8 mx-auto max-w-7xl sm:px-6 lg:px-8'>
         {/* Back Button */}
         <button
           onClick={handleGoBack}
-          className='mb-6 flex items-center text-amber-600 hover:text-amber-700 font-medium'
+          className='flex items-center mb-6 font-medium text-amber-600 hover:text-amber-700'
         >
           <ArrowLeft className='w-5 h-5 mr-2' />
           Back
         </button>
 
         {/* Rating and Description */}
-        <div className='bg-white rounded-lg shadow-md p-6 mb-8'>
+        <div className='p-6 mb-8 bg-white rounded-lg shadow-md'>
           <div className='flex items-center mb-4'>
             <StarRating rating={town.rating} />
             <span className='ml-2 text-gray-600'>({town.rating} rating)</span>
           </div>
-          <p className='text-gray-700 text-lg leading-relaxed'>
+          <p className='text-lg leading-relaxed text-gray-700'>
             {town.description}
           </p>
         </div>
 
         {/* Attractions */}
-        <div className='bg-white rounded-lg shadow-md p-6 mb-8'>
-          <h2 className='text-2xl font-bold text-gray-900 mb-4'>
+        <div className='px-6 py-12 mb-8 bg-white rounded-lg shadow-md'>
+          <h2 className='mb-4 text-2xl font-bold text-gray-900'>
             Popular Attractions
           </h2>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+          <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
             {attractions.map((attraction) => (
               <AttractionCard
                 key={attraction.id}
                 name={attraction.name}
+                description={attraction.description}
                 townName={town.name}
                 image={attraction.image}
               />
@@ -107,11 +108,11 @@ const TownDetailPage: React.FC = () => {
 
         {/* Restaurants */}
         {restaurants.length > 0 && (
-          <div className='bg-white rounded-lg shadow-md p-6 mb-8'>
-            <h2 className='text-2xl font-bold text-gray-900 mb-4'>
+          <div className='p-6 mb-8 bg-white rounded-lg shadow-md'>
+            <h2 className='mb-4 text-2xl font-bold text-gray-900'>
               Recommended Restaurants
             </h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+            <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
               {restaurants.map((restaurant) => (
                 <RestaurantCard
                   key={restaurant.id}
@@ -125,11 +126,11 @@ const TownDetailPage: React.FC = () => {
         )}
 
         {/* Signature Dishes */}
-        <div className='bg-white rounded-lg shadow-md p-6'>
-          <h2 className='text-2xl font-bold text-gray-900 mb-4'>
+        <div className='p-6 bg-white rounded-lg shadow-md'>
+          <h2 className='mb-4 text-2xl font-bold text-gray-900'>
             Signature Dishes
           </h2>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+          <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
             {dishes.map((dish) => (
               <DishCard
                 key={dish?.id}
