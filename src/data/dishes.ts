@@ -122,7 +122,7 @@ export const dishes: Dish[] = [
     description:
       'Premium Arabica coffee grown in the highlands of Shan State, known for its smooth flavor and medium body.',
     image:
-      'https://yangonlife.com.mm/sites/default/files/styles/article/public/field/image/coffee.jpg',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/fe/27/98/misty-morning-scene-from.jpg?w=900&h=-1&s=1',
   },
   {
     id: 'seafood-curry',

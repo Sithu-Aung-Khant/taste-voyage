@@ -149,7 +149,7 @@ export const attractions: Attraction[] = [
     id: 'kalaw-inle-trek',
     name: 'Kalaw to Inle Lake Trek',
     image:
-      'https://www.gomyanmartours.com/wp-content/uploads/2016/12/Trekking-from-Kalaw-to-Inle-Lake.jpg',
+      'https://justglobetrotting.com/wp-content/uploads/2016/10/kalaw-inle-lake-trek-myanmar.jpg',
     townId: 'kalaw',
     description:
       'The most popular multi-day trek in Myanmar, through hills, villages, and rice terraces. This scenic trek offers stunning landscapes and opportunities to experience local hill tribe culture.',
@@ -158,7 +158,7 @@ export const attractions: Attraction[] = [
     id: 'thein-taung-pagoda',
     name: 'Thein Taung Pagoda and Monastery',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Thein_Taung_Pagoda.jpg/1200px-Thein_Taung_Pagoda.jpg',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/3d/9c/f2/photo0jpg.jpg?w=1200&h=-1&s=1',
     townId: 'kalaw',
     description:
       'Located on a hill with a panoramic view of Kalaw town. This peaceful monastery complex offers stunning views and a glimpse into Buddhist monastic life.',
@@ -167,19 +167,10 @@ export const attractions: Attraction[] = [
     id: 'hnee-pagoda',
     name: 'Hnee Pagoda',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Shwe_Oo_Min_Natural_Cave_Pagoda.jpg/1200px-Shwe_Oo_Min_Natural_Cave_Pagoda.jpg',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/7f/5b/eb/angolo.jpg?w=1200&h=-1&s=1',
     townId: 'kalaw',
     description:
       'A cave temple with hundreds of golden Buddha images inside. Also known as Shwe Oo Min Natural Cave Pagoda, this unique site combines natural cave formations with religious significance.',
-  },
-  {
-    id: 'kalaw-market',
-    name: 'Kalaw Local Market',
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Kalaw_Market.jpg/1200px-Kalaw_Market.jpg',
-    townId: 'kalaw',
-    description:
-      'Held every 5 days; a great place to meet hill tribe people and buy local produce. The market is a vibrant hub of local life where different ethnic groups gather to trade goods.',
   },
 
   // Inle Lake Attractions
