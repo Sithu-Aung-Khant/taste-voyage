@@ -41,7 +41,7 @@ export const attractions: Attraction[] = [
     id: 'mandalay-hill',
     name: 'Mandalay Hill',
     image:
-      'https://images.unsplash.com/photo-1600458838376-56cf0566d943?w=800&auto=format&fit=crop',
+      'https://upload.wikimedia.org/wikipedia/commons/8/8d/Mandalay_Hill_3.jpg',
     townId: 'mandalay',
     description:
       'Rising above the city, Mandalay Hill offers panoramic views and is a revered pilgrimage site. The climb is lined with pagodas and shrines, making it both a spiritual and scenic experience.',
@@ -50,7 +50,7 @@ export const attractions: Attraction[] = [
     id: 'kuthodaw-pagoda',
     name: 'Kuthodaw Pagoda',
     image:
-      'https://images.unsplash.com/photo-1600458838859-b71e2a9c4652?w=800&auto=format&fit=crop',
+      'https://c8.alamy.com/comp/PYWYHT/aerial-view-of-the-kuthodaw-pagoda-surrounded-by-729-shrines-containing-the-worlds-biggest-book-PYWYHT.jpg',
     townId: 'mandalay',
     description:
       'Known as the world’s largest book, Kuthodaw Pagoda is surrounded by hundreds of marble slabs inscribed with Buddhist scriptures. Its serene grounds and unique history make it a highlight of Mandalay.',
@@ -59,7 +59,7 @@ export const attractions: Attraction[] = [
     id: 'u-bein-bridge',
     name: 'U Bein Bridge',
     image:
-      'https://images.unsplash.com/photo-1545063914-a1a6c2435e55?w=800&auto=format&fit=crop',
+      'https://www.indochinavoyages.com/wp-content/uploads/2019/12/u_bein_bridge.jpg',
     townId: 'mandalay',
     description:
       'Stretching across Taungthaman Lake, U Bein Bridge is the world’s longest teakwood bridge. It’s especially magical at sunrise and sunset, when locals and monks cross its weathered planks.',
@@ -68,7 +68,7 @@ export const attractions: Attraction[] = [
     id: 'mahamuni-buddha',
     name: 'Mahamuni Buddha Temple',
     image:
-      'https://images.unsplash.com/photo-1600458838376-56cf0566d943?w=800&auto=format&fit=crop',
+      'https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/original/events/2020/12/22/38740596-4662-47b4-8b7c-a0b16247cc85-1608644124866-4593e981e24c1109c30a3e114f1202c0.jpg',
     townId: 'mandalay',
     description:
       'One of Myanmar’s most sacred Buddhist sites, the Mahamuni Buddha Temple houses a revered bronze Buddha image. Pilgrims flock here to pay respects and witness the daily face-washing ceremony.',
@@ -78,8 +78,7 @@ export const attractions: Attraction[] = [
   {
     id: 'ananda-temple',
     name: 'Ananda Temple',
-    image:
-      'https://images.unsplash.com/photo-1600458838859-b71e2a9c4652?w=800&auto=format&fit=crop',
+    image: '',
     townId: 'bagan',
     description:
       'Ananda Temple is one of Bagan’s most beautiful and well-preserved temples, known for its stunning architecture and golden spires. Its serene interior houses four massive standing Buddha statues.',
@@ -87,8 +86,7 @@ export const attractions: Attraction[] = [
   {
     id: 'shwesandaw-pagoda',
     name: 'Shwesandaw Pagoda',
-    image:
-      'https://images.unsplash.com/photo-1598935898639-81586f7d2129?w=800&auto=format&fit=crop',
+    image: '',
     townId: 'bagan',
     description:
       'Famous for its sweeping views of the Bagan plains, Shwesandaw Pagoda is a favorite spot for sunrise and sunset. Its tiered terraces offer a breathtaking vantage point over thousands of ancient temples.',
@@ -96,8 +94,7 @@ export const attractions: Attraction[] = [
   {
     id: 'dhammayangyi-temple',
     name: 'Dhammayangyi Temple',
-    image:
-      'https://images.unsplash.com/photo-1600458838376-56cf0566d943?w=800&auto=format&fit=crop',
+    image: '',
     townId: 'bagan',
     description:
       'The largest temple in Bagan, Dhammayangyi is renowned for its massive structure and mysterious history. Its brickwork is considered the finest in Bagan, and legends surround its construction.',
@@ -105,8 +102,7 @@ export const attractions: Attraction[] = [
   {
     id: 'bagan-balloons',
     name: 'Hot Air Balloon Rides',
-    image:
-      'https://images.unsplash.com/photo-1545063914-a1a6c2435e55?w=800&auto=format&fit=crop',
+    image: '',
     townId: 'bagan',
     description:
       'Soar above the ancient temples of Bagan in a hot air balloon for a once-in-a-lifetime experience. The breathtaking aerial views at sunrise reveal the full majesty of this archaeological wonder.',

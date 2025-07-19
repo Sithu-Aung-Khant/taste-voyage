@@ -95,7 +95,7 @@ export const dishes: Dish[] = [
     description:
       'Thick rice noodles tossed with chicken curry, coconut milk, and crispy garnishes - a popular Mandalay dish.',
     image:
-      'https://myanmarlivingimages.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/04/07023017/nan-gyi-thoke.jpg',
+      'https://images.squarespace-cdn.com/content/v1/604fca2357feb3489dacff9b/1615924788667-6AOD4HF3780P26L3TY7B/NanGyiThokeBurmalicious1',
   },
   {
     id: 'htoe-mont',
@@ -104,7 +104,7 @@ export const dishes: Dish[] = [
     description:
       'Sweet glutinous rice cake with coconut shavings and poppy seeds - a traditional Mon dessert.',
     image:
-      'https://3.bp.blogspot.com/-oGk4-fzVt14/XDm1ctPXzXI/AAAAAAAABWs/63xLTvh8yt4N04qUrVU5Tf6Eri7bpGWYgCLcBGAs/s1600/Myanmar%2Btraditional%2Bhtoe%2Bmont%2Bcake.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9zNlhVBIwKljPxq8iPJCePCNLxjdEoxDV5g&s',
   },
   {
     id: 'local-wine',
