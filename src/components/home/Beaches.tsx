@@ -1,19 +1,53 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
-import { towns } from '../../data/towns';
-import TownCard from '../town/TownCard';
+import { ArrowRight, MapPin } from 'lucide-react';
+import { beaches } from '../../data/beaches';
+import StarRating from '../ui/StarRating';
+
+interface BeachCardProps {
+  beach: {
+    id: string;
+    name: string;
+    region: string;
+    image: string;
+    rating: number;
+    description: string;
+  };
+}
+
+const BeachCard: React.FC<BeachCardProps> = ({ beach }) => {
+  return (
+    <Link
+      to={`/beaches/${beach.id}`}
+      className='block overflow-hidden transition-transform duration-300 bg-white rounded-xl hover:-translate-y-1'
+    >
+      <div className='relative h-48'>
+        <img
+          src={beach.image}
+          alt={beach.name}
+          className='object-cover w-full h-full'
+        />
+      </div>
+      <div className='p-4'>
+        <h3 className='text-xl font-semibold text-gray-900'>{beach.name}</h3>
+        <div className='flex items-center mt-1 mb-2 text-gray-600'>
+          <MapPin className='w-4 h-4 mr-1' />
+          <span className='text-sm'>{beach.region}</span>
+        </div>
+        <StarRating rating={beach.rating} />
+        <p className='mt-2 text-sm text-gray-600 line-clamp-2'>
+          {beach.description}
+        </p>
+      </div>
+    </Link>
+  );
+};
 
 const Beaches: React.FC = () => {
-  // Get beach destinations
-  const beachDestinations = towns.filter((town) =>
-    ['ngapali', 'ngwe-saung', 'chaung-tha'].includes(town.id)
-  );
-
   return (
     <section className='py-16 bg-blue-50'>
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='flex justify-between items-end mb-8'>
+      <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
+        <div className='flex items-end justify-between mb-8'>
           <div>
             <h2 className='text-3xl font-bold text-gray-900'>
               Beautiful Beaches
@@ -23,27 +57,27 @@ const Beaches: React.FC = () => {
             </p>
           </div>
           <Link
-            to='/towns'
-            className='hidden sm:flex items-center text-amber-600 font-medium hover:text-amber-700 transition-colors'
+            to='/beaches'
+            className='items-center hidden font-medium transition-colors sm:flex text-amber-600 hover:text-amber-700'
           >
             View all beaches
-            <ArrowRight className='ml-2 h-5 w-5' />
+            <ArrowRight className='w-5 h-5 ml-2' />
           </Link>
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-          {beachDestinations.map((town) => (
-            <TownCard key={town.id} town={town} />
+        <div className='grid grid-cols-1 gap-6 md:grid-cols-3'>
+          {beaches.map((beach) => (
+            <BeachCard key={beach.id} beach={beach} />
           ))}
         </div>
 
         <div className='mt-8 text-center sm:hidden'>
           <Link
-            to='/towns'
-            className='inline-flex items-center text-amber-600 font-medium hover:text-amber-700 transition-colors'
+            to='/beaches'
+            className='inline-flex items-center font-medium transition-colors text-amber-600 hover:text-amber-700'
           >
             View all beaches
-            <ArrowRight className='ml-2 h-5 w-5' />
+            <ArrowRight className='w-5 h-5 ml-2' />
           </Link>
         </div>
       </div>

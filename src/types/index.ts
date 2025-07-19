@@ -35,3 +35,14 @@ export interface Region {
   image: string;
   towns: string[];
 }
+
+export interface Beach {
+  id: string;
+  name: string;
+  region: string;
+  description: string;
+  image: string;
+  rating: number;
+  restaurants: string[];
+  attractions: string[];
+}
