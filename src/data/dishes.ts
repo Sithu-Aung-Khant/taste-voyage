@@ -32,7 +32,7 @@ export const dishes: Dish[] = [
     description:
       'Rice noodles in a light tomato-based sauce with marinated chicken or pork, garnished with peanuts and fresh herbs.',
     image:
-      'https://images.squarespace-cdn.com/content/v1/5aa8f119e17ba3c5c4720bef/1597780521463-ZQPZQPZ8V8XWXJ8N8YQF/shan-noodles.jpg',
+      'https://hsaba.com/wp-content/uploads/2009/01/shan_noodles_hsaba.jpg',
   },
   {
     id: 'burmese-curry',
@@ -113,7 +113,7 @@ export const dishes: Dish[] = [
     description:
       "Artisanal wine produced in Myanmar's Shan State, particularly from the Red Mountain Estate - known for its unique terroir.",
     image:
-      'https://media-cdn.tripadvisor.com/media/photo-s/0e/65/70/3b/red-mountain-winery.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJDPJ7fMxLhXyMnzXx3EFCklVLD664oFl52w&s',
   },
   {
     id: 'local-coffee',
@@ -167,7 +167,7 @@ export const dishes: Dish[] = [
     description:
       'A spicy rice noodle dish often served with fish gravy, banana stem, and chili oil - a Taunggyi specialty with unique Shan-style ingredients and flavors.',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX8_P7BKE8FSPjGJg4UCGqCJr9R9K_HO_Kag&usqp=CAU',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Nangyithohk.gif/1200px-Nangyithohk.gif',
   },
   {
     id: 'aythaya-wine',
