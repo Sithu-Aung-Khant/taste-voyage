@@ -27,7 +27,7 @@ export const towns: Town[] = [
       'Shan Yoe Yar',
       'Monsoon Restaurant & Bar',
     ],
-    signatureDishes: ['mohinga', 'shan-noodles', 'burmese-curry'],
+    signatureDishes: ['mohinga', 'tea-leaf-salad', 'biryani'],
   },
   {
     id: 'mandalay',
@@ -47,7 +47,7 @@ export const towns: Town[] = [
       'U Bein Bridge',
       'Mahamuni Buddha Temple',
     ],
-    signatureDishes: ['tea-leaf-salad', 'mont-lin-ma-yar', 'burmese-curry'],
+    signatureDishes: ['nan-gyi-thoke', 'htoe-mont', 'tea-leaf-salad'],
   },
   {
     id: 'bagan',
@@ -68,7 +68,7 @@ export const towns: Town[] = [
       'Dhammayangyi Temple',
       'Hot Air Balloon Rides',
     ],
-    signatureDishes: ['burmese-curry', 'tea-leaf-salad'],
+    signatureDishes: ['mohinga', 'shan-noodles', 'tea-leaf-salad'],
   },
   {
     id: 'inle-lake',
@@ -239,27 +239,6 @@ export const towns: Town[] = [
     signatureDishes: ['shan-noodles', 'inle-fish-curry', 'tomato-salad'],
   },
   {
-    id: 'hap-an',
-    name: 'Hpa-An',
-    description:
-      'Nestled amid dramatic limestone mountains, Hpa-An is the capital of Kayin State and a haven for nature lovers. The town is surrounded by lush rice paddies, mysterious caves adorned with Buddhist art, and tranquil riverside scenery. Its laid-back atmosphere and stunning landscapes make it a favorite for trekkers and explorers.',
-    image:
-      'https://t3.ftcdn.net/jpg/01/68/42/34/360_F_168423401_XIdoOa4LHYPDDyZXM4eWVtGsQwO4phaD.jpg',
-    rating: 4.5,
-    region: 'Kayin State',
-    coordinates: {
-      lat: 16.8895,
-      lng: 97.638,
-    },
-    attractions: [
-      'Mount Zwegabin',
-      'Kyauk Ka Lat Pagoda',
-      'Sadan Cave',
-      'Lumbini Garden',
-    ],
-    signatureDishes: ['kayin-sausage', 'mont-lin-ma-yar'],
-  },
-  {
     id: 'mawlamyaing',
     name: 'Mawlamyaing',
     description:
@@ -278,6 +257,6 @@ export const towns: Town[] = [
       'Bilu Kyun',
       'Colonial Buildings',
     ],
-    signatureDishes: ['mon-style-curry', 'seafood-dishes', 'local-noodles'],
+    signatureDishes: ['mon-style-curry', 'seafood-dishes', 'kat-kyi-kaik'],
   },
 ];
