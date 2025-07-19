@@ -149,7 +149,7 @@ const TownDetailPage: React.FC = () => {
         )}
 
         {/* Signature Dishes */}
-        <div className='p-6 bg-white rounded-lg shadow-md'>
+        <div className=''>
           <h2 className='mb-4 text-2xl font-bold text-gray-900'>
             Signature Dishes
           </h2>
@@ -159,6 +159,7 @@ const TownDetailPage: React.FC = () => {
                 key={dish?.id}
                 name={dish?.name || ''}
                 image={dish?.image || ''}
+                description={dish?.description || ''}
               />
             ))}
           </div>

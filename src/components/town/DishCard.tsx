@@ -3,11 +3,11 @@ import { ExternalLink, UtensilsCrossed } from 'lucide-react';
 
 interface DishCardProps {
   name: string;
-  // Using a placeholder image for now, we can update this when we have real images
   image: string;
+  description: string;
 }
 
-const DishCard: React.FC<DishCardProps> = ({ name, image }) => {
+const DishCard: React.FC<DishCardProps> = ({ name, image, description }) => {
   const getWikipediaUrl = (dish: string) => {
     return `https://en.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(
       dish
@@ -41,13 +41,16 @@ const DishCard: React.FC<DishCardProps> = ({ name, image }) => {
       </div>
 
       <div className='p-4'>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center mb-2'>
           <h3 className='font-bold text-lg text-gray-900'>
             {formatDishName(name)}
           </h3>
           <ExternalLink className='w-4 h-4 text-amber-600' />
         </div>
-        <p className='mt-2 text-sm text-gray-600'>Learn more on Wikipedia</p>
+        <p className='text-sm text-gray-600 line-clamp-3'>{description}</p>
+        <p className='mt-2 text-xs text-amber-600 hover:text-amber-700'>
+          Learn more on Wikipedia
+        </p>
       </div>
     </a>
   );

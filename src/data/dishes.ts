@@ -3,6 +3,7 @@ interface Dish {
   name: string;
   image: string;
   displayName: string;
+  description: string;
 }
 
 export const dishes: Dish[] = [
@@ -10,6 +11,8 @@ export const dishes: Dish[] = [
     id: 'mohinga',
     name: 'mohinga',
     displayName: 'Mohinga',
+    description:
+      "A hearty fish soup with rice noodles, crispy fritters, and aromatic herbs - Myanmar's beloved national breakfast dish.",
     image:
       'https://burmawalakitchen.com/wp-content/uploads/2024/05/Moginga.jpg',
   },
@@ -17,6 +20,8 @@ export const dishes: Dish[] = [
     id: 'tea-leaf-salad',
     name: 'tea-leaf-salad',
     displayName: 'Tea Leaf Salad',
+    description:
+      'A unique blend of fermented tea leaves, crunchy nuts, tomatoes, and garlic - a tangy and textural Burmese favorite.',
     image:
       'https://c8.alamy.com/comp/FAR1Y0/tea-leaf-salad-served-in-an-ornate-bowl-in-yangon-myanmar-burma-FAR1Y0.jpg',
   },
@@ -24,6 +29,8 @@ export const dishes: Dish[] = [
     id: 'shan-noodles',
     name: 'shan-noodles',
     displayName: 'Shan Noodles',
+    description:
+      'Rice noodles in a light tomato-based sauce with marinated chicken or pork, garnished with peanuts and fresh herbs.',
     image:
       'https://images.squarespace-cdn.com/content/v1/5aa8f119e17ba3c5c4720bef/1597780521463-ZQPZQPZ8V8XWXJ8N8YQF/shan-noodles.jpg',
   },
@@ -31,6 +38,8 @@ export const dishes: Dish[] = [
     id: 'burmese-curry',
     name: 'burmese-curry',
     displayName: 'Burmese Curry',
+    description:
+      'Rich and aromatic curry made with meat or vegetables, cooked in oil and spices until tender - a staple of Burmese cuisine.',
     image:
       'https://images.squarespace-cdn.com/content/v1/5c5c3aa4840b161566ee5eb8/1613592561255-97GOQFKRJ5YZYT7RHXE3/burmese-chicken-curry.jpg',
   },
@@ -38,6 +47,8 @@ export const dishes: Dish[] = [
     id: 'mont-lin-ma-yar',
     name: 'mont-lin-ma-yar',
     displayName: 'Mont Lin Ma Yar',
+    description:
+      'Crispy "couple snack" made from rice flour, quail eggs, and spring onions - a popular street food delicacy.',
     image:
       'https://images.squarespace-cdn.com/content/v1/5aa8f119e17ba3c5c4720bef/1597780521463-ZQPZQPZ8V8XWXJ8N8YQF/mont-lin-ma-yar.jpg',
   },
@@ -45,6 +56,8 @@ export const dishes: Dish[] = [
     id: 'inle-fish-curry',
     name: 'inle-fish-curry',
     displayName: 'Inle Fish Curry',
+    description:
+      'Fresh fish from Inle Lake cooked in a rich tomato-based curry sauce with local herbs and spices.',
     image:
       'https://images.squarespace-cdn.com/content/v1/5aa8f119e17ba3c5c4720bef/1597780521463-ZQPZQPZ8V8XWXJ8N8YQF/inle-fish-curry.jpg',
   },
@@ -52,6 +65,8 @@ export const dishes: Dish[] = [
     id: 'tomato-salad',
     name: 'tomato-salad',
     displayName: 'Tomato Salad',
+    description:
+      'Fresh tomatoes mixed with peanut oil, crispy fried garlic, and dried shrimp - a light and refreshing side dish.',
     image:
       'https://images.squarespace-cdn.com/content/v1/5aa8f119e17ba3c5c4720bef/1597780521463-ZQPZQPZ8V8XWXJ8N8YQF/burmese-tomato-salad.jpg',
   },
@@ -59,6 +74,8 @@ export const dishes: Dish[] = [
     id: 'kayin-sausage',
     name: 'kayin-sausage',
     displayName: 'Kayin Sausage',
+    description:
+      'Traditional Karen-style pork sausage seasoned with herbs, garlic, and chilies - a specialty of Kayin State.',
     image:
       'https://images.squarespace-cdn.com/content/v1/5aa8f119e17ba3c5c4720bef/1597780521463-ZQPZQPZ8V8XWXJ8N8YQF/kayin-sausage.jpg',
   },
@@ -66,6 +83,8 @@ export const dishes: Dish[] = [
     id: 'biryani',
     name: 'biryani',
     displayName: 'Burmese Biryani',
+    description:
+      'Fragrant rice cooked with aromatic spices, meat, and caramelized onions - influenced by Indian cuisine.',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVt4aAT6t8SWbxuE7YgThGOLOOPImFMqCpYg&s',
   },
@@ -73,6 +92,8 @@ export const dishes: Dish[] = [
     id: 'nan-gyi-thoke',
     name: 'nan-gyi-thoke',
     displayName: 'Nan Gyi Thoke',
+    description:
+      'Thick rice noodles tossed with chicken curry, coconut milk, and crispy garnishes - a popular Mandalay dish.',
     image:
       'https://myanmarlivingimages.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/04/07023017/nan-gyi-thoke.jpg',
   },
@@ -80,6 +101,8 @@ export const dishes: Dish[] = [
     id: 'htoe-mont',
     name: 'htoe-mont',
     displayName: 'Htoe Mont',
+    description:
+      'Sweet glutinous rice cake with coconut shavings and poppy seeds - a traditional Mon dessert.',
     image:
       'https://3.bp.blogspot.com/-oGk4-fzVt14/XDm1ctPXzXI/AAAAAAAABWs/63xLTvh8yt4N04qUrVU5Tf6Eri7bpGWYgCLcBGAs/s1600/Myanmar%2Btraditional%2Bhtoe%2Bmont%2Bcake.jpg',
   },
@@ -87,6 +110,8 @@ export const dishes: Dish[] = [
     id: 'local-wine',
     name: 'local-wine',
     displayName: 'Local Wine',
+    description:
+      "Artisanal wine produced in Myanmar's Shan State, particularly from the Red Mountain Estate - known for its unique terroir.",
     image:
       'https://media-cdn.tripadvisor.com/media/photo-s/0e/65/70/3b/red-mountain-winery.jpg',
   },
@@ -94,6 +119,8 @@ export const dishes: Dish[] = [
     id: 'local-coffee',
     name: 'local-coffee',
     displayName: 'Local Coffee',
+    description:
+      'Premium Arabica coffee grown in the highlands of Shan State, known for its smooth flavor and medium body.',
     image:
       'https://yangonlife.com.mm/sites/default/files/styles/article/public/field/image/coffee.jpg',
   },
@@ -101,6 +128,8 @@ export const dishes: Dish[] = [
     id: 'seafood-curry',
     name: 'seafood-curry',
     displayName: 'Seafood Curry',
+    description:
+      'Fresh seafood cooked in a rich curry sauce with lemongrass, turmeric, and local spices - a coastal specialty.',
     image:
       'https://www.seriouseats.com/thmb/fXRpYxcmq9YKyHifkQqFYmd_xEI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2020_curry_karides_02-981b0e13b79f46f78ed85bb2e2fdc0ff.jpg',
   },
@@ -108,6 +137,8 @@ export const dishes: Dish[] = [
     id: 'grilled-fish',
     name: 'grilled-fish',
     displayName: 'Grilled Fish',
+    description:
+      "Fresh fish grilled to perfection and served with herbs and chili sauce - common along Myanmar's rivers and coast.",
     image:
       'https://www.butteroverbae.com/wp-content/uploads/2020/12/grilled-fish-2.jpg',
   },
@@ -115,6 +146,8 @@ export const dishes: Dish[] = [
     id: 'coconut-noodles',
     name: 'coconut-noodles',
     displayName: 'Coconut Noodles',
+    description:
+      'Wheat noodles in a rich coconut milk broth with chicken, garnished with crispy wonton strips and hard-boiled eggs.',
     image:
       'https://myanmarlivingimages.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2018/10/kyar-zan-hin.jpg',
   },
@@ -122,6 +155,8 @@ export const dishes: Dish[] = [
     id: 'kat-kyi-kaik',
     name: 'kat-kyi-kaik',
     displayName: 'Kat Kyi Kaik (Fried Noodles)',
+    description:
+      'Stir-fried flat rice noodles with seafood, vegetables, and eggs - a popular street food dish from Yangon.',
     image:
       'https://img-global.cpcdn.com/recipes/80d66349f2c3902e/1200x630cq70/photo.jpg',
   },
