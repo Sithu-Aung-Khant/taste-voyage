@@ -24,6 +24,7 @@ export const foods: Food[] = [
     category: 'main',
     spiceLevel: 3,
     isVegetarian: false,
+    wikipediaUrl: null,
   },
   {
     id: 'tea-leaf-salad',
@@ -48,6 +49,7 @@ export const foods: Food[] = [
     category: 'appetizer',
     spiceLevel: 2,
     isVegetarian: false,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Lahpet',
   },
   {
     id: 'shan-noodles',
@@ -70,6 +72,7 @@ export const foods: Food[] = [
     category: 'main',
     spiceLevel: 3,
     isVegetarian: false,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Khao_soi',
   },
   {
     id: 'burmese-curry',
@@ -93,6 +96,7 @@ export const foods: Food[] = [
     category: 'main',
     spiceLevel: 4,
     isVegetarian: false,
+    wikipediaUrl: null,
   },
   {
     id: 'mont-lin-ma-yar',
@@ -108,6 +112,7 @@ export const foods: Food[] = [
     category: 'snack',
     spiceLevel: 1,
     isVegetarian: true,
+    wikipediaUrl: null,
   },
   {
     id: 'ohn-no-khao-swe',
@@ -132,5 +137,6 @@ export const foods: Food[] = [
     category: 'main',
     spiceLevel: 2,
     isVegetarian: false,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Ohn_no_khao_sw%C3%A8',
   },
 ];

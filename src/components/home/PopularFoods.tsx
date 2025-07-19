@@ -12,7 +12,7 @@ const PopularFoods: React.FC = () => {
   return (
     <section className='py-16 bg-white'>
       <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
-        <div className='flex justify-between items-end mb-8'>
+        <div className='flex items-end justify-between mb-8'>
           <div>
             <h2 className='text-3xl font-bold text-gray-900'>
               Top-Rated Myanmar Dishes
@@ -23,10 +23,10 @@ const PopularFoods: React.FC = () => {
           </div>
           <Link
             to='/foods'
-            className='hidden items-center font-medium text-amber-600 transition-colors sm:flex hover:text-amber-700'
+            className='items-center hidden font-medium transition-colors text-amber-600 sm:flex hover:text-amber-700'
           >
             View all foods
-            <ArrowRight className='ml-2 w-5 h-5' />
+            <ArrowRight className='w-5 h-5 ml-2' />
           </Link>
         </div>
 
@@ -39,10 +39,10 @@ const PopularFoods: React.FC = () => {
         <div className='mt-8 text-center sm:hidden'>
           <Link
             to='/foods'
-            className='inline-flex items-center font-medium text-amber-600 transition-colors hover:text-amber-700'
+            className='inline-flex items-center font-medium transition-colors text-amber-600 hover:text-amber-700'
           >
             View all foods
-            <ArrowRight className='ml-2 w-5 h-5' />
+            <ArrowRight className='w-5 h-5 ml-2' />
           </Link>
         </div>
       </div>

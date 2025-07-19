@@ -26,6 +26,7 @@ export interface Food {
   category: 'main' | 'dessert' | 'snack' | 'drink' | 'appetizer';
   spiceLevel: 1 | 2 | 3 | 4 | 5;
   isVegetarian: boolean;
+  wikipediaUrl: string | null;
 }
 
 export interface Region {
