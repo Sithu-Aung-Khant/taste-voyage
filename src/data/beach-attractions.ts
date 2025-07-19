@@ -70,7 +70,8 @@ const beachAttractions: BeachAttraction[] = [
     name: 'Butterfly Island',
     description:
       'A beautiful small island known for its butterfly-shaped rock formations and clear waters perfect for snorkeling.',
-    image: '/beaches/attractions/butterfly-island.jpg',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Gq8zYorH9LvCcQFWpc45vdkqSYhT44QshQ&s',
     beachId: 'chaung-tha',
   },
   {
@@ -78,7 +79,8 @@ const beachAttractions: BeachAttraction[] = [
     name: 'Pagoda Point',
     description:
       'A hilltop pagoda offering stunning views of the beach and surrounding area. Especially beautiful during sunset.',
-    image: '/beaches/attractions/pagoda-point.jpg',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFRpscUapRLLm1CjqijJBFk_lJjiAdWSAJdA&s',
     beachId: 'chaung-tha',
   },
   {
@@ -86,7 +88,8 @@ const beachAttractions: BeachAttraction[] = [
     name: 'Chaung Tha Local Market',
     description:
       'A vibrant local market where you can find fresh seafood, local handicrafts, and experience the local culture.',
-    image: '/beaches/attractions/local-market.jpg',
+    image:
+      'https://c8.alamy.com/comp/A2YJ98/chaungtha-market-chaungtha-burma-myanmar-A2YJ98.jpg',
     beachId: 'chaung-tha',
   },
 ];
