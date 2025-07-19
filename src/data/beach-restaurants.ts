@@ -32,6 +32,14 @@ const beachRestaurants: BeachRestaurant[] = [
     image: '/beaches/restaurants/sea-queen.jpg',
     beachId: 'ngapali',
   },
+  {
+    id: 'bay-view-bistro',
+    name: 'Bay View Bistro',
+    description:
+      'A modern bistro offering fusion cuisine that combines local flavors with international techniques. Famous for its innovative seafood dishes and craft cocktails.',
+    image: '/beaches/restaurants/bay-view-bistro.jpg',
+    beachId: 'ngapali',
+  },
 
   // Ngwe Saung Beach Restaurants
   {
@@ -58,6 +66,14 @@ const beachRestaurants: BeachRestaurant[] = [
     image: '/beaches/restaurants/sunset-cafe.jpg',
     beachId: 'ngwe-saung',
   },
+  {
+    id: 'silver-moon',
+    name: 'Silver Moon Restaurant',
+    description:
+      'An upscale dining establishment featuring a blend of local and Mediterranean cuisine. Known for its extensive wine selection and fresh catch of the day.',
+    image: '/beaches/restaurants/silver-moon.jpg',
+    beachId: 'ngwe-saung',
+  },
 
   // Chaung Tha Beach Restaurants
   {
@@ -82,6 +98,14 @@ const beachRestaurants: BeachRestaurant[] = [
     description:
       'An upscale dining venue offering a mix of Asian and European cuisine. Features a romantic setting perfect for special occasions.',
     image: '/beaches/restaurants/ocean-view.jpg',
+    beachId: 'chaung-tha',
+  },
+  {
+    id: 'palm-grove',
+    name: 'Palm Grove Restaurant',
+    description:
+      'A rustic beachside eatery specializing in traditional Myanmar coastal cuisine. Known for its authentic flavors and peaceful garden setting under palm trees.',
+    image: '/beaches/restaurants/palm-grove.jpg',
     beachId: 'chaung-tha',
   },
 ];
