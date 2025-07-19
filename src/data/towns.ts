@@ -215,7 +215,7 @@ export const towns: Town[] = [
       'Hnee Pagoda',
       'Kalaw Local Market',
     ],
-    signatureDishes: ['shan-noodles', 'tea-leaf-salad', 'local-coffee'],
+    signatureDishes: ['kalaw-paratha-curry', 'tofu-nway', 'shan-tomato-curry'],
   },
   {
     id: 'nyaung-shwe',

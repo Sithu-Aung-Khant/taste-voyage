@@ -176,7 +176,34 @@ export const dishes: Dish[] = [
     image:
       'https://www.myanmore.com/wp-content/uploads/2022/09/aythaya_vineyard_wine_myanmar.jpg',
     description:
-      'Myanmar’s first vineyard located near Taunggyi, producing high-quality red, white, and rosé wines. Aythaya Wine is a signature of Shan State’s modern culinary landscape, offering scenic tastings and vineyard tours.',
+      "Myanmar's first vineyard located near Taunggyi, producing high-quality red, white, and rosé wines. Aythaya Wine is a signature of Shan State's modern culinary landscape, offering scenic tastings and vineyard tours.",
+  },
+  {
+    id: 'kalaw-paratha-curry',
+    name: 'kalaw-paratha-curry',
+    displayName: 'Paratha with Indian-style Curry',
+    description:
+      "Flaky, pan-fried flatbread (paratha) served with lentil or meat-based curry. A testament to Kalaw's colonial and Indian railway history, offering one of the best paratha and curry combinations in Myanmar.",
+    image:
+      'https://media-cdn.tripadvisor.com/media/photo-s/0a/c8/6d/4c/lunch-vegetable-curry.jpg',
+  },
+  {
+    id: 'tofu-nway',
+    name: 'tofu-nway',
+    displayName: 'Tofu Nway (Shan Tofu Soup)',
+    description:
+      "A warm, creamy yellow tofu porridge made from chickpeas, topped with rice noodles, meat, and chili oil. Made fresh daily in Kalaw, it's a comforting, protein-rich meal perfect for the cool climate.",
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVB0VVUnBThKLv1cnq2gtlWUCbTnIRF2pvw&s',
+  },
+  {
+    id: 'shan-tomato-curry',
+    name: 'shan-tomato-curry',
+    displayName: 'Shan-style Tomato Curry',
+    description:
+      "A rich, tangy tomato-based curry with meat, flavored with Shan spices and garnished with fried garlic. Kalaw's version is uniquely herbal and fragrant due to the fresh hill-grown herbs and tomatoes from local farms.",
+    image:
+      'https://i.ytimg.com/vi/ngvmPvJcyUU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqZli7k0gvBoKj3LKAX3SPvWl6HA',
   },
 ];
 
