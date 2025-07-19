@@ -13,7 +13,8 @@ const beachAttractions: BeachAttraction[] = [
     name: 'Sunset Point',
     description:
       'A scenic viewpoint offering breathtaking views of the sun setting over the Bay of Bengal. Perfect for photography and romantic evening walks.',
-    image: '/beaches/attractions/sunset-point.jpg',
+    image:
+      'https://thumbs.dreamstime.com/b/chaung-tha-beach-sunset-myanmar-twilight-sky-over-bengal-bay-scenic-kyauk-pa-hto-pagoda-123467412.jpg',
     beachId: 'ngapali',
   },
   {
@@ -21,7 +22,8 @@ const beachAttractions: BeachAttraction[] = [
     name: 'Traditional Fishing Village',
     description:
       'Experience the authentic local life in this traditional fishing village. Watch fishermen bring in their daily catch and learn about their traditional fishing methods.',
-    image: '/beaches/attractions/fishing-village.jpg',
+    image:
+      'https://safeandhealthytravel.com/wp-content/uploads/2014/01/P1100200-1024x768.jpg',
     beachId: 'ngapali',
   },
   {
@@ -29,7 +31,7 @@ const beachAttractions: BeachAttraction[] = [
     name: 'Pearl Island',
     description:
       'A small island accessible by boat, known for its pearl cultivation. Visitors can learn about pearl farming and purchase authentic Myanmar pearls.',
-    image: '/beaches/attractions/pearl-island.jpg',
+    image: 'https://www.myanmars.net/images/pearl_island.jpg',
     beachId: 'ngapali',
   },
 
@@ -39,7 +41,8 @@ const beachAttractions: BeachAttraction[] = [
     name: 'Lovers Island',
     description:
       'A romantic island connected to the mainland by a walkable sandbar during low tide. Perfect for couples and photography enthusiasts.',
-    image: '/beaches/attractions/lovers-island.jpg',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/46/ee/46/lovers-island.jpg?w=1200&h=-1&s=1',
     beachId: 'ngwe-saung',
   },
   {
@@ -47,7 +50,8 @@ const beachAttractions: BeachAttraction[] = [
     name: 'Elephant Point',
     description:
       'A rocky outcrop offering panoramic views of the coastline. Popular for sunrise viewing and bird watching.',
-    image: '/beaches/attractions/elephant-point.jpg',
+    image:
+      'https://lh3.googleusercontent.com/proxy/_8PZ0HK85-nVnFT-5lMbKF5KCyDBtNUo2P_th27-TNqflNjy2gLIq8vYzX5uBSz62-FgraiT4DDomOocXUMS5UTTW7KUeqv82pyc3Trd_9_lOveOJV4',
     beachId: 'ngwe-saung',
   },
   {
@@ -55,7 +59,8 @@ const beachAttractions: BeachAttraction[] = [
     name: 'Bird Sanctuary',
     description:
       'A protected area home to various species of local and migratory birds. Great for nature lovers and bird watchers.',
-    image: '/beaches/attractions/bird-sanctuary.jpg',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/93/2e/75/20181201-093608-largejpg.jpg?w=900&h=500&s=1',
     beachId: 'ngwe-saung',
   },
 
