@@ -4,7 +4,6 @@ import { ExternalLink } from 'lucide-react';
 interface AttractionCardProps {
   name: string;
   townName: string;
-  // Using a placeholder image for now, we can update this when we have real images
   image: string;
   description: string;
 }
@@ -24,25 +23,28 @@ const AttractionCard: React.FC<AttractionCardProps> = ({
       href={getGoogleMapsUrl(name + ' ' + townName)}
       target='_blank'
       rel='noopener noreferrer'
-      className='overflow-hidden transition-shadow duration-300 bg-white rounded-lg group'
+      className='relative flex flex-col overflow-hidden transition-all duration-300 bg-white shadow-sm group rounded-xl hover:shadow-md'
     >
-      <div className='h-44'>
-        <div className=''>
-          <h3 className='text-lg font-bold text-gray-900 '>{name}</h3>
-          <p className='my-3 text-sm text-gray-600'>{description}</p>
-        </div>
-      </div>
-      <div className='relative h-48 overflow-hidden rounded-lg'>
+      <div className='relative h-56 overflow-hidden'>
         <img
           src={image}
           alt={name}
-          className='object-cover w-full h-full transition-transform duration-700 ease-in-out rounded-lg group-hover:scale-105'
+          className='object-cover w-full h-full transition-transform duration-700 ease-in-out group-hover:scale-105'
         />
-        <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent'></div>
-        <div className='absolute flex items-center gap-2 bottom-2 left-2'>
-          <p className='text-sm text-white'>View on Google Maps</p>
-          <ExternalLink className='w-4 h-4 text-amber-600' />
+        <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent'></div>
+      </div>
+
+      <div className='relative flex-1 p-6'>
+        <div className='flex items-start justify-between'>
+          <div>
+            <h3 className='text-xl font-bold text-gray-900'>{name}</h3>
+          </div>
+          <span className='flex items-center justify-center w-8 h-8 rounded-full bg-amber-50 text-amber-600'>
+            <ExternalLink className='w-4 h-4' />
+          </span>
         </div>
+        <p className='mt-4 text-sm text-gray-600 line-clamp-6'>{description}</p>
+        <div className='absolute bottom-0 left-0 right-0 h-1 transition-transform duration-300 origin-left transform scale-x-0 bg-amber-500 group-hover:scale-x-100'></div>
       </div>
     </a>
   );
