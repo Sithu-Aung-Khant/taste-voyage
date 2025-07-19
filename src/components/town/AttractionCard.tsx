@@ -26,6 +26,12 @@ const AttractionCard: React.FC<AttractionCardProps> = ({
       rel='noopener noreferrer'
       className='overflow-hidden transition-shadow duration-300 bg-white rounded-lg group'
     >
+      <div className='h-44'>
+        <div className=''>
+          <h3 className='text-lg font-bold text-gray-900 '>{name}</h3>
+          <p className='my-3 text-sm text-gray-600'>{description}</p>
+        </div>
+      </div>
       <div className='relative h-48 overflow-hidden rounded-lg'>
         <img
           src={image}
@@ -33,15 +39,8 @@ const AttractionCard: React.FC<AttractionCardProps> = ({
           className='object-cover w-full h-full transition-transform duration-700 ease-in-out rounded-lg group-hover:scale-105'
         />
         <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent'></div>
-      </div>
-
-      <div className='p-4'>
-        <div className=''>
-          <h3 className='text-lg font-bold text-gray-900'>{name}</h3>
-          <p className='my-3 text-sm text-gray-600'>{description}</p>
-        </div>
-        <div className='flex'>
-          <p className='mt-2 text-sm text-gray-600'>View on Google Maps</p>
+        <div className='absolute flex items-center gap-2 bottom-2 left-2'>
+          <p className='text-sm text-white'>View on Google Maps</p>
           <ExternalLink className='w-4 h-4 text-amber-600' />
         </div>
       </div>
