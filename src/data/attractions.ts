@@ -107,6 +107,116 @@ export const attractions: Attraction[] = [
     description:
       'Soar above the ancient temples of Bagan in a hot air balloon for a once-in-a-lifetime experience. The breathtaking aerial views at sunrise reveal the full majesty of this archaeological wonder.',
   },
+
+  // Taunggyi Attractions
+  {
+    id: 'taunggyi-balloon-festival',
+    name: 'Taunggyi Balloon Festival',
+    image:
+      'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/62de641ce3132f6ca331495e_Fire%20Balloon%201.jpg',
+    townId: 'taunggyi',
+    description:
+      "Held in November, featuring massive hot air balloons with fireworks and traditional music. This spectacular festival, also known as the Tazaungdaing Festival, is one of Myanmar's most unique cultural celebrations.",
+  },
+  {
+    id: 'sulamuni-pagoda',
+    name: 'Sulamuni Pagoda',
+    image: 'https://www.myanmars.net/images/sulamuni_pagoda.jpg',
+    townId: 'taunggyi',
+    description:
+      'A stunning hilltop pagoda offering panoramic views of Taunggyi. The pagoda is a significant religious site and a perfect spot for viewing the city and surrounding Shan hills.',
+  },
+  {
+    id: 'ayetharyar-vineyard',
+    name: 'Aye Tharyar Vineyard & Winery',
+    image:
+      'https://www.myanmar-vineyard.com/sites/default/files/slider-0004.jpg',
+    townId: 'taunggyi',
+    description:
+      'A picturesque vineyard with wine tasting and views over the Shan hills. Visitors can tour the vineyard, learn about local wine production, and enjoy wine tasting sessions with stunning views.',
+  },
+  {
+    id: 'taunggyi-ocean-center',
+    name: 'Taunggyi Ocean Center',
+    image: 'https://www.opple.com/sites/default/files/1.1_6.jpg',
+    townId: 'taunggyi',
+    description:
+      'A popular shopping and entertainment center in Taunggyi featuring a variety of shops, restaurants, and modern amenities. A great place for locals and travelers to relax and enjoy urban conveniences.',
+  },
+
+  // Kalaw Attractions
+  {
+    id: 'kalaw-inle-trek',
+    name: 'Kalaw to Inle Lake Trek',
+    image:
+      'https://www.gomyanmartours.com/wp-content/uploads/2016/12/Trekking-from-Kalaw-to-Inle-Lake.jpg',
+    townId: 'kalaw',
+    description:
+      'The most popular multi-day trek in Myanmar, through hills, villages, and rice terraces. This scenic trek offers stunning landscapes and opportunities to experience local hill tribe culture.',
+  },
+  {
+    id: 'thein-taung-pagoda',
+    name: 'Thein Taung Pagoda and Monastery',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Thein_Taung_Pagoda.jpg/1200px-Thein_Taung_Pagoda.jpg',
+    townId: 'kalaw',
+    description:
+      'Located on a hill with a panoramic view of Kalaw town. This peaceful monastery complex offers stunning views and a glimpse into Buddhist monastic life.',
+  },
+  {
+    id: 'hnee-pagoda',
+    name: 'Hnee Pagoda',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Shwe_Oo_Min_Natural_Cave_Pagoda.jpg/1200px-Shwe_Oo_Min_Natural_Cave_Pagoda.jpg',
+    townId: 'kalaw',
+    description:
+      'A cave temple with hundreds of golden Buddha images inside. Also known as Shwe Oo Min Natural Cave Pagoda, this unique site combines natural cave formations with religious significance.',
+  },
+  {
+    id: 'kalaw-market',
+    name: 'Kalaw Local Market',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Kalaw_Market.jpg/1200px-Kalaw_Market.jpg',
+    townId: 'kalaw',
+    description:
+      'Held every 5 days; a great place to meet hill tribe people and buy local produce. The market is a vibrant hub of local life where different ethnic groups gather to trade goods.',
+  },
+
+  // Inle Lake Attractions
+  {
+    id: 'floating-villages',
+    name: 'Floating Villages and Gardens',
+    image: 'https://images.pexels.com/photos/5238583/pexels-photo-5238583.jpeg',
+    townId: 'inle-lake',
+    description:
+      'Visit stilt-house villages like Ywama or Inthein, with gardens grown on water. Experience the unique lifestyle of the Intha people and their ingenious floating garden cultivation methods.',
+  },
+  {
+    id: 'phaung-daw-oo',
+    name: 'Phaung Daw Oo Pagoda',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Phaung_Daw_Oo_Pagoda.jpg/1200px-Phaung_Daw_Oo_Pagoda.jpg',
+    townId: 'inle-lake',
+    description:
+      'One of the most sacred pagodas in Shan State, with 5 revered Buddha images. This important religious site is a center of local spiritual life and annual festivals.',
+  },
+  {
+    id: 'indein-pagoda',
+    name: 'Indein Pagoda Complex',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Indein_Pagoda_Complex.jpg/1200px-Indein_Pagoda_Complex.jpg',
+    townId: 'inle-lake',
+    description:
+      "A hidden gem with hundreds of ancient stupas, accessible via a scenic boat ride. This atmospheric complex of weather-worn stupas offers a glimpse into the region's rich history.",
+  },
+  {
+    id: 'leg-rowing-fishermen',
+    name: 'Traditional Leg Rowing Fishermen',
+    image: 'https://images.pexels.com/photos/6036959/pexels-photo-6036959.jpeg',
+    townId: 'inle-lake',
+    description:
+      "Iconic fishermen who row with one leg while balancing on the other. Watch this unique traditional fishing method that has become a symbol of Inle Lake's cultural heritage.",
+  },
 ];
 
 export const getAttractionsByTownId = (townId: string): Attraction[] => {

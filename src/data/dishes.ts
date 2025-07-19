@@ -160,6 +160,24 @@ export const dishes: Dish[] = [
     image:
       'https://img-global.cpcdn.com/recipes/80d66349f2c3902e/1200x630cq70/photo.jpg',
   },
+  {
+    id: 'mont-di',
+    name: 'mont-di',
+    displayName: 'Mont Di - Taunggyi Style',
+    description:
+      'A spicy rice noodle dish often served with fish gravy, banana stem, and chili oil - a Taunggyi specialty with unique Shan-style ingredients and flavors.',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX8_P7BKE8FSPjGJg4UCGqCJr9R9K_HO_Kag&usqp=CAU',
+  },
+  {
+    id: 'aythaya-wine',
+    name: 'aythaya-wine',
+    displayName: 'Aythaya Wine',
+    image:
+      'https://www.myanmore.com/wp-content/uploads/2022/09/aythaya_vineyard_wine_myanmar.jpg',
+    description:
+      'Myanmar’s first vineyard located near Taunggyi, producing high-quality red, white, and rosé wines. Aythaya Wine is a signature of Shan State’s modern culinary landscape, offering scenic tastings and vineyard tours.',
+  },
 ];
 
 export const getDishByName = (name: string): Dish | undefined => {
