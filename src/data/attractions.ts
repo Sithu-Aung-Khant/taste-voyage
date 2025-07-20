@@ -208,6 +208,44 @@ export const attractions: Attraction[] = [
     description:
       "Iconic fishermen who row with one leg while balancing on the other. Watch this unique traditional fishing method that has become a symbol of Inle Lake's cultural heritage.",
   },
+
+  // Nyaung Shwe Attractions
+  {
+    id: 'inle-lake-access',
+    name: 'Inle Lake Access',
+    image:
+      'https://images.squarespace-cdn.com/content/v1/59f99a190abd04b6b179d4f6/1562163148945-L3ADO2IULEKODE5P8LFB/inle-lake-fishermen-istock.jpg?format=1500w',
+    townId: 'nyaung-shwe',
+    description:
+      "The main gateway to the stunning Inle Lake, offering boat services, guides, and stunning views of the lake. Perfect starting point for exploring the lake's unique ecosystem and culture.",
+  },
+  {
+    id: 'nyaung-shwe-market',
+    name: 'Local Markets',
+    image:
+      'https://www.myanmaritv.com/sites/default/files/styles/news_detail_image/public/vlcsnap-2021-12-20-12h44m14s136.jpg?itok=Q3q1RBLW&c=6507c45fa1b506ecf24c1c258aab190f',
+    townId: 'nyaung-shwe',
+    description:
+      'Vibrant local markets where visitors can experience authentic Shan culture, fresh produce, traditional crafts, and local delicacies. The five-day rotating market is particularly special.',
+  },
+  {
+    id: 'boat-tours',
+    name: 'Boat Tours',
+    image:
+      'https://theelevatedmoments.com/wp-content/uploads/2020/02/A63I8560.jpg',
+    townId: 'nyaung-shwe',
+    description:
+      'Comprehensive boat tours departing from Nyaung Shwe, taking visitors to floating gardens, local craft workshops, ancient pagodas, and traditional villages around Inle Lake.',
+  },
+  {
+    id: 'red-mountain-estate',
+    name: 'Red Mountain Estate Vineyards & Winery',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9e/66/f8/wine-tasting-mir-erdnusschen.jpg?w=2000&h=-1&s=1',
+    townId: 'nyaung-shwe',
+    description:
+      'A scenic vineyard and winery nestled in the hills near Nyaung Shwe, offering wine tastings, tours, and panoramic views of Inle Lake. Red Mountain Estate is renowned for its locally produced wines and is a perfect spot to relax and enjoy a sunset over the vineyards.',
+  },
 ];
 
 export const getAttractionsByTownId = (townId: string): Attraction[] => {
