@@ -155,21 +155,23 @@ const TownDetailPage: React.FC = () => {
         )}
 
         {/* Signature Dishes Section */}
-        <section className='my-12'>
-          <h2 className='mb-8 text-3xl font-bold text-gray-900'>
-            Signature Dishes
-          </h2>
-          <div className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
-            {dishes.map((dish) => (
-              <DishCard
-                key={dish?.id}
-                name={dish?.name || ''}
-                image={dish?.image || ''}
-                description={dish?.description || ''}
-              />
-            ))}
-          </div>
-        </section>
+        {dishes.length > 0 && (
+          <section className='my-12'>
+            <h2 className='mb-8 text-3xl font-bold text-gray-900'>
+              Signature Dishes
+            </h2>
+            <div className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
+              {dishes.map((dish) => (
+                <DishCard
+                  key={dish?.id}
+                  name={dish?.name || ''}
+                  image={dish?.image || ''}
+                  description={dish?.description || ''}
+                />
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </div>
   );

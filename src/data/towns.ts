@@ -194,13 +194,19 @@ export const towns: Town[] = [
       'Aye Tharyar Vineyard & Winery',
       'Taunggyi Myoma Market',
     ],
-    signatureDishes: ['shan-noodles', 'mont-di', 'local-wine'],
+    restaurants: [
+      'win-restaurant',
+      'golden-crown',
+      'shwe-myanmar',
+      'royal-taunggyi',
+    ],
+    signatureDishes: [],
   },
   {
     id: 'kalaw',
     name: 'Kalaw',
     description:
-      'Kalaw is a charming hill station with a cool climate, pine forests, and colonial-era buildings. It is a trekking paradise, offering scenic routes through ethnic villages and rolling hills. The town’s relaxed pace and fresh mountain air make it a perfect retreat for nature lovers.',
+      "Kalaw is a charming hill station with a cool climate, pine forests, and colonial-era buildings. It is a trekking paradise, offering scenic routes through ethnic villages and rolling hills. The town's relaxed pace and fresh mountain air make it a perfect retreat for nature lovers.",
     image:
       'https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Kalaw_0.jpg',
     rating: 4.7,
@@ -215,7 +221,13 @@ export const towns: Town[] = [
       'Hnee Pagoda',
       'Kalaw Local Market',
     ],
-    signatureDishes: ['kalaw-paratha-curry', 'tofu-nway', 'shan-tomato-curry'],
+    restaurants: [
+      'seven-sisters',
+      'thirigayhar',
+      'dream-restaurant',
+      'everest-nepali',
+    ],
+    signatureDishes: [],
   },
   {
     id: 'nyaung-shwe',
@@ -236,7 +248,8 @@ export const towns: Town[] = [
       'Traditional Architecture',
       'Boat Tours',
     ],
-    signatureDishes: ['shan-noodles', 'inle-fish-curry', 'tomato-salad'],
+    restaurants: ['live-dim-sum', 'viewpoint', 'lin-htett', 'golden-kite'],
+    signatureDishes: [],
   },
   {
     id: 'mawlamyaing',
