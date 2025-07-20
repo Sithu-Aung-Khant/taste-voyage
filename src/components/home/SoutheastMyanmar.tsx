@@ -7,13 +7,13 @@ import TownCard from '../town/TownCard';
 const SoutheastMyanmar: React.FC = () => {
   // Get Southeast Myanmar destinations
   const southeastDestinations = towns.filter((town) =>
-    ['hap-an', 'mawlamyaing'].includes(town.id)
+    ['hpa-an', 'mawlamyaing'].includes(town.id)
   );
 
   return (
     <section className='py-16 bg-purple-50'>
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='flex justify-between items-end mb-8'>
+      <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
+        <div className='flex items-end justify-between mb-8'>
           <div>
             <h2 className='text-3xl font-bold text-gray-900'>
               Southeast Myanmar
@@ -25,14 +25,14 @@ const SoutheastMyanmar: React.FC = () => {
           </div>
           <Link
             to='/towns'
-            className='hidden sm:flex items-center text-amber-600 font-medium hover:text-amber-700 transition-colors'
+            className='items-center hidden font-medium transition-colors sm:flex text-amber-600 hover:text-amber-700'
           >
             View all destinations
-            <ArrowRight className='ml-2 h-5 w-5' />
+            <ArrowRight className='w-5 h-5 ml-2' />
           </Link>
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+        <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
           {southeastDestinations.map((town) => (
             <TownCard key={town.id} town={town} />
           ))}
@@ -41,10 +41,10 @@ const SoutheastMyanmar: React.FC = () => {
         <div className='mt-8 text-center sm:hidden'>
           <Link
             to='/towns'
-            className='inline-flex items-center text-amber-600 font-medium hover:text-amber-700 transition-colors'
+            className='inline-flex items-center font-medium transition-colors text-amber-600 hover:text-amber-700'
           >
             View all destinations
-            <ArrowRight className='ml-2 h-5 w-5' />
+            <ArrowRight className='w-5 h-5 ml-2' />
           </Link>
         </div>
       </div>
