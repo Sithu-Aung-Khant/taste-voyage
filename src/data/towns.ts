@@ -55,7 +55,7 @@ export const towns: Town[] = [
     description:
       'Bagan is an ancient city in central Myanmar, home to over 2,000 Buddhist temples, pagodas, and stupas that rise majestically from the plains. This UNESCO World Heritage Site offers breathtaking sunrise and sunset views, hot air balloon rides, and a glimpse into the spiritual heart of Myanmar. Its archaeological wonders and serene landscapes make it a must-visit destination.',
     image:
-      'https://images.pexels.com/photos/9732138/pexels-photo-9732138.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://content.r9cdn.net/rimg/dimg/39/01/de981725-city-41060-167f64bd01e.jpg?crop=true&width=1366&height=768&xhint=1548&yhint=1584',
     rating: 4.8,
     region: 'Mandalay Region',
     coordinates: {

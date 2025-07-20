@@ -6,10 +6,12 @@ import AllBeachesPage from './pages/AllBeachesPage';
 import TopCitiesPage from './pages/TopCitiesPage';
 import ShanHighlandsPage from './pages/ShanHighlandsPage';
 import SoutheastMyanmarPage from './pages/SoutheastMyanmarPage';
+import ScrollToTop from './components/layout/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/towns/top-cities' element={<TopCitiesPage />} />

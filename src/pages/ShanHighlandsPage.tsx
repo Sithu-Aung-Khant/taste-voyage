@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { towns } from '../data/towns';
 import TownCard from '../components/town/TownCard';
-import Layout from '../components/layout/Layout';
+import HeaderOnlyLayout from '../components/layout/HeaderOnlyLayout';
 
 const ShanHighlandsPage: React.FC = () => {
   const shanHighlands = towns.filter((town) =>
@@ -18,7 +18,7 @@ const ShanHighlandsPage: React.FC = () => {
   );
 
   return (
-    <Layout>
+    <HeaderOnlyLayout>
       <div className='py-12 bg-green-50'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='mb-8'>
@@ -47,7 +47,7 @@ const ShanHighlandsPage: React.FC = () => {
           </section>
         </div>
       </div>
-    </Layout>
+    </HeaderOnlyLayout>
   );
 };
 
