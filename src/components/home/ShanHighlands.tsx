@@ -24,7 +24,7 @@ const ShanHighlands: React.FC = () => {
             </p>
           </div>
           <Link
-            to='/towns'
+            to='/towns/shan-highlands'
             className='hidden sm:flex items-center text-amber-600 font-medium hover:text-amber-700 transition-colors'
           >
             View all destinations
@@ -40,7 +40,7 @@ const ShanHighlands: React.FC = () => {
 
         <div className='mt-8 text-center sm:hidden'>
           <Link
-            to='/towns'
+            to='/towns/shan-highlands'
             className='inline-flex items-center text-amber-600 font-medium hover:text-amber-700 transition-colors'
           >
             View all destinations

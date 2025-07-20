@@ -24,7 +24,7 @@ const TopCities: React.FC = () => {
             </p>
           </div>
           <Link
-            to='/towns'
+            to='/towns/top-cities'
             className='items-center hidden font-medium transition-colors sm:flex text-amber-600 hover:text-amber-700'
           >
             View all cities
@@ -40,7 +40,7 @@ const TopCities: React.FC = () => {
 
         <div className='mt-8 text-center sm:hidden'>
           <Link
-            to='/towns'
+            to='/towns/top-cities'
             className='inline-flex items-center font-medium transition-colors text-amber-600 hover:text-amber-700'
           >
             View all cities

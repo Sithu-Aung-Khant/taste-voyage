@@ -15,7 +15,7 @@ interface BeachCardProps {
   };
 }
 
-const BeachCard: React.FC<BeachCardProps> = ({ beach }) => {
+export const BeachCard: React.FC<BeachCardProps> = ({ beach }) => {
   return (
     <Link
       to={`/beaches/${beach.id}`}
@@ -44,6 +44,9 @@ const BeachCard: React.FC<BeachCardProps> = ({ beach }) => {
 };
 
 const Beaches: React.FC = () => {
+  // Get featured beaches
+  const featuredBeaches = beaches.slice(0, 3);
+
   return (
     <section className='py-16 bg-blue-50'>
       <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
@@ -53,7 +56,7 @@ const Beaches: React.FC = () => {
               Beautiful Beaches
             </h2>
             <p className='mt-2 text-lg text-gray-600'>
-              Discover Myanmar's pristine beaches and coastal paradises
+              Discover Myanmar's pristine coastal paradise
             </p>
           </div>
           <Link
@@ -66,7 +69,7 @@ const Beaches: React.FC = () => {
         </div>
 
         <div className='grid grid-cols-1 gap-6 md:grid-cols-3'>
-          {beaches.map((beach) => (
+          {featuredBeaches.map((beach) => (
             <BeachCard key={beach.id} beach={beach} />
           ))}
         </div>
