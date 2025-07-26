@@ -42,7 +42,7 @@ const AllFoodsPage: React.FC = () => {
     <Layout>
       <div className='container px-4 py-8 mx-auto'>
         {/* Header Section */}
-        <div className='mb-12 text-center'>
+        <div className='mt-10 mb-20 text-center'>
           <h1 className='mb-4 text-4xl font-bold text-gray-900'>
             Explore Myanmar's Cuisine
           </h1>
