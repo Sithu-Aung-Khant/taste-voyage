@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
       <SoutheastMyanmar />
 
       {/* Culture Section */}
-      <section className='py-16 bg-amber-50'>
+      <section className='py-20 bg-amber-50'>
         <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
           <div className='grid items-center grid-cols-1 gap-12 lg:grid-cols-2'>
             <div>
@@ -83,7 +83,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section
+      {/* <section
         className='relative py-20 bg-center bg-cover'
         style={{
           backgroundImage:
@@ -110,7 +110,7 @@ const HomePage: React.FC = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };

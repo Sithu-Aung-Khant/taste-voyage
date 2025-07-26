@@ -27,24 +27,15 @@ const Footer: React.FC = () => {
               of Myanmar through our comprehensive guide.
             </p>
             <div className='flex pt-2 space-x-4'>
-              <a
-                href='#'
-                className='text-gray-400 transition-colors hover:text-white'
-              >
+              <span className='text-gray-400 '>
                 <Facebook className='w-5 h-5' />
-              </a>
-              <a
-                href='#'
-                className='text-gray-400 transition-colors hover:text-white'
-              >
+              </span>
+              <span className='text-gray-400 '>
                 <Instagram className='w-5 h-5' />
-              </a>
-              <a
-                href='#'
-                className='text-gray-400 transition-colors hover:text-white'
-              >
+              </span>
+              <span className='text-gray-400 '>
                 <Twitter className='w-5 h-5' />
-              </a>
+              </span>
             </div>
           </div>
 
@@ -63,7 +54,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
-                  to='/towns'
+                  to='/towns/top-cities'
                   className='text-gray-400 transition-colors hover:text-amber-500'
                 >
                   Top Destinations
@@ -71,26 +62,11 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
-                  to='/regions'
-                  className='text-gray-400 transition-colors hover:text-amber-500'
-                >
-                  Regions of Myanmar
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to='/map'
+                  target='_blank'
+                  to='https://www.google.com/maps/place/Myanmar+(Burma)/@20.0419414,95.1523088,5.7z/data=!4m15!1m8!3m7!1s0x305652a7714e2907:0xba7b0ee41c622b11!2sMyanmar+(Burma)!3b1!8m2!3d21.916221!4d95.955974!16zL20vMDR4bl8!3m5!1s0x305652a7714e2907:0xba7b0ee41c622b11!8m2!3d21.916221!4d95.955974!16zL20vMDR4bl8?entry=ttu&g_ep=EgoyMDI1MDYyOS4wIKXMDSoASAFQAw%3D%3D'
                   className='text-gray-400 transition-colors hover:text-amber-500'
                 >
                   Interactive Map
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to='/festivals'
-                  className='text-gray-400 transition-colors hover:text-amber-500'
-                >
-                  Food Festivals
                 </Link>
               </li>
             </ul>
@@ -103,31 +79,16 @@ const Footer: React.FC = () => {
             <ul className='space-y-2'>
               <li>
                 <Link
-                  to='/about'
+                  to='https://en.wikipedia.org/wiki/Myanmar'
+                  target='_blank'
                   className='text-gray-400 transition-colors hover:text-amber-500'
                 >
-                  About Us
+                  About Myanmar
                 </Link>
               </li>
               <li>
                 <Link
-                  to='/travel-tips'
-                  className='text-gray-400 transition-colors hover:text-amber-500'
-                >
-                  Travel Tips
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to='/privacy'
-                  className='text-gray-400 transition-colors hover:text-amber-500'
-                >
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to='/terms'
+                  to=''
                   className='text-gray-400 transition-colors hover:text-amber-500'
                 >
                   Terms of Service
