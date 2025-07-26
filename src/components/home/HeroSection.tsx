@@ -1,10 +1,57 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search, MapPin, Utensils } from 'lucide-react';
 import Button from '../ui/Button';
+import SearchResults from '../ui/SearchResults';
+import { searchAll } from '../../utils/search';
+import useDebounce from '../../hooks/useDebounce';
+
+interface SearchResult {
+  id: string;
+  name: string;
+  type: 'town' | 'food' | 'beach' | 'attraction';
+  description: string;
+  image?: string;
+}
 
 const HeroSection: React.FC = () => {
   const navigate = useNavigate();
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const searchRef = useRef<HTMLDivElement>(null);
+  const debouncedSearchTerm = useDebounce(searchQuery, 300);
+
+  useEffect(() => {
+    const handleSearch = () => {
+      if (debouncedSearchTerm) {
+        setIsSearching(true);
+        const results = searchAll(debouncedSearchTerm);
+        setSearchResults(results);
+        setIsSearching(false);
+      } else {
+        setSearchResults([]);
+      }
+    };
+
+    handleSearch();
+  }, [debouncedSearchTerm]);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        searchRef.current &&
+        !searchRef.current.contains(event.target as Node)
+      ) {
+        setSearchResults([]);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className='relative h-screen'>
@@ -35,13 +82,29 @@ const HeroSection: React.FC = () => {
             across Myanmar's diverse regions.
           </p>
 
-          <div className='relative max-w-lg mx-auto mb-10'>
+          <div ref={searchRef} className='relative max-w-lg mx-auto mb-10'>
             <Search className='absolute w-5 h-5 text-gray-500 transform -translate-y-1/2 left-4 top-1/2' />
             <input
               type='text'
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
               placeholder='Search for foods or destinations...'
               className='w-full py-4 pl-12 pr-4 text-lg text-gray-800 rounded-full shadow-lg focus:outline-none focus:ring-2 focus:ring-amber-500'
             />
+            {isSearching && (
+              <div className='absolute transform -translate-y-1/2 right-4 top-1/2'>
+                <div className='w-5 h-5 border-t-2 rounded-full border-amber-500 animate-spin'></div>
+              </div>
+            )}
+            {searchResults.length > 0 && (
+              <SearchResults
+                results={searchResults}
+                onClose={() => {
+                  setSearchResults([]);
+                  setSearchQuery('');
+                }}
+              />
+            )}
           </div>
 
           <div className='flex flex-col justify-center gap-4 sm:flex-row'>
