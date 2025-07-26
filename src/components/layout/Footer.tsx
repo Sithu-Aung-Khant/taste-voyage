@@ -62,11 +62,10 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
-                  target='_blank'
-                  to='https://www.google.com/maps/place/Myanmar+(Burma)/@20.0419414,95.1523088,5.7z/data=!4m15!1m8!3m7!1s0x305652a7714e2907:0xba7b0ee41c622b11!2sMyanmar+(Burma)!3b1!8m2!3d21.916221!4d95.955974!16zL20vMDR4bl8!3m5!1s0x305652a7714e2907:0xba7b0ee41c622b11!8m2!3d21.916221!4d95.955974!16zL20vMDR4bl8?entry=ttu&g_ep=EgoyMDI1MDYyOS4wIKXMDSoASAFQAw%3D%3D'
+                  to='/beaches'
                   className='text-gray-400 transition-colors hover:text-amber-500'
                 >
-                  Interactive Map
+                  Beautiful Beaches
                 </Link>
               </li>
             </ul>
@@ -88,10 +87,11 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
-                  to=''
+                  target='_blank'
+                  to='https://www.google.com/maps/place/Myanmar+(Burma)/@20.0419414,95.1523088,5.7z/data=!4m15!1m8!3m7!1s0x305652a7714e2907:0xba7b0ee41c622b11!2sMyanmar+(Burma)!3b1!8m2!3d21.916221!4d95.955974!16zL20vMDR4bl8!3m5!1s0x305652a7714e2907:0xba7b0ee41c622b11!8m2!3d21.916221!4d95.955974!16zL20vMDR4bl8?entry=ttu&g_ep=EgoyMDI1MDYyOS4wIKXMDSoASAFQAw%3D%3D'
                   className='text-gray-400 transition-colors hover:text-amber-500'
                 >
-                  Terms of Service
+                  Interactive Map
                 </Link>
               </li>
               <li>
