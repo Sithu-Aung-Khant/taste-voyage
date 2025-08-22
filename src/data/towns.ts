@@ -2,6 +2,136 @@ import { Town } from '../types';
 
 export const towns: Town[] = [
   {
+    id: 'pyin-oo-lwin',
+    name: 'Pyin Oo Lwin',
+    description:
+      'Pyin Oo Lwin, formerly known as Maymyo, is a scenic hill town known for its colonial architecture, botanical gardens, and pleasant climate. The town offers a unique blend of British colonial history and local culture, with beautiful gardens, waterfalls, and a thriving food scene.',
+    image:
+      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+    rating: 4.5,
+    region: 'Mandalay Region',
+    coordinates: {
+      lat: 22.0359,
+      lng: 96.4568,
+    },
+    attractions: [
+      'National Kandawgyi Gardens',
+      'Pwe Kauk Falls',
+      'Chinese Temple',
+      'Peik Chin Myaung Cave',
+    ],
+    restaurants: [
+      'maw-da-nu',
+      'san-francisco',
+      'feel-restaurant',
+      'december-waterfall',
+      'forest-cafe',
+      'one-piece-bbq',
+    ],
+    signatureDishes: ['shan-noodles', 'strawberry-products', 'dairy-products'],
+  },
+  {
+    id: 'dawei',
+    name: 'Dawei',
+    description:
+      'Dawei is a charming coastal town in southern Myanmar, known for its pristine beaches, local markets, and authentic Burmese culture. The town offers a glimpse into traditional life while providing modern amenities and diverse dining options.',
+    image:
+      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+    rating: 4.4,
+    region: 'Tanintharyi Region',
+    coordinates: {
+      lat: 14.0823,
+      lng: 98.1915,
+    },
+    attractions: [
+      'Maungmagan Beach',
+      'Dawei Night Market',
+      'Shwe Taung Zar Pagoda',
+      'Traditional Market',
+    ],
+    restaurants: [
+      'bamboo-garden',
+      'shwe-hnin-si',
+      'old-house-cafe',
+      'little-eden',
+      'sawardi',
+    ],
+    signatureDishes: ['seafood', 'local-breakfast', 'traditional-snacks'],
+  },
+  {
+    id: 'kawthaung',
+    name: 'Kawthaung',
+    description:
+      "Kawthaung, Myanmar's southernmost city, is a vibrant port town with stunning views of the Andaman Sea. Known for its seafood, mixed culture, and gateway to the Mergui Archipelago, it offers unique dining experiences combining Thai and Burmese flavors.",
+    image:
+      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+    rating: 4.3,
+    region: 'Tanintharyi Region',
+    coordinates: {
+      lat: 10.0492,
+      lng: 98.5519,
+    },
+    attractions: [
+      'Victoria Point',
+      'Pyi Daw Aye Pagoda',
+      'King Bayint Naung Statue',
+      'Mergui Archipelago',
+    ],
+    restaurants: ['sky-view', 'victoria-cliff', 'kawthaung-yummy'],
+    signatureDishes: ['seafood', 'thai-fusion', 'local-specialties'],
+  },
+  {
+    id: 'myeik',
+    name: 'Myeik',
+    description:
+      'Myeik is a historic port city known for its pearl industry and seafood. The city offers a unique blend of colonial architecture, bustling markets, and waterfront dining, making it a fascinating destination for food enthusiasts and culture seekers.',
+    image:
+      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+    rating: 4.4,
+    region: 'Tanintharyi Region',
+    coordinates: {
+      lat: 12.4318,
+      lng: 98.6062,
+    },
+    attractions: [
+      'Theindawgyi Pagoda',
+      'Pearl Farms',
+      'Myeik Archipelago',
+      'Night Market',
+    ],
+    restaurants: ['pin-lae-may', 'my-mergui-bar', 'hotel-drift', 'mr-bamboo'],
+    signatureDishes: ['seafood', 'local-cuisine', 'fresh-fish'],
+  },
+  {
+    id: 'nay-pyi-daw',
+    name: 'Nay Pyi Daw',
+    description:
+      "Nay Pyi Daw, Myanmar's modern capital city, is known for its wide boulevards, government buildings, and emerging dining scene. The city offers a unique blend of contemporary architecture, hotels, and restaurants, making it an interesting destination for visitors interested in modern Myanmar.",
+    image:
+      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+    rating: 4.3,
+    region: 'Nay Pyi Daw Union Territory',
+    coordinates: {
+      lat: 19.7475,
+      lng: 96.115,
+    },
+    attractions: [
+      'Uppatasanti Pagoda',
+      'Myanmar Gems Museum',
+      'National Landmark Garden',
+      'Water Fountain Garden',
+    ],
+    restaurants: [
+      'hta-naung',
+      'mon-ma-2',
+      'new-thai-yai',
+      'nature-tea-house',
+      'la-la-leora',
+      'u-soe-gyi',
+    ],
+    signatureDishes: ['mohinga', 'shan-noodles', 'mont-hin-gar'],
+  },
+  {
     id: 'yangon',
     name: 'Yangon',
     description:
@@ -48,6 +178,13 @@ export const towns: Town[] = [
       'Mahamuni Buddha Temple',
     ],
     signatureDishes: ['nan-gyi-thoke', 'htoe-mont', 'tea-leaf-salad'],
+    restaurants: [
+      'unique-mandalay-tea-room',
+      'bbb-european-restaurant',
+      'mingalarbar-restaurants',
+      'the-palace-by-golden-duck',
+      'karaweik-cafe',
+    ],
   },
   {
     id: 'bagan',
@@ -69,6 +206,13 @@ export const towns: Town[] = [
       'Hot Air Balloon Rides',
     ],
     signatureDishes: ['mohinga', 'shan-noodles', 'tea-leaf-salad'],
+    restaurants: [
+      'shwe-myanmar-bagan',
+      'tharabar-3',
+      'zee-yeik-fritters',
+      'hnan-phat-chin',
+      'sharkys-bagan',
+    ],
   },
   {
     id: 'inle-lake',
@@ -111,6 +255,13 @@ export const towns: Town[] = [
       'Lumbini Garden',
     ],
     signatureDishes: ['kayin-sausage', 'mont-lin-ma-yar'],
+    restaurants: [
+      'hpa-an-night-market',
+      'cafe-kto',
+      'veranda-ycc',
+      'naw-ta-yar',
+      'eat-me',
+    ],
   },
   {
     id: 'ngapali',
@@ -271,5 +422,11 @@ export const towns: Town[] = [
       'Colonial Buildings',
     ],
     signatureDishes: ['mon-style-curry', 'seafood-dishes', 'kat-kyi-kaik'],
+    restaurants: [
+      'mawlamyaing-strand-night-market',
+      'pyaw-yar-camp',
+      'bamboo-hut',
+      'doh-yoe-yar',
+    ],
   },
 ];
