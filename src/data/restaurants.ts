@@ -287,39 +287,35 @@ export const restaurants: Restaurant[] = [
   {
     id: 'unique-mandalay-tea-room',
     name: 'Unique Mandalay Tea Room',
-    image:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+    image: '/src/public/restaurants/mandalay/1.jpg',
     townId: 'mandalay',
     description: 'Famous for variety of breakfast dishes',
   },
   {
     id: 'bbb-european-restaurant',
     name: 'BBB European Restaurant',
-    image:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+    image: '/src/public/restaurants/mandalay/2.jpg',
     townId: 'mandalay',
     description: 'Famous for unique European cuisine',
   },
   {
     id: 'mingalarbar-restaurants',
     name: 'Mingalarbar Restaurants',
-    image:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+    image: '/src/public/restaurants/mandalay/3.jpg',
     townId: 'mandalay',
     description: 'Famous for Burmese curry and lunch',
   },
   {
     id: 'the-palace-by-golden-duck',
     name: 'The Palace by Golden Duck',
-    image:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+    image: '/src/public/restaurants/mandalay/4.jpg',
     townId: 'mandalay',
     description: 'Famous for signature Chinese Cuisine',
   },
   {
     id: 'karaweik-cafe',
     name: 'Karaweik Cafe',
-    image: '',
+    image: '/src/public/restaurants/mandalay/5.jpg',
     townId: 'mandalay',
     description: 'Famous for Biryani and Indian food',
   },
