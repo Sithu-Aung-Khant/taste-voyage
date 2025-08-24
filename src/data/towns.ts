@@ -205,7 +205,7 @@ export const towns: Town[] = [
       'Dhammayangyi Temple',
       'Hot Air Balloon Rides',
     ],
-    signatureDishes: ['mohinga', 'shan-noodles', 'tea-leaf-salad'],
+    signatureDishes: [],
     restaurants: [
       'shwe-myanmar-bagan',
       'tharabar-3',

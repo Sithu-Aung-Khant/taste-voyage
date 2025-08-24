@@ -78,7 +78,8 @@ export const attractions: Attraction[] = [
   {
     id: 'ananda-temple',
     name: 'Ananda Temple',
-    image: '',
+    image:
+      'https://evivatour.com/wp-content/uploads/2021/09/Ananda-Temple-in-Bagan-1000x565.jpg',
     townId: 'bagan',
     description:
       'Ananda Temple is one of Bagan’s most beautiful and well-preserved temples, known for its stunning architecture and golden spires. Its serene interior houses four massive standing Buddha statues.',
@@ -86,7 +87,8 @@ export const attractions: Attraction[] = [
   {
     id: 'shwesandaw-pagoda',
     name: 'Shwesandaw Pagoda',
-    image: '',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHaOp1PQnVigRtndssIpkdOvPWy3cLbuiRyg&s',
     townId: 'bagan',
     description:
       'Famous for its sweeping views of the Bagan plains, Shwesandaw Pagoda is a favorite spot for sunrise and sunset. Its tiered terraces offer a breathtaking vantage point over thousands of ancient temples.',
@@ -94,7 +96,8 @@ export const attractions: Attraction[] = [
   {
     id: 'dhammayangyi-temple',
     name: 'Dhammayangyi Temple',
-    image: '',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a5/76/20/templo.jpg?w=1200&h=-1&s=1',
     townId: 'bagan',
     description:
       'The largest temple in Bagan, Dhammayangyi is renowned for its massive structure and mysterious history. Its brickwork is considered the finest in Bagan, and legends surround its construction.',
@@ -102,7 +105,8 @@ export const attractions: Attraction[] = [
   {
     id: 'bagan-balloons',
     name: 'Hot Air Balloon Rides',
-    image: '',
+    image:
+      'https://media.worldnomads.com/Explore/myanmar/oriental-balloon-bagan-emma-balmforth.jpg',
     townId: 'bagan',
     description:
       'Soar above the ancient temples of Bagan in a hot air balloon for a once-in-a-lifetime experience. The breathtaking aerial views at sunrise reveal the full majesty of this archaeological wonder.',
