@@ -241,7 +241,7 @@ export const towns: Town[] = [
     description:
       'Nestled amid dramatic limestone mountains, Hpa-An is the capital of Kayin State and a haven for nature lovers. The town is surrounded by lush rice paddies, mysterious caves adorned with Buddhist art, and tranquil riverside scenery. Its laid-back atmosphere and stunning landscapes make it a favorite for trekkers and explorers.',
     image:
-      'https://t3.ftcdn.net/jpg/01/68/42/34/360_F_168423401_XIdoOa4LHYPDDyZXM4eWVtGsQwO4phaD.jpg',
+      'https://t3.ftcdn.net/jpg/01/41/01/00/360_F_141010058_KNn5kstKlcVvhckx8B0wdikQVlbiKI7V.jpg',
     rating: 4.5,
     region: 'Kayin State',
     coordinates: {
@@ -254,7 +254,7 @@ export const towns: Town[] = [
       'Sadan Cave',
       'Lumbini Garden',
     ],
-    signatureDishes: ['kayin-sausage', 'mont-lin-ma-yar'],
+    signatureDishes: [],
     restaurants: [
       'hpa-an-night-market',
       'cafe-kto',

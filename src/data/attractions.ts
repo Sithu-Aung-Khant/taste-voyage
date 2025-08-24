@@ -287,6 +287,44 @@ export const attractions: Attraction[] = [
     description:
       'A fascinating limestone cave system with Buddhist shrines and natural rock formations. The cave is a spiritual site and natural wonder, offering visitors a unique underground experience with guided tours available.',
   },
+
+  // Hpa-an Attractions
+  {
+    id: 'mount-zwegabin',
+    name: 'Mount Zwegabin',
+    image:
+      'https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/07/01/87b17d566d5bf3c5f72d1a06d362f4eb_1000x1000.jpg',
+    townId: 'hpa-an',
+    description:
+      "A dramatic limestone mountain that dominates Hpa-an's skyline, Mount Zwegabin offers challenging hiking trails and breathtaking panoramic views of the surrounding countryside. The summit provides spectacular vistas of the Kayin State landscape.",
+  },
+  {
+    id: 'kyauk-ka-lat-pagoda',
+    name: 'Kyauk Ka Lat Pagoda',
+    image:
+      'https://cache3.travelfish.org/b/assets/2015/gallery/thumbR/gallery_sight_thumbR_652_1466747563.jpg',
+    townId: 'hpa-an',
+    description:
+      "A stunning pagoda perched on a limestone pinnacle rising from a lake, Kyauk Ka Lat Pagoda is one of Myanmar's most photogenic religious sites. The golden pagoda against the dramatic rock formation creates a magical scene.",
+  },
+  {
+    id: 'sadan-cave',
+    name: 'Sadan Cave',
+    image:
+      'https://www.alittleofftrack.com/wp-content/uploads/2020/09/GOPR0667.jpg',
+    townId: 'hpa-an',
+    description:
+      'A magnificent cave system featuring Buddhist shrines, stalactites, and underground chambers. Sadan Cave is known for its impressive natural formations and religious significance, offering visitors a unique underground exploration experience.',
+  },
+  {
+    id: 'lumbini-garden',
+    name: 'Lumbini Garden',
+    image:
+      'https://cache2.travelfish.org/b/assets/2015/gallery/thumbR/gallery_sight_thumbR_652_1464054556.jpg',
+    townId: 'hpa-an',
+    description:
+      'A peaceful garden complex featuring replicas of famous Buddhist sites from around the world. Lumbini Garden offers a serene setting for meditation and reflection, with beautiful landscaping and religious monuments.',
+  },
 ];
 
 export const getAttractionsByTownId = (townId: string): Attraction[] => {
