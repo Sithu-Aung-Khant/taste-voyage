@@ -7,7 +7,7 @@ export const towns: Town[] = [
     description:
       'Pyin Oo Lwin, formerly known as Maymyo, is a scenic hill town known for its colonial architecture, botanical gardens, and pleasant climate. The town offers a unique blend of British colonial history and local culture, with beautiful gardens, waterfalls, and a thriving food scene.',
     image:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+      'https://www.goodlifemyanmar.net/wp-content/uploads/2017/06/Botanical-Garden.jpg',
     rating: 4.5,
     region: 'Mandalay Region',
     coordinates: {
@@ -28,7 +28,7 @@ export const towns: Town[] = [
       'forest-cafe',
       'one-piece-bbq',
     ],
-    signatureDishes: ['shan-noodles', 'strawberry-products', 'dairy-products'],
+    signatureDishes: ['maymyo-coffee', 'strawberry-products', 'dairy-products'],
   },
   {
     id: 'dawei',

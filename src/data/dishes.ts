@@ -205,6 +205,33 @@ export const dishes: Dish[] = [
     image:
       'https://i.ytimg.com/vi/ngvmPvJcyUU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqZli7k0gvBoKj3LKAX3SPvWl6HA',
   },
+  {
+    id: 'maymyo-coffee',
+    name: 'maymyo-coffee',
+    displayName: 'Maymyo Coffee',
+    description:
+      "Premium Arabica coffee grown in the cool highlands around Pyin Oo Lwin (formerly Maymyo). Known for its smooth, mild flavor and medium body, this coffee is a signature product of the region's colonial-era coffee plantations.",
+    image:
+      'https://www.madeinmyanmar.asia/wp-content/uploads/2018/10/product-logo-2-3.jpg',
+  },
+  {
+    id: 'strawberry-products',
+    name: 'strawberry-products',
+    displayName: 'Strawberry Products',
+    description:
+      "Fresh strawberries and strawberry-based products including jams, preserves, and desserts. Pyin Oo Lwin's cool climate makes it ideal for strawberry cultivation, and the town is famous for its sweet, juicy strawberries.",
+    image:
+      'https://www.mtnewstoday.com/en/wp-content/uploads/2024/02/photo_2024-02-09_11-07-04-1.jpg',
+  },
+  {
+    id: 'dairy-products',
+    name: 'dairy-products',
+    displayName: 'Dairy Products',
+    description:
+      "Fresh dairy products including milk, cheese, yogurt, and butter produced in Pyin Oo Lwin's dairy farms. The town's cool climate and lush pastures make it ideal for dairy farming, producing high-quality, fresh dairy products.",
+    image:
+      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ZWn9PIh3I3wXbDv4NlP_ShJf3tRDlQZm2qZg7nsxxux-glQoSG12pnv-Ku7cM5-T8n6tCkFRcZ9HGa_ahUVmlY2FdYVZRhXD8Mbt-HB2TKZxmsj7e2X_6sbGrKQNcWMNMjTudw/s1600/Server_Holding_Strawberries_and_Milk_Pyin_Oo_Lwin_Myanmar_03_2014.jpg',
+  },
 ];
 
 export const getDishByName = (name: string): Dish | undefined => {

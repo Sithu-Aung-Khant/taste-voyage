@@ -250,6 +250,43 @@ export const attractions: Attraction[] = [
     description:
       'A scenic vineyard and winery nestled in the hills near Nyaung Shwe, offering wine tastings, tours, and panoramic views of Inle Lake. Red Mountain Estate is renowned for its locally produced wines and is a perfect spot to relax and enjoy a sunset over the vineyards.',
   },
+
+  // Pyin Oo Lwin Attractions
+  {
+    id: 'national-kandawgyi-gardens',
+    name: 'National Kandawgyi Gardens',
+    image: 'https://www.myanmars.net/images/nationalkandawgyi1.jpg',
+    townId: 'pyin-oo-lwin',
+    description:
+      "A stunning 437-acre botanical garden featuring rare orchids, exotic plants, and beautiful walking paths. The gardens showcase Myanmar's rich biodiversity and offer a peaceful retreat with colonial-era architecture and scenic viewpoints.",
+  },
+  {
+    id: 'pwe-kauk-falls',
+    name: 'Pwe Kauk Falls',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/c9/0a/4f/water-falls.jpg?w=900&h=500&s=1',
+    townId: 'pyin-oo-lwin',
+    description:
+      "A picturesque waterfall surrounded by lush greenery, perfect for nature walks and photography. The falls are especially beautiful during the rainy season and offer a refreshing escape from the town's heat.",
+  },
+  {
+    id: 'chinese-temple',
+    name: 'Chinese Temple',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Chinese_Temple_%40_Pyin_Oo_Lwin_%2814210634862%29.jpg/2560px-Chinese_Temple_%40_Pyin_Oo_Lwin_%2814210634862%29.jpg',
+    townId: 'pyin-oo-lwin',
+    description:
+      "A beautiful Chinese temple showcasing the town's multicultural heritage. The temple features traditional Chinese architecture, intricate carvings, and offers insights into the Chinese community's history in Pyin Oo Lwin.",
+  },
+  {
+    id: 'peik-chin-myaung-cave',
+    name: 'Peik Chin Myaung Cave',
+    image:
+      'https://www.myanmartours.us/wp-content/uploads/Peik-Chin-Myaung-Cave-Pyin-Oo-Lwin-Myanmar.jpg',
+    townId: 'pyin-oo-lwin',
+    description:
+      'A fascinating limestone cave system with Buddhist shrines and natural rock formations. The cave is a spiritual site and natural wonder, offering visitors a unique underground experience with guided tours available.',
+  },
 ];
 
 export const getAttractionsByTownId = (townId: string): Attraction[] => {
