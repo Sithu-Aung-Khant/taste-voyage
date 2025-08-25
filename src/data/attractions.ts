@@ -78,7 +78,8 @@ export const attractions: Attraction[] = [
   {
     id: 'ananda-temple',
     name: 'Ananda Temple',
-    image: '',
+    image:
+      'https://evivatour.com/wp-content/uploads/2021/09/Ananda-Temple-in-Bagan-1000x565.jpg',
     townId: 'bagan',
     description:
       'Ananda Temple is one of Bagan’s most beautiful and well-preserved temples, known for its stunning architecture and golden spires. Its serene interior houses four massive standing Buddha statues.',
@@ -86,7 +87,8 @@ export const attractions: Attraction[] = [
   {
     id: 'shwesandaw-pagoda',
     name: 'Shwesandaw Pagoda',
-    image: '',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHaOp1PQnVigRtndssIpkdOvPWy3cLbuiRyg&s',
     townId: 'bagan',
     description:
       'Famous for its sweeping views of the Bagan plains, Shwesandaw Pagoda is a favorite spot for sunrise and sunset. Its tiered terraces offer a breathtaking vantage point over thousands of ancient temples.',
@@ -94,7 +96,8 @@ export const attractions: Attraction[] = [
   {
     id: 'dhammayangyi-temple',
     name: 'Dhammayangyi Temple',
-    image: '',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a5/76/20/templo.jpg?w=1200&h=-1&s=1',
     townId: 'bagan',
     description:
       'The largest temple in Bagan, Dhammayangyi is renowned for its massive structure and mysterious history. Its brickwork is considered the finest in Bagan, and legends surround its construction.',
@@ -102,7 +105,8 @@ export const attractions: Attraction[] = [
   {
     id: 'bagan-balloons',
     name: 'Hot Air Balloon Rides',
-    image: '',
+    image:
+      'https://media.worldnomads.com/Explore/myanmar/oriental-balloon-bagan-emma-balmforth.jpg',
     townId: 'bagan',
     description:
       'Soar above the ancient temples of Bagan in a hot air balloon for a once-in-a-lifetime experience. The breathtaking aerial views at sunrise reveal the full majesty of this archaeological wonder.',
@@ -245,6 +249,81 @@ export const attractions: Attraction[] = [
     townId: 'nyaung-shwe',
     description:
       'A scenic vineyard and winery nestled in the hills near Nyaung Shwe, offering wine tastings, tours, and panoramic views of Inle Lake. Red Mountain Estate is renowned for its locally produced wines and is a perfect spot to relax and enjoy a sunset over the vineyards.',
+  },
+
+  // Pyin Oo Lwin Attractions
+  {
+    id: 'national-kandawgyi-gardens',
+    name: 'National Kandawgyi Gardens',
+    image: 'https://www.myanmars.net/images/nationalkandawgyi1.jpg',
+    townId: 'pyin-oo-lwin',
+    description:
+      "A stunning 437-acre botanical garden featuring rare orchids, exotic plants, and beautiful walking paths. The gardens showcase Myanmar's rich biodiversity and offer a peaceful retreat with colonial-era architecture and scenic viewpoints.",
+  },
+  {
+    id: 'pwe-kauk-falls',
+    name: 'Pwe Kauk Falls',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/c9/0a/4f/water-falls.jpg?w=900&h=500&s=1',
+    townId: 'pyin-oo-lwin',
+    description:
+      "A picturesque waterfall surrounded by lush greenery, perfect for nature walks and photography. The falls are especially beautiful during the rainy season and offer a refreshing escape from the town's heat.",
+  },
+  {
+    id: 'chinese-temple',
+    name: 'Chinese Temple',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Chinese_Temple_%40_Pyin_Oo_Lwin_%2814210634862%29.jpg/2560px-Chinese_Temple_%40_Pyin_Oo_Lwin_%2814210634862%29.jpg',
+    townId: 'pyin-oo-lwin',
+    description:
+      "A beautiful Chinese temple showcasing the town's multicultural heritage. The temple features traditional Chinese architecture, intricate carvings, and offers insights into the Chinese community's history in Pyin Oo Lwin.",
+  },
+  {
+    id: 'peik-chin-myaung-cave',
+    name: 'Peik Chin Myaung Cave',
+    image:
+      'https://www.myanmartours.us/wp-content/uploads/Peik-Chin-Myaung-Cave-Pyin-Oo-Lwin-Myanmar.jpg',
+    townId: 'pyin-oo-lwin',
+    description:
+      'A fascinating limestone cave system with Buddhist shrines and natural rock formations. The cave is a spiritual site and natural wonder, offering visitors a unique underground experience with guided tours available.',
+  },
+
+  // Hpa-an Attractions
+  {
+    id: 'mount-zwegabin',
+    name: 'Mount Zwegabin',
+    image:
+      'https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/07/01/87b17d566d5bf3c5f72d1a06d362f4eb_1000x1000.jpg',
+    townId: 'hpa-an',
+    description:
+      "A dramatic limestone mountain that dominates Hpa-an's skyline, Mount Zwegabin offers challenging hiking trails and breathtaking panoramic views of the surrounding countryside. The summit provides spectacular vistas of the Kayin State landscape.",
+  },
+  {
+    id: 'kyauk-ka-lat-pagoda',
+    name: 'Kyauk Ka Lat Pagoda',
+    image:
+      'https://cache3.travelfish.org/b/assets/2015/gallery/thumbR/gallery_sight_thumbR_652_1466747563.jpg',
+    townId: 'hpa-an',
+    description:
+      "A stunning pagoda perched on a limestone pinnacle rising from a lake, Kyauk Ka Lat Pagoda is one of Myanmar's most photogenic religious sites. The golden pagoda against the dramatic rock formation creates a magical scene.",
+  },
+  {
+    id: 'sadan-cave',
+    name: 'Sadan Cave',
+    image:
+      'https://www.alittleofftrack.com/wp-content/uploads/2020/09/GOPR0667.jpg',
+    townId: 'hpa-an',
+    description:
+      'A magnificent cave system featuring Buddhist shrines, stalactites, and underground chambers. Sadan Cave is known for its impressive natural formations and religious significance, offering visitors a unique underground exploration experience.',
+  },
+  {
+    id: 'lumbini-garden',
+    name: 'Lumbini Garden',
+    image:
+      'https://cache2.travelfish.org/b/assets/2015/gallery/thumbR/gallery_sight_thumbR_652_1464054556.jpg',
+    townId: 'hpa-an',
+    description:
+      'A peaceful garden complex featuring replicas of famous Buddhist sites from around the world. Lumbini Garden offers a serene setting for meditation and reflection, with beautiful landscaping and religious monuments.',
   },
 ];
 
