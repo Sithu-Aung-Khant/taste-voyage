@@ -354,6 +354,35 @@ export const attractions: Attraction[] = [
     description:
       'A large island known for traditional craft villages producing rubber bands, slate boards, and walking sticks. A day trip here offers insight into local Mon culture and rural life.',
   },
+
+  // Dawei Attractions
+  {
+    id: 'maungmagan-beach',
+    name: 'Maungmagan Beach',
+    image:
+      'https://www.go-myanmar.com/sites/go-myanmar.com/files/uploads/moscos_islands_0.jpg',
+    townId: 'dawei',
+    description:
+      "A pristine beach with golden sand and clear waters, perfect for swimming and relaxation. Maungmagan Beach is one of Myanmar's most beautiful coastal destinations, offering a peaceful escape from city life.",
+  },
+  {
+    id: 'dawei-central-market',
+    name: 'Dawei Central Market',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkTBwpKbsrvUYrLEM77GHKBk4IlP3svWPrRQ&s',
+    townId: 'dawei',
+    description:
+      'A bustling local market where visitors can experience authentic Dawei culture, sample local delicacies, and purchase traditional crafts. The market is a vibrant hub of local commerce and community life.',
+  },
+  {
+    id: 'shin-koe-shin-pagoda',
+    name: 'Shin Koe Shin Pagoda',
+    image:
+      'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/62de641ce3132f7647314c8a_SBLvKoFjTVitGM1IWwTnLE3EeKtJrw7ovkRE5mJu8EtWktBTTyV1nE3tgETQTv07Mo2XwWEdYfbasCAX0DNySNHFTDcpTbeYfz5zpJi7HoDhDLk4USqPYb90Lh8uNHGCM2hu3qiLzvX3PUvTUw.jpeg',
+    townId: 'dawei',
+    description:
+      'A historic pagoda complex with beautiful architecture and serene surroundings. Shin Koe Shin Pagoda is an important religious site that offers visitors a peaceful retreat and insight into local Buddhist traditions.',
+  },
 ];
 
 export const getAttractionsByTownId = (townId: string): Attraction[] => {
