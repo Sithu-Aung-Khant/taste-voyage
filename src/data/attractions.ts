@@ -383,6 +383,43 @@ export const attractions: Attraction[] = [
     description:
       'A historic pagoda complex with beautiful architecture and serene surroundings. Shin Koe Shin Pagoda is an important religious site that offers visitors a peaceful retreat and insight into local Buddhist traditions.',
   },
+
+  // Kawthaung Attractions
+  {
+    id: 'victoria-point',
+    name: 'Victoria Point',
+    image: 'https://www.myanmars.net/images/victoria_point.jpg',
+    townId: 'kawthaung',
+    description:
+      'Victoria Point is the southernmost tip of Myanmar, offering stunning panoramic views of the Andaman Sea and the border with Thailand. This iconic landmark provides breathtaking sunset views and is a perfect spot for photography and relaxation.',
+  },
+  {
+    id: 'pyi-daw-aye-pagoda',
+    name: 'Pyi Daw Aye Pagoda',
+    image:
+      'https://i0.wp.com/globerovers.com/wp-content/uploads/2019/04/Myanmar-Pyi-Daw-Aye-Pagoda-Kawthaung.jpg',
+    townId: 'kawthaung',
+    description:
+      'A beautiful hilltop pagoda offering panoramic views of Kawthaung and the surrounding Andaman Sea. The pagoda is a peaceful spiritual site where visitors can enjoy stunning vistas and experience local Buddhist culture.',
+  },
+  {
+    id: 'king-bayint-naung-statue',
+    name: 'King Bayint Naung Statue',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm89UeV2bl7cRc0ImxXGr_TMPcOwN--sfKBg&s',
+    townId: 'kawthaung',
+    description:
+      "A majestic statue honoring King Bayint Naung, one of Myanmar's most revered historical figures. The monument stands as a symbol of national pride and offers visitors insight into Myanmar's rich royal history and cultural heritage.",
+  },
+  {
+    id: 'mergui-archipelago',
+    name: 'Mergui Archipelago',
+    image:
+      'https://b-cdn.springnest.com/media/img/td/mergui-archipelagode68eae.jpg?crop=2000%2C1110%2C0%2C71&width=620',
+    townId: 'kawthaung',
+    description:
+      'A pristine archipelago of over 800 islands in the Andaman Sea, accessible from Kawthaung. The Mergui Archipelago offers world-class diving, pristine beaches, and untouched natural beauty, making it a paradise for adventure seekers and nature lovers.',
+  },
 ];
 
 export const getAttractionsByTownId = (townId: string): Attraction[] => {
