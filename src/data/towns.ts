@@ -415,13 +415,8 @@ export const towns: Town[] = [
       lat: 16.4833,
       lng: 97.6167,
     },
-    attractions: [
-      'Kyaikthanlan Pagoda',
-      'Gaungse Kyun',
-      'Bilu Kyun',
-      'Colonial Buildings',
-    ],
-    signatureDishes: ['mon-style-curry', 'seafood-dishes', 'kat-kyi-kaik'],
+    attractions: ['Kyaikthanlan Pagoda', 'Gaungse Kyun', 'Bilu Kyun'],
+    signatureDishes: [],
     restaurants: [
       'mawlamyaing-strand-night-market',
       'pyaw-yar-camp',

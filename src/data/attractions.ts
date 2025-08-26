@@ -325,6 +325,35 @@ export const attractions: Attraction[] = [
     description:
       'A peaceful garden complex featuring replicas of famous Buddhist sites from around the world. Lumbini Garden offers a serene setting for meditation and reflection, with beautiful landscaping and religious monuments.',
   },
+
+  // Mawlamyaing Attractions
+  {
+    id: 'kyaikthanlan-pagoda',
+    name: 'Kyaikthanlan Pagoda',
+    image:
+      'https://t4.ftcdn.net/jpg/01/85/03/33/360_F_185033311_c2ydlUML5rvBqDhAPSc0cGmowM90ITgk.jpg',
+    townId: 'mawlamyaing',
+    description:
+      'Perched on a hill overlooking the city and Thanlwin River, Kyaikthanlan Pagoda is Mawlamyaing’s most prominent landmark, famed for sunset views and peaceful surroundings.',
+  },
+  {
+    id: 'gaungse-kyun',
+    name: 'Gaungse Kyun (Shampoo Island)',
+    image:
+      'https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/07/01/437fbc2c306b2dd066a559b1fdb82822_1000x1000.jpg',
+    townId: 'mawlamyaing',
+    description:
+      'A small scenic island in the Thanlwin River with monasteries and shrines. Historically used by royalty for hair-washing ceremonies, it offers tranquil river views and a short boat trip from town.',
+  },
+  {
+    id: 'bilu-kyun',
+    name: 'Bilu Kyun (Ogre Island)',
+    image:
+      'https://i0.wp.com/openroadbeforeme.com/wp-content/uploads/2012/08/P1030356.jpg?fit=1200%2C900&ssl=1&resize=350%2C200',
+    townId: 'mawlamyaing',
+    description:
+      'A large island known for traditional craft villages producing rubber bands, slate boards, and walking sticks. A day trip here offers insight into local Mon culture and rural life.',
+  },
 ];
 
 export const getAttractionsByTownId = (townId: string): Attraction[] => {
