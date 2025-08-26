@@ -325,6 +325,130 @@ export const attractions: Attraction[] = [
     description:
       'A peaceful garden complex featuring replicas of famous Buddhist sites from around the world. Lumbini Garden offers a serene setting for meditation and reflection, with beautiful landscaping and religious monuments.',
   },
+
+  // Mawlamyaing Attractions
+  {
+    id: 'kyaikthanlan-pagoda',
+    name: 'Kyaikthanlan Pagoda',
+    image:
+      'https://t4.ftcdn.net/jpg/01/85/03/33/360_F_185033311_c2ydlUML5rvBqDhAPSc0cGmowM90ITgk.jpg',
+    townId: 'mawlamyaing',
+    description:
+      'Perched on a hill overlooking the city and Thanlwin River, Kyaikthanlan Pagoda is Mawlamyaing’s most prominent landmark, famed for sunset views and peaceful surroundings.',
+  },
+  {
+    id: 'gaungse-kyun',
+    name: 'Gaungse Kyun (Shampoo Island)',
+    image:
+      'https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/07/01/437fbc2c306b2dd066a559b1fdb82822_1000x1000.jpg',
+    townId: 'mawlamyaing',
+    description:
+      'A small scenic island in the Thanlwin River with monasteries and shrines. Historically used by royalty for hair-washing ceremonies, it offers tranquil river views and a short boat trip from town.',
+  },
+  {
+    id: 'bilu-kyun',
+    name: 'Bilu Kyun (Ogre Island)',
+    image:
+      'https://i0.wp.com/openroadbeforeme.com/wp-content/uploads/2012/08/P1030356.jpg?fit=1200%2C900&ssl=1&resize=350%2C200',
+    townId: 'mawlamyaing',
+    description:
+      'A large island known for traditional craft villages producing rubber bands, slate boards, and walking sticks. A day trip here offers insight into local Mon culture and rural life.',
+  },
+
+  // Dawei Attractions
+  {
+    id: 'maungmagan-beach',
+    name: 'Maungmagan Beach',
+    image:
+      'https://www.go-myanmar.com/sites/go-myanmar.com/files/uploads/moscos_islands_0.jpg',
+    townId: 'dawei',
+    description:
+      "A pristine beach with golden sand and clear waters, perfect for swimming and relaxation. Maungmagan Beach is one of Myanmar's most beautiful coastal destinations, offering a peaceful escape from city life.",
+  },
+  {
+    id: 'dawei-central-market',
+    name: 'Dawei Central Market',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkTBwpKbsrvUYrLEM77GHKBk4IlP3svWPrRQ&s',
+    townId: 'dawei',
+    description:
+      'A bustling local market where visitors can experience authentic Dawei culture, sample local delicacies, and purchase traditional crafts. The market is a vibrant hub of local commerce and community life.',
+  },
+  {
+    id: 'shin-koe-shin-pagoda',
+    name: 'Shin Koe Shin Pagoda',
+    image:
+      'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/62de641ce3132f7647314c8a_SBLvKoFjTVitGM1IWwTnLE3EeKtJrw7ovkRE5mJu8EtWktBTTyV1nE3tgETQTv07Mo2XwWEdYfbasCAX0DNySNHFTDcpTbeYfz5zpJi7HoDhDLk4USqPYb90Lh8uNHGCM2hu3qiLzvX3PUvTUw.jpeg',
+    townId: 'dawei',
+    description:
+      'A historic pagoda complex with beautiful architecture and serene surroundings. Shin Koe Shin Pagoda is an important religious site that offers visitors a peaceful retreat and insight into local Buddhist traditions.',
+  },
+
+  // Kawthaung Attractions
+  {
+    id: 'victoria-point',
+    name: 'Victoria Point',
+    image: 'https://www.myanmars.net/images/victoria_point.jpg',
+    townId: 'kawthaung',
+    description:
+      'Victoria Point is the southernmost tip of Myanmar, offering stunning panoramic views of the Andaman Sea and the border with Thailand. This iconic landmark provides breathtaking sunset views and is a perfect spot for photography and relaxation.',
+  },
+  {
+    id: 'pyi-daw-aye-pagoda',
+    name: 'Pyi Daw Aye Pagoda',
+    image:
+      'https://i0.wp.com/globerovers.com/wp-content/uploads/2019/04/Myanmar-Pyi-Daw-Aye-Pagoda-Kawthaung.jpg',
+    townId: 'kawthaung',
+    description:
+      'A beautiful hilltop pagoda offering panoramic views of Kawthaung and the surrounding Andaman Sea. The pagoda is a peaceful spiritual site where visitors can enjoy stunning vistas and experience local Buddhist culture.',
+  },
+  {
+    id: 'king-bayint-naung-statue',
+    name: 'King Bayint Naung Statue',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm89UeV2bl7cRc0ImxXGr_TMPcOwN--sfKBg&s',
+    townId: 'kawthaung',
+    description:
+      "A majestic statue honoring King Bayint Naung, one of Myanmar's most revered historical figures. The monument stands as a symbol of national pride and offers visitors insight into Myanmar's rich royal history and cultural heritage.",
+  },
+  {
+    id: 'mergui-archipelago',
+    name: 'Mergui Archipelago',
+    image:
+      'https://b-cdn.springnest.com/media/img/td/mergui-archipelagode68eae.jpg?crop=2000%2C1110%2C0%2C71&width=620',
+    townId: 'kawthaung',
+    description:
+      'A pristine archipelago of over 800 islands in the Andaman Sea, accessible from Kawthaung. The Mergui Archipelago offers world-class diving, pristine beaches, and untouched natural beauty, making it a paradise for adventure seekers and nature lovers.',
+  },
+
+  // Myeik Attractions
+  {
+    id: 'pearl-farms',
+    name: 'Pearl Farms',
+    image:
+      'https://cdn.digitalagencybangkok.com/file/client-cdn/gnlm/wp-content/uploads/2024/04/PHY0WlEq-p6-second.jpg',
+    townId: 'myeik',
+    description:
+      'Visit traditional pearl farms where you can learn about the ancient art of pearl cultivation. Myeik is famous for its high-quality pearls, and these farms offer fascinating insights into the pearl industry and opportunities to purchase authentic Myanmar pearls.',
+  },
+  {
+    id: 'myeik-archipelago',
+    name: 'Myeik Archipelago',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-I2Q2eZ-OJcAIsixTh9TDCkMT5iEBySoqyg&s',
+    townId: 'myeik',
+    description:
+      'A stunning collection of over 800 pristine islands in the Andaman Sea, accessible from Myeik. The archipelago offers world-class diving, untouched beaches, and incredible marine biodiversity, making it a paradise for divers and nature enthusiasts.',
+  },
+  {
+    id: 'myeik-night-market',
+    name: 'Myeik Night Market',
+    image:
+      'https://i.ytimg.com/vi/iSc79BVYnok/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgQChNMA8=&rs=AOn4CLCHlnLS1R7Y8V86cOZa9nxIB3yaQQ',
+    townId: 'myeik',
+    description:
+      "A vibrant night market where locals and visitors gather to enjoy fresh seafood, local delicacies, and traditional snacks. The market comes alive in the evening with the aroma of grilled fish, spicy curries, and the lively atmosphere of Myeik's food culture.",
+  },
 ];
 
 export const getAttractionsByTownId = (townId: string): Attraction[] => {

@@ -36,7 +36,7 @@ export const towns: Town[] = [
     description:
       'Dawei is a charming coastal town in southern Myanmar, known for its pristine beaches, local markets, and authentic Burmese culture. The town offers a glimpse into traditional life while providing modern amenities and diverse dining options.',
     image:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+      'https://images.skypicker.com/?image=https%3A%2F%2Fimages.kiwi.com%2Fphotos%2Foriginals%2Fdawei-township_mm.jpg&width=768&height=395&fit=crop&format=original&dpr=2',
     rating: 4.4,
     region: 'Tanintharyi Region',
     coordinates: {
@@ -64,7 +64,7 @@ export const towns: Town[] = [
     description:
       "Kawthaung, Myanmar's southernmost city, is a vibrant port town with stunning views of the Andaman Sea. Known for its seafood, mixed culture, and gateway to the Mergui Archipelago, it offers unique dining experiences combining Thai and Burmese flavors.",
     image:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+      'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/63691851ff42b16ac7bec6a7_mrC3tGOv8SBkf5_a7FBCZb4VVtwYT7xwGfuyxGKda7HL9Ycs5sD_8Wy6R4PVkjr_t-pPir1Roo7E2wBbsXow5rZuhUicrNKbHu5cLMRvplhSPALMaJBSu2eMYcK-ZqxQTSrkd49AeO3l9loPEE1vo1_SsEnH08p_hofbcQqkGo8AFgQR6J1MgJXAVj5Stg.jpeg',
     rating: 4.3,
     region: 'Tanintharyi Region',
     coordinates: {
@@ -86,7 +86,7 @@ export const towns: Town[] = [
     description:
       'Myeik is a historic port city known for its pearl industry and seafood. The city offers a unique blend of colonial architecture, bustling markets, and waterfront dining, making it a fascinating destination for food enthusiasts and culture seekers.',
     image:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+      'https://cdn.kimkim.com/files/a/content_articles/featured_photos/68082503913e99005eb9ab105c382a58b8bd82c7/big-38d1d89484040ac054f90a3e77b4097e.jpg',
     rating: 4.4,
     region: 'Tanintharyi Region',
     coordinates: {
@@ -415,13 +415,8 @@ export const towns: Town[] = [
       lat: 16.4833,
       lng: 97.6167,
     },
-    attractions: [
-      'Kyaikthanlan Pagoda',
-      'Gaungse Kyun',
-      'Bilu Kyun',
-      'Colonial Buildings',
-    ],
-    signatureDishes: ['mon-style-curry', 'seafood-dishes', 'kat-kyi-kaik'],
+    attractions: ['Kyaikthanlan Pagoda', 'Gaungse Kyun', 'Bilu Kyun'],
+    signatureDishes: [],
     restaurants: [
       'mawlamyaing-strand-night-market',
       'pyaw-yar-camp',
