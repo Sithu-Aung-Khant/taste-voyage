@@ -420,6 +420,35 @@ export const attractions: Attraction[] = [
     description:
       'A pristine archipelago of over 800 islands in the Andaman Sea, accessible from Kawthaung. The Mergui Archipelago offers world-class diving, pristine beaches, and untouched natural beauty, making it a paradise for adventure seekers and nature lovers.',
   },
+
+  // Myeik Attractions
+  {
+    id: 'pearl-farms',
+    name: 'Pearl Farms',
+    image:
+      'https://cdn.digitalagencybangkok.com/file/client-cdn/gnlm/wp-content/uploads/2024/04/PHY0WlEq-p6-second.jpg',
+    townId: 'myeik',
+    description:
+      'Visit traditional pearl farms where you can learn about the ancient art of pearl cultivation. Myeik is famous for its high-quality pearls, and these farms offer fascinating insights into the pearl industry and opportunities to purchase authentic Myanmar pearls.',
+  },
+  {
+    id: 'myeik-archipelago',
+    name: 'Myeik Archipelago',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-I2Q2eZ-OJcAIsixTh9TDCkMT5iEBySoqyg&s',
+    townId: 'myeik',
+    description:
+      'A stunning collection of over 800 pristine islands in the Andaman Sea, accessible from Myeik. The archipelago offers world-class diving, untouched beaches, and incredible marine biodiversity, making it a paradise for divers and nature enthusiasts.',
+  },
+  {
+    id: 'myeik-night-market',
+    name: 'Myeik Night Market',
+    image:
+      'https://i.ytimg.com/vi/iSc79BVYnok/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgQChNMA8=&rs=AOn4CLCHlnLS1R7Y8V86cOZa9nxIB3yaQQ',
+    townId: 'myeik',
+    description:
+      "A vibrant night market where locals and visitors gather to enjoy fresh seafood, local delicacies, and traditional snacks. The market comes alive in the evening with the aroma of grilled fish, spicy curries, and the lively atmosphere of Myeik's food culture.",
+  },
 ];
 
 export const getAttractionsByTownId = (townId: string): Attraction[] => {
