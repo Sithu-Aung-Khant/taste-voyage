@@ -118,7 +118,7 @@ export const foods: Food[] = [
     id: 'ohn-no-khao-swe',
     name: 'Ohn No Khao Swe (Coconut Noodles)',
     description:
-      'Wheat noodles in a rich coconut milk broth with chicken, garnished with boiled eggs, sliced onions, chili, and lime. A delicious comfort food with a perfect balance of flavors.',
+      'Wheat noodlesin a rich coconut milk broth with chicken, garnished with boiled eggs, sliced onions, chili, and lime. A delicious comfort food with a perfect balance of flavors.',
     image:
       'https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=1200',
     rating: 4.7,
