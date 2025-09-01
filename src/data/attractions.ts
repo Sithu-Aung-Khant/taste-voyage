@@ -73,6 +73,25 @@ export const attractions: Attraction[] = [
     description:
       'One of Myanmar’s most sacred Buddhist sites, the Mahamuni Buddha Temple houses a revered bronze Buddha image. Pilgrims flock here to pay respects and witness the daily face-washing ceremony.',
   },
+ 
+   {
+    id: 'mandalay-zay-cho',
+    name: 'Mandalay ZayCho',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsj0Try8JoQNz2lJ1W4gIdr1NuSoMow3_Heg&s',
+    townId: 'mandalay',
+    description:
+      'Mandalay ZayCho is the city’s largest and most vibrant market, offering everything from local foods and fresh produce to traditional crafts and textiles.',
+  },
+  {
+    id: 'mandalay-palace-moat',
+    name: 'Mandalay Palace Moat',
+    image:
+      'https://thumbs.dreamstime.com/b/night-view-mandalay-palace-myanmar-located-burma-211670887.jpg',
+    townId: 'mandalay',
+    description:
+      'Mandalay Palace Moat, with its calm waters and striking red palace walls, surrounds the Mandalay Royal Palace and offers one of the city’s most iconic scenic views.',
+  },
 
   // Bagan Attractions
   {
@@ -139,13 +158,14 @@ export const attractions: Attraction[] = [
     description:
       'A picturesque vineyard with wine tasting and views over the Shan hills. Visitors can tour the vineyard, learn about local wine production, and enjoy wine tasting sessions with stunning views.',
   },
+  
   {
-    id: 'taunggyi-ocean-center',
-    name: 'Taunggyi Ocean Center',
-    image: 'https://www.opple.com/sites/default/files/1.1_6.jpg',
+    id: 'htam-sam-cave',
+    name: 'Htam Sam Cave',
+    image: 'https://www.tmtmtour.com/wp-content/uploads/2019/05/Htam-Sam-Cave-1.jpg',
     townId: 'taunggyi',
     description:
-      'A popular shopping and entertainment center in Taunggyi featuring a variety of shops, restaurants, and modern amenities. A great place for locals and travelers to relax and enjoy urban conveniences.',
+      'Htam Sam Cave is a stunning limestone cave in Shan State, famous for its countless Buddha images, natural rock formations, and peaceful atmosphere.',
   },
 
   // Kalaw Attractions
@@ -176,7 +196,15 @@ export const attractions: Attraction[] = [
     description:
       'A cave temple with hundreds of golden Buddha images inside. Also known as Shwe Oo Min Natural Cave Pagoda, this unique site combines natural cave formations with religious significance.',
   },
-
+  {
+    id: 'kalaw-view-point',
+    name: 'Kalaw View Point',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiE00VKH8Zd7zio-yme8hriSIb0iEka2B1EQ&s',
+    townId: 'kalaw',
+    description:
+      'Kalaw Viewpoint is a must-visit spot for nature lovers, offering sweeping views of Shan State’s rolling hills, green valleys, and traditional farmlands. A perfect place to enjoy sunrise or sunset while experiencing Kalaw’s peaceful charm.',
+  },
   // Inle Lake Attractions
   {
     id: 'floating-villages',

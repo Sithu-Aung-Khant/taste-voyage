@@ -35,9 +35,27 @@ export const dishes: Dish[] = [
       'https://hsaba.com/wp-content/uploads/2009/01/shan_noodles_hsaba.jpg',
   },
   {
+    id: 'chicken-currey',
+    name: 'chicken-curry',
+    displayName: 'Chicken Curry',
+    description:
+      'Chicken Currey',
+    image:
+      'https://www.allrecipes.com/thmb/FL-xnyAllLyHcKdkjUZkotVlHR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/46822-indian-chicken-curry-ii-DDMFS-4x3-39160aaa95674ee395b9d4609e3b0988.jpg',
+  },
+  {
     id: 'burmese-curry',
     name: 'burmese-curry',
     displayName: 'Burmese Curry',
+    description:
+      'Rich and aromatic curry made with meat or vegetables, cooked in oil and spices until tender - a staple of Burmese cuisine.',
+    image:
+      'https://images.squarespace-cdn.com/content/v1/5c5c3aa4840b161566ee5eb8/1613592561255-97GOQFKRJ5YZYT7RHXE3/burmese-chicken-curry.jpg',
+  },
+  {
+    id: 'seafood-curry',
+    name: 'seafood-curry',
+    displayName: 'Seafood Curry',
     description:
       'Rich and aromatic curry made with meat or vegetables, cooked in oil and spices until tender - a staple of Burmese cuisine.',
     image:
@@ -50,7 +68,7 @@ export const dishes: Dish[] = [
     description:
       'Crispy "couple snack" made from rice flour, quail eggs, and spring onions - a popular street food delicacy.',
     image:
-      'https://images.squarespace-cdn.com/content/v1/5aa8f119e17ba3c5c4720bef/1597780521463-ZQPZQPZ8V8XWXJ8N8YQF/mont-lin-ma-yar.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsseoMjSA23qJJNH3jJuqoX4lgxoz6_26kPg&s',
   },
   {
     id: 'inle-fish-curry',
@@ -122,7 +140,7 @@ export const dishes: Dish[] = [
     description:
       'Premium Arabica coffee grown in the highlands of Shan State, known for its smooth flavor and medium body.',
     image:
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/fe/27/98/misty-morning-scene-from.jpg?w=900&h=-1&s=1',
+      'https://www.myanmarinsider.com/wp-content/uploads/2018/07/Time-for-Myanmar%E2%80%99s-Specialty-Coffee-.jpg',
   },
   {
     id: 'seafood-curry',
@@ -161,13 +179,13 @@ export const dishes: Dish[] = [
       'https://img-global.cpcdn.com/recipes/80d66349f2c3902e/1200x630cq70/photo.jpg',
   },
   {
-    id: 'mont-di',
-    name: 'mont-di',
-    displayName: 'Mont Di - Taunggyi Style',
+    id: 'mee-shay',
+    name: '',
+    displayName: 'Mee Shay - Taunggyi Style',
     description:
-      'A spicy rice noodle dish often served with fish gravy, banana stem, and chili oil - a Taunggyi specialty with unique Shan-style ingredients and flavors.',
+      'Vermicelli dish made with minced meat, garlic oil, starch and spices.',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Nangyithohk.gif/1200px-Nangyithohk.gif',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PvI-LJbrT-u0XGCCb8kQIUY-HktLhx2bDQ&s',
   },
   {
     id: 'aythaya-wine',

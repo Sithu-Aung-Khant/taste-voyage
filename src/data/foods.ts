@@ -104,7 +104,7 @@ export const foods: Food[] = [
     description:
       'These small rice pancake "couples" are a popular street food. Made from rice flour batter cooked in a special pan with half-spherical molds, then joined together with various sweet or savory fillings.',
     image:
-      'https://images.pexels.com/photos/2313682/pexels-photo-2313682.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsseoMjSA23qJJNH3jJuqoX4lgxoz6_26kPg&s',
     rating: 4.4,
     origin: ['Yangon'],
     tasteTags: ['sweet', 'savory', 'crispy', 'soft'],

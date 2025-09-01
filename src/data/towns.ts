@@ -157,7 +157,7 @@ export const towns: Town[] = [
       'Shan Yoe Yar',
       'Monsoon Restaurant & Bar',
     ],
-    signatureDishes: ['mohinga', 'tea-leaf-salad', 'biryani'],
+    signatureDishes: ['mohinga', 'tea-leaf-salad', 'biryani','chicken-curry' ],
   },
   {
     id: 'mandalay',
@@ -399,7 +399,7 @@ export const towns: Town[] = [
       'Traditional Architecture',
       'Boat Tours',
     ],
-    restaurants: ['live-dim-sum', 'viewpoint', 'lin-htett', 'golden-kite'],
+    restaurants: ['pwe-taw-win', 'mann-mann-rooftop', 'thanakha-garden', 'golden-kite'],
     signatureDishes: [],
   },
   {
