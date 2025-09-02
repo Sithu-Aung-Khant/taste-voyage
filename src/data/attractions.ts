@@ -557,6 +557,15 @@ export const attractions: Attraction[] = [
     description:
       'Win Sein Taw Ya Buddha is the world’s largest reclining Buddha statue, stretching over 180 meters. Visitors can explore its interior filled with Buddhist teachings and artwork, while the surrounding grounds dotted with pagodas create a serene, spiritual atmosphere.',
   },
+  {
+    id: 'kyaikkhami',
+    name: 'Kyaikkhami',
+    image:
+      'https://sandee.com/_next/image?url=https%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNuq6BuIGRL-aRvEfi6eyYQXB9GZiefObu1ne60%3Ds1600-k-no&w=3840&q=75',
+    townId: 'mawlamyaing',
+    description:
+      'Kyaikkhami, a peaceful coastal town in Mon State, is best known for the beautiful Kyaikkhami Yele Pagoda, which sits on rocky outcrops in the sea and is connected to the shore by a long bridge.',
+  },
 
   // Dawei Attractions
   {
