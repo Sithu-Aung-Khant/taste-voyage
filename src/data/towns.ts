@@ -34,7 +34,7 @@ export const towns: Town[] = [
     id: 'dawei',
     name: 'Dawei',
     description:
-      'Dawei is a charming coastal town in southern Myanmar, known for its pristine beaches, local markets, and authentic Burmese culture. The town offers a glimpse into traditional life while providing modern amenities and diverse dining options.',
+      'Dawei, the southern jewel of Myanmar, is a city where time seems to slow down, offering a peaceful retreat from the hectic pace of modern life. Surrounded by emerald hills and the sparkling waters of the Andaman Sea, it is a place where natural beauty and cultural heritage coexist in harmony. The city’s streets are lined with traditional wooden houses, vibrant local markets, and ancient pagodas that tell stories of centuries past. Dawei is also famed for its golden beaches and quiet coastal villages, where fresh seafood and warm smiles welcome visitors. Whether wandering through lush landscapes, exploring hidden temples, or enjoying the serene coastline, Dawei captivates travelers with its tranquil charm and authentic Myanmar spirit.',
     image:
       'https://images.skypicker.com/?image=https%3A%2F%2Fimages.kiwi.com%2Fphotos%2Foriginals%2Fdawei-township_mm.jpg&width=768&height=395&fit=crop&format=original&dpr=2',
     rating: 4.4,
@@ -56,13 +56,13 @@ export const towns: Town[] = [
       'little-eden',
       'sawardi',
     ],
-    signatureDishes: ['seafood', 'local-breakfast', 'traditional-snacks'],
+    signatureDishes: ['kat-kyi-kaik', 'seafood-curry'],
   },
   {
     id: 'kawthaung',
     name: 'Kawthaung',
     description:
-      "Kawthaung, Myanmar's southernmost city, is a vibrant port town with stunning views of the Andaman Sea. Known for its seafood, mixed culture, and gateway to the Mergui Archipelago, it offers unique dining experiences combining Thai and Burmese flavors.",
+      "Kawthaung, Myanmar’s southernmost town, is a captivating gateway to the Andaman Sea where nature, culture, and history intertwine. Perched on the border with Thailand, the town is a lively hub of trade and travel, yet it preserves a laid-back charm that reflects the slow rhythm of life in southern Myanmar. Lush tropical forests and winding rivers embrace the town, while golden beaches and nearby islands invite travelers to explore serene coastal escapes. Its bustling markets brim with fresh seafood, local produce, and handmade crafts, giving a glimpse into the daily life and traditions of the people. Kawthaung is not just a border town—it is a place of contrasts, where vibrant human activity meets tranquil natural beauty, leaving every visitor with a lasting impression of Myanmar’s southernmost wonders.",
     image:
       'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/63691851ff42b16ac7bec6a7_mrC3tGOv8SBkf5_a7FBCZb4VVtwYT7xwGfuyxGKda7HL9Ycs5sD_8Wy6R4PVkjr_t-pPir1Roo7E2wBbsXow5rZuhUicrNKbHu5cLMRvplhSPALMaJBSu2eMYcK-ZqxQTSrkd49AeO3l9loPEE1vo1_SsEnH08p_hofbcQqkGo8AFgQR6J1MgJXAVj5Stg.jpeg',
     rating: 4.3,
@@ -78,13 +78,13 @@ export const towns: Town[] = [
       'Mergui Archipelago',
     ],
     restaurants: ['sky-view', 'victoria-cliff', 'kawthaung-yummy'],
-    signatureDishes: ['seafood', 'thai-fusion', 'local-specialties'],
+    signatureDishes: ['seafood-curry', 'grilled-fish',],
   },
   {
     id: 'myeik',
     name: 'Myeik',
     description:
-      'Myeik is a historic port city known for its pearl industry and seafood. The city offers a unique blend of colonial architecture, bustling markets, and waterfront dining, making it a fascinating destination for food enthusiasts and culture seekers.',
+      'Myeik, often called the gateway to the Myeik Archipelago, is a coastal city in southern Myanmar where history, culture, and nature converge. The city’s streets are lined with colonial-era buildings, vibrant markets, and traditional wooden houses that echo the charm of its past. Myeik is surrounded by lush hills, winding rivers, and the turquoise waters of the Andaman Sea, offering both scenic beauty and abundant marine life. From bustling local markets filled with fresh seafood to serene coastal villages and nearby islands, Myeik is a place of contrasts—alive with energy yet effortlessly tranquil. Travelers can explore hidden temples, watch traditional fishing communities at work, or take boat trips to countless islands, each offering untouched beaches and natural splendor. Myeik captures the essence of southern Myanmar, blending culture, history, and nature into a destination full of discovery.',
     image:
       'https://cdn.kimkim.com/files/a/content_articles/featured_photos/68082503913e99005eb9ab105c382a58b8bd82c7/big-38d1d89484040ac054f90a3e77b4097e.jpg',
     rating: 4.4,
@@ -100,7 +100,7 @@ export const towns: Town[] = [
       'Night Market',
     ],
     restaurants: ['pin-lae-may', 'my-mergui-bar', 'hotel-drift', 'mr-bamboo'],
-    signatureDishes: ['seafood', 'local-cuisine', 'fresh-fish'],
+    signatureDishes: ['seafood-curry', 'grilled-fish','kat-kyi-kaik'],
   },
   {
     id: 'nay-pyi-daw',
@@ -239,7 +239,7 @@ export const towns: Town[] = [
     id: 'hpa-an',
     name: 'Hpa-An',
     description:
-      'Nestled amid dramatic limestone mountains, Hpa-An is the capital of Kayin State and a haven for nature lovers. The town is surrounded by lush rice paddies, mysterious caves adorned with Buddhist art, and tranquil riverside scenery. Its laid-back atmosphere and stunning landscapes make it a favorite for trekkers and explorers.',
+      'Hpa-An, the peaceful capital of Kayin State, is a city where striking natural beauty and rich cultural heritage come together in perfect harmony. Cradled by the Thanlwin River and surrounded by towering limestone mountains, Hpa-An offers travelers a stunning backdrop of emerald hills and winding waterways. The city is scattered with ancient pagodas, vibrant local markets, and charming wooden houses that reflect its deep-rooted traditions. Iconic natural attractions like Mount Zwekabin, Sadan Cave, and Kawgun Cave reveal dramatic landscapes, hidden shrines, and centuries-old Buddhist carvings, creating a sense of wonder for every visitor. Life in Hpa-An flows at a gentle, calming pace—riverside strolls, lush rice paddies, and interactions with welcoming local communities immerse travelers in an authentic Burmese experience. From tranquil mornings along the river to breathtaking sunsets over the mountains, Hpa-An captivates all who visit, leaving an unforgettable impression of Myanmar’s serene southern heartland.',
     image:
       'https://t3.ftcdn.net/jpg/01/41/01/00/360_F_141010058_KNn5kstKlcVvhckx8B0wdikQVlbiKI7V.jpg',
     rating: 4.5,
@@ -254,7 +254,7 @@ export const towns: Town[] = [
       'Sadan Cave',
       'Lumbini Garden',
     ],
-    signatureDishes: [],
+    signatureDishes: ['talabaw'],
     restaurants: [
       'hpa-an-night-market',
       'cafe-kto',
@@ -426,9 +426,9 @@ export const towns: Town[] = [
     id: 'mawlamyaing',
     name: 'Mawlamyaing',
     description:
-      'Mawlamyaing, the fourth-largest city in Myanmar, is set along the Thanlwin River and is known for its colonial architecture and riverside charm. The city features historic pagodas, bustling markets, and scenic islands nearby. Its blend of Mon, Burmese, and colonial influences creates a unique cultural tapestry.',
+      'Mawlamyaing, the charming capital of Mon State, is a riverside city that beautifully weaves together history, culture, and natural scenery. Once an important colonial trading port, the city still preserves its heritage in the form of old churches, mosques, and colonial-era buildings that line its streets, standing gracefully alongside bustling markets and gilded pagodas. Set against the backdrop of the Thanlwin River and rolling green hills, Mawlamyaing is renowned for its breathtaking sunsets—scenes so captivating they inspired poets and writers like Rudyard Kipling. Beyond its urban charm, the city serves as a gateway to unique experiences such as exploring limestone caves filled with Buddha images, visiting quiet islands scattered along the river, and discovering Mon traditions that have shaped the region for centuries. With its blend of cultural diversity, historical significance, and stunning natural landscapes, Mawlamyaing offers travelers a journey into the timeless spirit of southern Myanmar.',
     image:
-      'https://c8.alamy.com/comp/K46JWK/buddhist-pagoda-at-moke-ta-ma-burma-towering-above-mawlamyine-highway-K46JWK.jpg',
+      'https://t3.ftcdn.net/jpg/01/11/67/46/240_F_111674657_xksnWF95QW8FUL7Q9y5Jhb7pWK4glokZ.jpg',
     rating: 4.4,
     region: 'Mon State',
     coordinates: {
@@ -436,7 +436,7 @@ export const towns: Town[] = [
       lng: 97.6167,
     },
     attractions: ['Kyaikthanlan Pagoda', 'Gaungse Kyun', 'Bilu Kyun'],
-    signatureDishes: [],
+    signatureDishes: ['mohinga','thingyan-rice','hsi-htamin'],
     restaurants: [
       'mawlamyaing-strand-night-market',
       'pyaw-yar-camp',

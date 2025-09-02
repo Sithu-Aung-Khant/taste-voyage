@@ -484,10 +484,19 @@ export const attractions: Attraction[] = [
       "A dramatic limestone mountain that dominates Hpa-an's skyline, Mount Zwegabin offers challenging hiking trails and breathtaking panoramic views of the surrounding countryside. The summit provides spectacular vistas of the Kayin State landscape.",
   },
   {
+    id: 'taung-wine',
+    name: 'Taung Wine',
+    image:
+      'https://www.jonnymelon.com/wp-content/uploads/2018/12/taung-wine-pagoda-19.jpg',
+    townId: 'hpa-an',
+    description:
+      "Taung Wine, a picturesque hill near Hpa-An, is a must-visit for travelers seeking both adventure and tranquility. Rising above the plains, it offers sweeping views of emerald rice fields, winding rivers, and dramatic limestone mountains that define the region’s unique landscape.",
+  },
+  {
     id: 'kyauk-ka-lat-pagoda',
     name: 'Kyauk Ka Lat Pagoda',
     image:
-      'https://cache3.travelfish.org/b/assets/2015/gallery/thumbR/gallery_sight_thumbR_652_1466747563.jpg',
+      'https://as2.ftcdn.net/v2/jpg/03/71/95/79/1000_F_371957946_DMrERiaRVbyfmdFW3qPkydlsi46ArK2u.jpg',
     townId: 'hpa-an',
     description:
       "A stunning pagoda perched on a limestone pinnacle rising from a lake, Kyauk Ka Lat Pagoda is one of Myanmar's most photogenic religious sites. The golden pagoda against the dramatic rock formation creates a magical scene.",
@@ -505,7 +514,7 @@ export const attractions: Attraction[] = [
     id: 'lumbini-garden',
     name: 'Lumbini Garden',
     image:
-      'https://cache2.travelfish.org/b/assets/2015/gallery/thumbR/gallery_sight_thumbR_652_1464054556.jpg',
+      'https://www.dztraveler.com/wp-content/uploads/2016/01/DSC_0356-Edit-1.jpg',
     townId: 'hpa-an',
     description:
       'A peaceful garden complex featuring replicas of famous Buddhist sites from around the world. Lumbini Garden offers a serene setting for meditation and reflection, with beautiful landscaping and religious monuments.',
@@ -516,7 +525,7 @@ export const attractions: Attraction[] = [
     id: 'kyaikthanlan-pagoda',
     name: 'Kyaikthanlan Pagoda',
     image:
-      'https://t4.ftcdn.net/jpg/01/85/03/33/360_F_185033311_c2ydlUML5rvBqDhAPSc0cGmowM90ITgk.jpg',
+      'https://t4.ftcdn.net/jpg/01/01/59/59/240_F_101595908_fUGTk4fZ5YMgAEwXMR7K6maebNe1BaDg.jpg',
     townId: 'mawlamyaing',
     description:
       'Perched on a hill overlooking the city and Thanlwin River, Kyaikthanlan Pagoda is Mawlamyaing’s most prominent landmark, famed for sunset views and peaceful surroundings.',
@@ -525,7 +534,7 @@ export const attractions: Attraction[] = [
     id: 'gaungse-kyun',
     name: 'Gaungse Kyun (Shampoo Island)',
     image:
-      'https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/07/01/437fbc2c306b2dd066a559b1fdb82822_1000x1000.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/9/93/ShampooIsland.jpg',
     townId: 'mawlamyaing',
     description:
       'A small scenic island in the Thanlwin River with monasteries and shrines. Historically used by royalty for hair-washing ceremonies, it offers tranquil river views and a short boat trip from town.',
@@ -534,10 +543,19 @@ export const attractions: Attraction[] = [
     id: 'bilu-kyun',
     name: 'Bilu Kyun (Ogre Island)',
     image:
-      'https://i0.wp.com/openroadbeforeme.com/wp-content/uploads/2012/08/P1030356.jpg?fit=1200%2C900&ssl=1&resize=350%2C200',
+      'https://lp-cms-production.imgix.net/2025-04/Shutterstock1124482919.jpg?w=3840&auto=format&q=75',
     townId: 'mawlamyaing',
     description:
       'A large island known for traditional craft villages producing rubber bands, slate boards, and walking sticks. A day trip here offers insight into local Mon culture and rural life.',
+  },
+  {
+    id: 'win-sein-tawya',
+    name: 'Win Sein Taw Ya Buddha',
+    image:
+      'https://t4.ftcdn.net/jpg/03/21/91/13/240_F_321911348_3oY4GKaFIrWnNaMoTObSVaFnP1UbWVAQ.jpg',
+    townId: 'mawlamyaing',
+    description:
+      'Win Sein Taw Ya Buddha is the world’s largest reclining Buddha statue, stretching over 180 meters. Visitors can explore its interior filled with Buddhist teachings and artwork, while the surrounding grounds dotted with pagodas create a serene, spiritual atmosphere.',
   },
 
   // Dawei Attractions
@@ -545,7 +563,7 @@ export const attractions: Attraction[] = [
     id: 'maungmagan-beach',
     name: 'Maungmagan Beach',
     image:
-      'https://www.go-myanmar.com/sites/go-myanmar.com/files/uploads/moscos_islands_0.jpg',
+      'https://b-cdn.springnest.com/media/img/td/img_3476a1b7869.jpg?crop=4032%2C2489%2C0%2C394&width=460',
     townId: 'dawei',
     description:
       "A pristine beach with golden sand and clear waters, perfect for swimming and relaxation. Maungmagan Beach is one of Myanmar's most beautiful coastal destinations, offering a peaceful escape from city life.",
@@ -563,7 +581,7 @@ export const attractions: Attraction[] = [
     id: 'shin-koe-shin-pagoda',
     name: 'Shin Koe Shin Pagoda',
     image:
-      'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/62de641ce3132f7647314c8a_SBLvKoFjTVitGM1IWwTnLE3EeKtJrw7ovkRE5mJu8EtWktBTTyV1nE3tgETQTv07Mo2XwWEdYfbasCAX0DNySNHFTDcpTbeYfz5zpJi7HoDhDLk4USqPYb90Lh8uNHGCM2hu3qiLzvX3PUvTUw.jpeg',
+      'https://www.myanmardigitalnewspaper.com/sites/default/files/articles/82936363_1580212938786585_1317350749826449408_n.jpg',
     townId: 'dawei',
     description:
       'A historic pagoda complex with beautiful architecture and serene surroundings. Shin Koe Shin Pagoda is an important religious site that offers visitors a peaceful retreat and insight into local Buddhist traditions.',
@@ -573,7 +591,7 @@ export const attractions: Attraction[] = [
   {
     id: 'victoria-point',
     name: 'Victoria Point',
-    image: 'https://www.myanmars.net/images/victoria_point.jpg',
+    image: 'https://thumbs.dreamstime.com/b/pier-kawthaung-victoria-point-myanmar-pier-kawthaung-victoria-point-myanmar-harbor-111291491.jpg',
     townId: 'kawthaung',
     description:
       'Victoria Point is the southernmost tip of Myanmar, offering stunning panoramic views of the Andaman Sea and the border with Thailand. This iconic landmark provides breathtaking sunset views and is a perfect spot for photography and relaxation.',
@@ -582,7 +600,7 @@ export const attractions: Attraction[] = [
     id: 'pyi-daw-aye-pagoda',
     name: 'Pyi Daw Aye Pagoda',
     image:
-      'https://i0.wp.com/globerovers.com/wp-content/uploads/2019/04/Myanmar-Pyi-Daw-Aye-Pagoda-Kawthaung.jpg',
+      'https://t3.ftcdn.net/jpg/01/64/71/38/360_F_164713842_XEjPQdtkr0k50Cauz4j8eu0LBTld2g0P.jpg',
     townId: 'kawthaung',
     description:
       'A beautiful hilltop pagoda offering panoramic views of Kawthaung and the surrounding Andaman Sea. The pagoda is a peaceful spiritual site where visitors can enjoy stunning vistas and experience local Buddhist culture.',
@@ -591,7 +609,7 @@ export const attractions: Attraction[] = [
     id: 'king-bayint-naung-statue',
     name: 'King Bayint Naung Statue',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm89UeV2bl7cRc0ImxXGr_TMPcOwN--sfKBg&s',
+      'https://t4.ftcdn.net/jpg/04/07/84/71/360_F_407847182_6E2vuTZOcGTBA8tn4lG4F4Rn6HxMlqui.jpg',
     townId: 'kawthaung',
     description:
       "A majestic statue honoring King Bayint Naung, one of Myanmar's most revered historical figures. The monument stands as a symbol of national pride and offers visitors insight into Myanmar's rich royal history and cultural heritage.",
@@ -620,7 +638,7 @@ export const attractions: Attraction[] = [
     id: 'myeik-archipelago',
     name: 'Myeik Archipelago',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-I2Q2eZ-OJcAIsixTh9TDCkMT5iEBySoqyg&s',
+      'https://www.gomyanmartours.com/wp-content/uploads/2019/10/myeik-archipelago.jpg',
     townId: 'myeik',
     description:
       'A stunning collection of over 800 pristine islands in the Andaman Sea, accessible from Myeik. The archipelago offers world-class diving, untouched beaches, and incredible marine biodiversity, making it a paradise for divers and nature enthusiasts.',
