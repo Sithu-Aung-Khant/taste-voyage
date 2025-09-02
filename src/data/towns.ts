@@ -205,7 +205,7 @@ export const towns: Town[] = [
       'Dhammayangyi Temple',
       'Hot Air Balloon Rides',
     ],
-    signatureDishes: ['burmese-curry'],
+    signatureDishes: ['burmese-curry','palm-wine'],
     restaurants: [
       'shwe-myanmar-bagan',
       'tharabar-3',
@@ -412,16 +412,13 @@ export const towns: Town[] = [
     rating: 4.1,
     region: 'Mandalay Region',
     coordinates: {
-      lat: 20.6667,
-      lng: 96.9333,
+      lat: 20.7333,
+      lng: 96.1167,
     },
     attractions: [
-      'Inle Lake Access',
-      'Local Markets',
-      'Traditional Architecture',
-      'Boat Tours',
+      
     ],
-    restaurants: ['pwe-taw-win', 'mann-mann-rooftop', 'thanakha-garden', 'golden-kite'],
+    restaurants: [],
     signatureDishes: [],
   },
   {

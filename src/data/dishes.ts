@@ -170,6 +170,24 @@ export const dishes: Dish[] = [
       'https://www.myanmarinsider.com/wp-content/uploads/2018/07/Time-for-Myanmar%E2%80%99s-Specialty-Coffee-.jpg',
   },
   {
+    id: 'cendol',
+    name: 'cendol',
+    displayName: 'Cendol',
+    description:
+      'Mont Lett Saung is a traditional Burmese dessert, featuring soft rice flour cakes soaked in sweet coconut milk and topped with crunchy garnishes. It’s a beloved treat that combines delicate texture with rich, comforting flavors.',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZZfZyojyOo68H_Mz5pYITD6qPexX9Bx31oRtLxADuQwl-9gVmlLjy7Jm8dxy8ajQn_o&usqp=CAU',
+  },
+  {
+    id: 'mont-lone-yay-paw',
+    name: 'mont-lone-yay-paw',
+    displayName: 'Mont Lone Yay Paw',
+    description:
+      'Mont Lone Yay Paw is a traditional Burmese sweet, made of glutinous rice balls filled with jaggery and served during festive occasions. Its chewy texture and caramel-like filling make it a beloved treat across Myanmar.',
+    image:
+      'https://i.pinimg.com/736x/b6/53/62/b65362a4e9a45d1edbed429433bee3ee.jpg',
+  },
+  {
     id: 'palm-wine',
     name: 'palm-wine',
     displayName: 'Palm Wine',
@@ -177,6 +195,15 @@ export const dishes: Dish[] = [
       'Burmese Palm Wine, locally called “Toddy”, is a traditional fermented drink with a sweet, tangy flavor, often enjoyed during gatherings and festive celebrations.',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP93ko_gzg62VV4rUGP-44gkQUHFjpAC63qQ&s',
+  },
+  {
+    id: 'talabaw',
+    name: 'talabaw',
+    displayName: 'Talabaw',
+    description:
+      'Talabaw is a traditional Kayin (Karen) dish, a savory and hearty soup made with fermented tea leaves, local herbs, and vegetables. It reflects the rich culinary heritage and unique flavors of the Kayin community.',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Talabaw_%28cropped%29.jpg/1200px-Talabaw_%28cropped%29.jpg',
   },
   {
     id: 'seafood-curry',
