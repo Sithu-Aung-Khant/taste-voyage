@@ -129,7 +129,7 @@ export const towns: Town[] = [
       'la-la-leora',
       'u-soe-gyi',
     ],
-    signatureDishes: ['mohinga', 'bambooshoot', ],
+    signatureDishes: ['mohinga', 'bambooshoot' ],
   },
   {
     id: 'yangon',
@@ -218,7 +218,7 @@ export const towns: Town[] = [
     id: 'inle-lake',
     name: 'Inle Lake',
     description:
-      'Inle Lake is a tranquil freshwater lake in Shan State, famous for its floating villages, lush gardens, and the unique leg-rowing fishermen of the Intha people. The area is rich in biodiversity and traditional crafts, with vibrant markets and stilt-house communities. Visitors can experience serene boat rides, local cuisine, and the region’s distinctive culture.',
+      'Inle Lake, located in the heart of the Shan Hills, is one of Myanmar’s most enchanting destinations. Famous for its floating gardens, stilted villages, and the unique leg-rowing fishermen, the lake offers a glimpse into a way of life that has remained unchanged for centuries. Local communities cultivate vegetables and flowers directly on the water, while colorful markets and temples thrive along the shores. Visitors can explore the lake by traditional wooden boats, witnessing artisans crafting silverware, weaving silk, and preparing local delicacies. Misty mornings, calm waters, and vibrant local culture create a magical atmosphere, making Inle Lake a perfect blend of natural beauty, tradition, and serenity.',
     image:
       'https://inledaytours.com/wp-content/uploads/2015/11/slide-1.jpg',
     rating: 4.7,
@@ -233,7 +233,7 @@ export const towns: Town[] = [
       'Indein Pagoda Complex',
       'Traditional Leg Rowing Fishermen',
     ],
-    signatureDishes: ['shan-noodles', 'inle-fish-curry', 'tomato-salad'],
+    signatureDishes: ['shan-noodles', 'inle-fish-curry', 'yellow-rice'],
   },
   {
     id: 'hpa-an',
@@ -330,7 +330,7 @@ export const towns: Town[] = [
     id: 'taunggyi',
     name: 'Taunggyi',
     description:
-      'Taunggyi, the capital of Shan State, sits atop cool highlands and is famous for its vibrant hill tribe culture and annual Tazaungdaing Festival, featuring spectacular hot air balloons. The city is surrounded by scenic vineyards, bustling markets, and ancient pagodas. Its unique blend of traditions and natural beauty attracts visitors year-round.',
+      'Taunggyi, the lively capital of Shan State, rests high in the mountains, offering a refreshing climate and sweeping views of rolling hills. Unlike many cities in Myanmar, it feels both modern and traditional—bustling markets sit alongside serene pagodas, while quiet neighborhoods are framed by pine trees and misty ridges. The city is famous for its colorful Tazaungdaing Balloon Festival, when hot-air balloons carrying fireworks light up the night sky in a dazzling spectacle. Taunggyi also serves as a cultural hub, home to diverse ethnic groups such as Shan, Pa-O, and Intha, each adding their own traditions, cuisines, and festivals to the city’s character. With its cool weather, vibrant local life, and easy access to attractions like Inle Lake and nearby caves, Taunggyi is more than a hill station—it’s a city where nature, culture, and celebration blend together beautifully.',
     image:
       'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/62de641ce3132f6ca331495e_Fire%20Balloon%201.jpg',
     rating: 4.6,
@@ -351,13 +351,13 @@ export const towns: Town[] = [
       'shwe-myanmar',
       'royal-taunggyi',
     ],
-    signatureDishes: [],
+    signatureDishes: ['shan-noodles','tofu-nway','yellow-rice'],
   },
   {
     id: 'kalaw',
     name: 'Kalaw',
     description:
-      "Kalaw is a charming hill station with a cool climate, pine forests, and colonial-era buildings. It is a trekking paradise, offering scenic routes through ethnic villages and rolling hills. The town's relaxed pace and fresh mountain air make it a perfect retreat for nature lovers.",
+      "Kalaw, a charming hill town in Shan State, is known for its cool mountain air, pine forests, and colonial-era ambiance. Once a British hill station, the town still carries traces of old-world charm with its quaint houses, flower gardens, and quiet streets. Kalaw is especially famous as a trekking paradise travelers set out on scenic trails that wind through green hills, tea plantations, and remote ethnic villages of the Pa-O, Danu, and Taung Yo communities. The town’s lively morning market offers fresh produce and local crafts, giving visitors a taste of authentic daily life. Beyond trekking, Kalaw enchants with its peaceful monasteries, caves filled with Buddha images, and the laid-back rhythm of a town surrounded by natural beauty. Often seen as a gateway to Inle Lake, Kalaw is more than just a stopover it is a refreshing retreat where culture and nature meet in harmony.",
     image:
       'https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Kalaw_0.jpg',
     rating: 4.7,
@@ -373,18 +373,19 @@ export const towns: Town[] = [
       'Kalaw Local Market',
     ],
     restaurants: [
-      'seven-sisters',
-      'thirigayhar',
-      'dream-restaurant',
-      'everest-nepali',
+      'maluca-villa',
+      'kalaw-cafeyard',
+      'sky-house',
+      'thu-maung',
+      'kalaw-market',
     ],
-    signatureDishes: [],
+    signatureDishes: ['shan-noodles','tofu-nway','local-coffee'],
   },
   {
     id: 'nyaung-shwe',
     name: 'Nyaung Shwe',
     description:
-      'Nyaung Shwe is the bustling gateway to Inle Lake, known for its traditional wooden architecture and lively local markets. The town is a hub for boat tours, cycling, and exploring the unique culture of the Intha people. Its welcoming atmosphere and scenic surroundings make it a favorite stop for travelers.',
+      'Nyaung Shwe, the lively gateway to Inle Lake, is a town that beautifully blends tradition with modern charm. It is the main hub where travelers begin their journey to the famous lake, yet the town itself has much to offer. Bustling canals lined with boats, narrow streets filled with cozy guesthouses, teahouses, and colorful markets create an inviting atmosphere. Visitors can explore historic monasteries such as Yadana Man Aung Pagoda and Shwe Yan Pyay Monastery, known for its unique oval windows and red teakwood structure. The town is also home to vibrant local markets where ethnic groups like the Pa-O and Shan come to trade fresh produce, handicrafts, and traditional textiles. Cycling around Nyaung Shwe reveals hidden vineyards, peaceful countryside views, and glimpses of daily village life. With its relaxed energy, cultural richness, and convenient access to Inle, Nyaung Shwe is more than just a starting point—it is a destination worth savoring on its own.',
     image:
       'https://kite-tales.org/files/uploads/haw.jpg',
     rating: 4.8,
@@ -400,7 +401,7 @@ export const towns: Town[] = [
       'Boat Tours',
     ],
     restaurants: ['pwe-taw-win', 'mann-mann-rooftop', 'thanakha-garden', 'golden-kite'],
-    signatureDishes: [],
+    signatureDishes: ['inle-fish-curry','yellow-rice','shan-noodles'],
   },
   {
     id: 'Kyauk-se',

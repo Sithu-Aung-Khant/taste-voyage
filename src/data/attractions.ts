@@ -258,6 +258,14 @@ export const attractions: Attraction[] = [
     description:
       'Htam Sam Cave is a stunning limestone cave in Shan State, famous for its countless Buddha images, natural rock formations, and peaceful atmosphere.',
   },
+  {
+    id: 'shwe-bhone-pwint',
+    name: 'Shwe Bhone Pwint Pagoda',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Shwe_Bone_Pwint_Pagoda%2C_Taunggyi%2CShan.jpg/2560px-Shwe_Bone_Pwint_Pagoda%2C_Taunggyi%2CShan.jpg',
+    townId: 'taunggyi',
+    description:
+      'The Shwe Bhone Pwint Pagoda, located in the hill city of Taunggyi, is a revered Buddhist site that offers both spiritual significance and scenic charm. The pagoda is gracefully perched on an elevated spot, allowing visitors to enjoy sweeping views of the surrounding Shan hills and the vibrant town below.',
+  },
   // Kyaukse Attractions
   {
     id: 'shwe-theindaw',
@@ -347,7 +355,7 @@ export const attractions: Attraction[] = [
   {
     id: 'floating-villages',
     name: 'Floating Villages and Gardens',
-    image: 'https://images.pexels.com/photos/5238583/pexels-photo-5238583.jpeg',
+    image: 'https://www.trailsofindochina.com/wp-content/uploads/2018/04/Inle_Lake_Header.jpg',
     townId: 'inle-lake',
     description:
       'Visit stilt-house villages like Ywama or Inthein, with gardens grown on water. Experience the unique lifestyle of the Intha people and their ingenious floating garden cultivation methods.',
@@ -356,7 +364,7 @@ export const attractions: Attraction[] = [
     id: 'phaung-daw-oo',
     name: 'Phaung Daw Oo Pagoda',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Phaung_Daw_Oo_Pagoda.jpg/1200px-Phaung_Daw_Oo_Pagoda.jpg',
+      'https://www.myanmartours.us/wp-content/uploads/Phaung-Daw-Oo-Pagoda.jpg',
     townId: 'inle-lake',
     description:
       'One of the most sacred pagodas in Shan State, with 5 revered Buddha images. This important religious site is a center of local spiritual life and annual festivals.',
@@ -365,7 +373,7 @@ export const attractions: Attraction[] = [
     id: 'indein-pagoda',
     name: 'Indein Pagoda Complex',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Indein_Pagoda_Complex.jpg/1200px-Indein_Pagoda_Complex.jpg',
+      'https://static.vecteezy.com/system/resources/previews/006/971/606/non_2x/the-group-of-oldest-pagoda-named-shwe-indein-pagoda-located-at-indein-village-in-the-area-of-inle-lake-of-myanmar-photo.jpg',
     townId: 'inle-lake',
     description:
       "A hidden gem with hundreds of ancient stupas, accessible via a scenic boat ride. This atmospheric complex of weather-worn stupas offers a glimpse into the region's rich history.",
@@ -373,7 +381,7 @@ export const attractions: Attraction[] = [
   {
     id: 'leg-rowing-fishermen',
     name: 'Traditional Leg Rowing Fishermen',
-    image: 'https://images.pexels.com/photos/6036959/pexels-photo-6036959.jpeg',
+    image: 'https://images.locationscout.net/2017/05/one-leg-rower-on-inle-lake-myanmar.webp?h=1400&q=80',
     townId: 'inle-lake',
     description:
       "Iconic fishermen who row with one leg while balancing on the other. Watch this unique traditional fishing method that has become a symbol of Inle Lake's cultural heritage.",
@@ -384,7 +392,7 @@ export const attractions: Attraction[] = [
     id: 'inle-lake-access',
     name: 'Inle Lake Access',
     image:
-      'https://images.squarespace-cdn.com/content/v1/59f99a190abd04b6b179d4f6/1562163148945-L3ADO2IULEKODE5P8LFB/inle-lake-fishermen-istock.jpg?format=1500w',
+      'https://live.staticflickr.com/65535/48114078003_7daed3edaa_b.jpg',
     townId: 'nyaung-shwe',
     description:
       "The main gateway to the stunning Inle Lake, offering boat services, guides, and stunning views of the lake. Perfect starting point for exploring the lake's unique ecosystem and culture.",
@@ -393,7 +401,7 @@ export const attractions: Attraction[] = [
     id: 'nyaung-shwe-market',
     name: 'Local Markets',
     image:
-      'https://www.myanmaritv.com/sites/default/files/styles/news_detail_image/public/vlcsnap-2021-12-20-12h44m14s136.jpg?itok=Q3q1RBLW&c=6507c45fa1b506ecf24c1c258aab190f',
+      'https://thumbs.dreamstime.com/b/crowded-mingalar-market-nyaungshwe-myanmar-february-numerous-fish-sellers-sitting-floor-offering-fresh-local-155889889.jpg',
     townId: 'nyaung-shwe',
     description:
       'Vibrant local markets where visitors can experience authentic Shan culture, fresh produce, traditional crafts, and local delicacies. The five-day rotating market is particularly special.',
@@ -411,11 +419,22 @@ export const attractions: Attraction[] = [
     id: 'red-mountain-estate',
     name: 'Red Mountain Estate Vineyards & Winery',
     image:
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9e/66/f8/wine-tasting-mir-erdnusschen.jpg?w=2000&h=-1&s=1',
+      'https://www.worldtravelbug.com/ro/red-mountain-winery-myanmar/red-mountain-myanmar/',
     townId: 'nyaung-shwe',
     description:
       'A scenic vineyard and winery nestled in the hills near Nyaung Shwe, offering wine tastings, tours, and panoramic views of Inle Lake. Red Mountain Estate is renowned for its locally produced wines and is a perfect spot to relax and enjoy a sunset over the vineyards.',
   },
+  {
+    id: 'nyaung-shwe-haw',
+    name: 'Nyaung Shwe Haw',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Nyaung_Shwe_Cultural_Museum.jpg/250px-Nyaung_Shwe_Cultural_Museum.jpg',
+    townId: 'nyaung-shwe',
+    description:
+      'Nyaung Shwe Haw, the former Shan prince’s palace, now serves as a museum showcasing Shan culture and history.It resembles the monarchies of Shan distinctly.',
+  },
+  
+  
 
   // Pyin Oo Lwin Attractions
   {
