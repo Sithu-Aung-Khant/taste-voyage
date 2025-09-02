@@ -129,7 +129,7 @@ export const towns: Town[] = [
       'la-la-leora',
       'u-soe-gyi',
     ],
-    signatureDishes: ['mohinga', 'shan-noodles', 'mont-hin-gar'],
+    signatureDishes: ['mohinga', 'bambooshoot', ],
   },
   {
     id: 'yangon',
@@ -164,7 +164,7 @@ export const towns: Town[] = [
     name: 'Mandalay',
     description:
       'Mandalay, the last royal capital of Myanmar, is a city where tradition and modern life beautifully intertwine. Known as the cultural heart of the country, it is home to majestic monasteries, intricate teakwood architecture, and the famed Mandalay Palace. The city holds a deep spiritual aura, with thousands of monks residing in its monasteries and the revered Mahamuni Pagoda drawing daily worshippers. Beyond its history, Mandalay thrives with craftsmanship—gold leaf making, silk weaving, and stone carving remain part of its living heritage. From the panoramic sunset at Mandalay Hill to the timeless beauty of U Bein Bridge, the world’s longest teak bridge, the city offers a journey through history, culture, and local life. Its unique blend of royal legacy and vibrant tradition makes Mandalay an unforgettable destination in Myanmar.',
-    image: 'https://www.hotelredcanal.com/wp-content/uploads/2017/05/10.jpg',
+    image: 'https://media02.stockfood.com/largepreviews/MjIwMzQyODQ0Nw==/71078337-Mandalay-City-Fort-and-Palace-reflected-in-the-moat-surrrounding-the-compound-at-night-Mandalay-Myanmar-Burma.jpg',
     rating: 4.5,
     region: 'Mandalay Region',
     coordinates: {
@@ -408,18 +408,18 @@ export const towns: Town[] = [
     description:
       'Kyaukse, nestled in central Myanmar, is a city where history and culture blend seamlessly. Known as the birthplace of Myanmar’s famous pagodas, it is dotted with ancient stupas and temples that tell tales of a rich heritage. The city comes alive during the annual Elephant Pagoda Festival, where locals and visitors celebrate with vibrant processions, traditional rituals, and colorful decorations. Beyond its historic charm, Kyaukse is a hub of local life, with bustling markets, friendly communities, and scenic landscapes of surrounding fields and hills. Its unique blend of spiritual significance, cultural festivities, and everyday warmth makes Kyaukse a memorable destination for travelers seeking both history and authenticity.',
     image:
-      'https://www.shutterstock.com/image-photo/gorgeous-dramatic-sunrise-mandalay-hill-260nw-386376520.jpg',
+      'https://www.shutterstock.com/image-photo/sunset-view-kyaukse-townmandalaymyanmarasia-260nw-1230259012.jpg',
     rating: 4.1,
     region: 'Mandalay Region',
     coordinates: {
       lat: 20.7333,
       lng: 96.1167,
     },
-    attractions: [
-      
+    attractions: ['Mahar Shwe Theindaw Buddhist Temple',
+      'Tamote Shinbin Shwegu', 'Mahar Shwe Theindaw Buddhist Temple', 'Sin Gaung Taung'
     ],
-    restaurants: [],
-    signatureDishes: [],
+    restaurants: ['daw-mya-chit', 'htun-thitsa','kyar-pauk'],
+    signatureDishes: ['phat-htamin','pratha'],
   },
   {
     id: 'mawlamyaing',

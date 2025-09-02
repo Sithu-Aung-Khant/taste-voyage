@@ -166,11 +166,7 @@ export const attractions: Attraction[] = [
     description:
       'Maravijaya Buddha in Nay Pyi Taw is a towering white statue standing as a symbol of peace and devotion. Visitors are drawn to its impressive height, serene expression, and the surrounding grounds that offer a tranquil space for reflection and worship.',
   },
-  
-  
-  
-
-  // Bagan Attractions
+   // Bagan Attractions
   {
     id: 'ananda-temple',
     name: 'Ananda Temple',
@@ -262,6 +258,53 @@ export const attractions: Attraction[] = [
     description:
       'Htam Sam Cave is a stunning limestone cave in Shan State, famous for its countless Buddha images, natural rock formations, and peaceful atmosphere.',
   },
+  // Kyaukse Attractions
+  {
+    id: 'shwe-theindaw',
+    name: 'Mahar Shwe Theindaw Buddhist Temple',
+    image:
+      'https://www.bloggang.com/data/m/morkmek/picture/1712821578.jpg',
+    townId: 'Kyauk-se',
+    description:
+      'Mahar Shwe Theindaw Buddhist Temple is a revered spiritual site in Myanmar, celebrated for its gleaming golden stupa and intricate architectural details. The temple’s serene courtyards, ornate carvings, and peaceful ambiance make it a focal point for meditation and prayer.',
+  },
+  {
+    id: 'shwe-thalyaung',
+    name: 'Shwe Thalyaung Pagoda',
+    image:
+      'https://t4.ftcdn.net/jpg/05/27/17/07/360_F_527170743_SvQ7Aak8bXa9SRPh5VlOUihYyBFaswyY.jpg',
+    townId: 'Kyauk-se',
+    description:
+      'Shwe Thalyaung Pagoda  is famed for its massive reclining Buddha statue, a striking symbol of serenity and devotion. The gilded figure stretches gracefully across the temple grounds, drawing pilgrims and visitors who come to admire its intricate details and tranquil presence',
+  },
+  {
+    id: 'shwe-gu',
+    name: 'Tamote Shinbin Shwegu',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Tamote_Shwe_Gu_Gyi_Pagoda_02.JPG/1200px-Tamote_Shwe_Gu_Gyi_Pagoda_02.JPG',
+    townId: 'Kyauk-se',
+    description:
+      'Tamote Shinbin Shwegu is a historic pagoda since Bagan era and it is famous rarest type of buddha stupa and its artisan temples. It is one the tourist attraction closely located near Kyaukse.',
+  },
+  {
+    id: 'sin-gaung-taung',
+    name: 'Sin Gaung Taung',
+    image:
+      'https://i.ytimg.com/vi/MPdbwr48W8Q/maxresdefault.jpg',
+    townId: 'Kyauk-se',
+    description:
+      'Sin Gaung Taung is a scenic hill near Kyaukse,looking alike with an elephant head, offering panoramic views of the surrounding plains and a serene setting for visitors and pilgrims alike.',
+  },
+  {
+    id: 'elephant-festival',
+    name: 'Kyaukse Elephant Festival',
+    image:
+      'https://www.moi.gov.mm/moi:eng/sites/default/files/news-image/2023-11/07.JPG',
+    townId: 'Kyauk-se',
+    description:
+      'The Kyaukse Elephant Festival is a vibrant annual event in Myanmar, celebrating the town’s rich cultural heritage. Locals decorate real and replica elephants, participate in lively processions, and perform traditional rituals, creating a colorful and energetic spectacle that draws visitors from across the region.',
+  },
+
 
   // Kalaw Attractions
   {

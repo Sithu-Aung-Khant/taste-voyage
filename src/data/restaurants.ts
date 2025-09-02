@@ -50,7 +50,28 @@ export const restaurants: Restaurant[] = [
     townId: 'pyin-oo-lwin',
     description: 'Famous for its bbq and grilled meat',
   },
-
+  // Kyaukse Restaurants
+  {
+    id: 'daw-mya-chit',
+    name: 'Daw Mya Chit Myanmar Cuisine',
+    image: '/restaurants/pyinoolwin/6.jpg',
+    townId: 'Kyauk-se',
+    description: 'Famous for burmese lunch packed with lotus leaves',
+  },
+  {
+    id: 'tun-thitsa',
+    name: 'Tun Thitsa Cafe',
+    image: 'https://tazaproducts.com/blog/wp-content/uploads/sites/8/2024/05/Why-chai-paratha-is-the-ultimate-comfort-food-scaled.jpg',
+    townId: 'Kyauk-se',
+    description: 'Famous for its tea and pratha',
+  },
+  {
+    id: 'kyar-pauk',
+    name: 'Kyar Pauk Noodle',
+    image: '/restaurants/pyinoolwin/6.jpg',
+    townId: 'Kyauk-se',
+    description: 'Famous for fried noodles packed with lotus leaves and chinese stir fry dishes',
+  },
   // Hpa-An Restaurants
   {
     id: 'hpa-an-night-market',
