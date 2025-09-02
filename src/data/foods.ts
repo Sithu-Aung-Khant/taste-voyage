@@ -7,7 +7,7 @@ export const foods: Food[] = [
     description:
       "The national dish of Myanmar, Mohinga is a flavorful fish soup with rice noodles, topped with crispy fritters and fresh herbs. Traditionally eaten for breakfast, it's now enjoyed throughout the day across the country.",
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ssMiP2ZCwVSAEWDy7SvUOr-2MwJsySnNwA&s',
+      'https://pinkysnowfoods.co.uk/cdn/shop/files/A5A48E2A-5072-489B-B768-95EB2EAB65F3.webp?v=1723143581&width=1445',
     rating: 4.8,
     origin: ['Yangon', 'Nationwide'],
     tasteTags: ['savory', 'aromatic', 'spicy', 'fresh'],
@@ -57,7 +57,7 @@ export const foods: Food[] = [
     description:
       'A beloved dish from Shan State featuring thin rice noodles with marinated chicken or pork, tomatoes, and garlic in a flavorful broth. Often served with a side of pickled vegetables.',
     image:
-      'https://hsaba.com/wp-content/uploads/2009/01/shan_noodles_hsaba.jpg',
+      'https://myfoodmyanmar.com/wp-content/uploads/2018/08/shutterstock_590487038.jpg',
     rating: 4.6,
     origin: ['Shan State'],
     tasteTags: ['savory', 'tangy', 'spicy', 'hearty'],
