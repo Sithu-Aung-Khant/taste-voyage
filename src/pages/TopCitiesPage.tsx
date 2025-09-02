@@ -7,7 +7,7 @@ import HeaderOnlyLayout from '../components/layout/HeaderOnlyLayout';
 
 const TopCitiesPage: React.FC = () => {
   const topCities = towns.filter((town) =>
-    ['yangon', 'mandalay', 'bagan', 'pyin-oo-lwin', 'nay-pyi-taw'].includes(
+    ['yangon', 'mandalay', 'bagan', 'pyin-oo-lwin', 'nay-pyi-daw','Kyauk-se'].includes(
       town.id
     )
   );

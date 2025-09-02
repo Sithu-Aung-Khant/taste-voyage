@@ -5,7 +5,7 @@ export const towns: Town[] = [
     id: 'pyin-oo-lwin',
     name: 'Pyin Oo Lwin',
     description:
-      'Pyin Oo Lwin, formerly known as Maymyo, is a scenic hill town known for its colonial architecture, botanical gardens, and pleasant climate. The town offers a unique blend of British colonial history and local culture, with beautiful gardens, waterfalls, and a thriving food scene.',
+      'Pyin Oo Lwin, a charming hill town in Myanmar, is famed for its cool climate, colonial-era architecture, and vibrant botanical gardens. Once a summer retreat for British officials, the town blends history with natural beauty, featuring flower-filled parks, cascading waterfalls, and scenic viewpoints. Pyin Oo Lwin is also known for its local strawberry farms, bustling markets, and cultural festivals, offering visitors a peaceful yet lively escape from the lowland heat. Its unique combination of heritage, nature, and local charm makes it a must-visit destination in the Shan Highlands.',
     image:
       'https://www.goodlifemyanmar.net/wp-content/uploads/2017/06/Botanical-Garden.jpg',
     rating: 4.5,
@@ -106,9 +106,9 @@ export const towns: Town[] = [
     id: 'nay-pyi-daw',
     name: 'Nay Pyi Daw',
     description:
-      "Nay Pyi Daw, Myanmar's modern capital city, is known for its wide boulevards, government buildings, and emerging dining scene. The city offers a unique blend of contemporary architecture, hotels, and restaurants, making it an interesting destination for visitors interested in modern Myanmar.",
+      "Nay Pyi Daw, Myanmar’s sprawling modern capital, is a city of wide boulevards, landscaped gardens, and monumental government buildings. Designed with meticulous planning, it offers a sense of calm and order rarely found in bustling cities, making it a striking contrast to Myanmar’s historic towns. Beyond its administrative significance, Nay Pyi Taw is home to cultural and spiritual landmarks like Uppatasanti Pagoda and Maravijaya Buddha, as well as serene retreats such as the Water Fountain Garden and National Landmark Garden. With its blend of contemporary design, natural beauty, and cultural heritage, the city presents a unique experience for visitors seeking both modernity and tradition.",
     image:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+      'https://blog.bangkokair.com/wp-content/uploads/2019/05/Pyidaungsu-Hluttaw.jpg',
     rating: 4.3,
     region: 'Nay Pyi Daw Union Territory',
     coordinates: {
@@ -135,7 +135,7 @@ export const towns: Town[] = [
     id: 'yangon',
     name: 'Yangon',
     description:
-      'The former capital and largest city of Myanmar, Yangon is a vibrant metropolis blending colonial-era architecture with bustling street markets and tranquil lakes. It is renowned for its sacred Buddhist sites, especially the golden Shwedagon Pagoda, which dominates the skyline. Visitors can explore a rich tapestry of cultures, diverse cuisine, and a lively arts scene.',
+      'Yangon, the former capital and the largest city of Myanmar, stands as a vibrant and dynamic metropolis that reflects the country’s cultural and historical richness. The city is known for its unique blend of colonial-era architecture, modern developments, and traditional influences, which create a striking urban landscape. Its bustling street markets offer an authentic glimpse into local life, with colorful stalls selling fresh produce, handmade crafts, and traditional snacks. Tranquil lakes and green parks provide refreshing escapes from the busy streets, adding to the city’s charm. At the heart of Yangon’s identity is its spiritual heritage, highlighted by the magnificent Shwedagon Pagoda, a golden stupa that rises majestically over the skyline and serves as one of the most sacred Buddhist sites in the world. Beyond its religious landmarks, Yangon presents a rich tapestry of cultures shaped by diverse communities, offering visitors the chance to explore an array of cuisines, from traditional Burmese dishes to international flavors. The city also boasts a lively arts and cultural scene, with galleries, theaters, and music events that showcase Myanmar’s evolving creativity.',
     image:
       'https://www.eyeonasia.gov.sg/images/asean-countries/Yangon%20snapshot%20iso.jpg',
     rating: 4.6,
@@ -157,13 +157,13 @@ export const towns: Town[] = [
       'Shan Yoe Yar',
       'Monsoon Restaurant & Bar',
     ],
-    signatureDishes: ['mohinga', 'tea-leaf-salad', 'biryani','chicken-curry' ],
+    signatureDishes: ['mohinga', 'Burmese-pork-offal-skewers', 'biryani'],
   },
   {
     id: 'mandalay',
     name: 'Mandalay',
     description:
-      'Mandalay, the last royal capital of Myanmar, is a city steeped in history and tradition. It is famous for its ancient palaces, vibrant monasteries, and skilled artisans crafting gold leaf and intricate woodwork. The city offers a gateway to cultural treasures, scenic hills, and the timeless Irrawaddy River.',
+      'Mandalay, the last royal capital of Myanmar, is a city where tradition and modern life beautifully intertwine. Known as the cultural heart of the country, it is home to majestic monasteries, intricate teakwood architecture, and the famed Mandalay Palace. The city holds a deep spiritual aura, with thousands of monks residing in its monasteries and the revered Mahamuni Pagoda drawing daily worshippers. Beyond its history, Mandalay thrives with craftsmanship—gold leaf making, silk weaving, and stone carving remain part of its living heritage. From the panoramic sunset at Mandalay Hill to the timeless beauty of U Bein Bridge, the world’s longest teak bridge, the city offers a journey through history, culture, and local life. Its unique blend of royal legacy and vibrant tradition makes Mandalay an unforgettable destination in Myanmar.',
     image: 'https://www.hotelredcanal.com/wp-content/uploads/2017/05/10.jpg',
     rating: 4.5,
     region: 'Mandalay Region',
@@ -177,7 +177,7 @@ export const towns: Town[] = [
       'U Bein Bridge',
       'Mahamuni Buddha Temple',
     ],
-    signatureDishes: ['nan-gyi-thoke', 'htoe-mont', 'tea-leaf-salad'],
+    signatureDishes: ['nan-gyi-thoke', 'htoe-mont', 'tea-leaf-salad','mee-shay'],
     restaurants: [
       'unique-mandalay-tea-room',
       'bbb-european-restaurant',
@@ -190,7 +190,7 @@ export const towns: Town[] = [
     id: 'bagan',
     name: 'Bagan',
     description:
-      'Bagan is an ancient city in central Myanmar, home to over 2,000 Buddhist temples, pagodas, and stupas that rise majestically from the plains. This UNESCO World Heritage Site offers breathtaking sunrise and sunset views, hot air balloon rides, and a glimpse into the spiritual heart of Myanmar. Its archaeological wonders and serene landscapes make it a must-visit destination.',
+      'Bagan, the ancient capital of Myanmar, is a breathtaking archaeological wonder dotted with thousands of temples and pagodas rising across the plains. Once the heart of a powerful kingdom, it remains a spiritual and cultural treasure, where history lingers in every brick and stupa. Visitors are enchanted by its golden sunrises and sunsets, casting a magical glow over the endless temple landscape. Beyond its iconic skyline, Bagan offers vibrant local markets, traditional lacquerware crafts, and a glimpse into the daily rhythms of rural life. With its rare combination of history, spirituality, and timeless beauty, Bagan stands as one of the most unique and unforgettable destinations in the world.',
     image:
       'https://content.r9cdn.net/rimg/dimg/39/01/de981725-city-41060-167f64bd01e.jpg?crop=true&width=1366&height=768&xhint=1548&yhint=1584',
     rating: 4.8,
@@ -205,7 +205,7 @@ export const towns: Town[] = [
       'Dhammayangyi Temple',
       'Hot Air Balloon Rides',
     ],
-    signatureDishes: [],
+    signatureDishes: ['burmese-curry'],
     restaurants: [
       'shwe-myanmar-bagan',
       'tharabar-3',
@@ -220,7 +220,7 @@ export const towns: Town[] = [
     description:
       'Inle Lake is a tranquil freshwater lake in Shan State, famous for its floating villages, lush gardens, and the unique leg-rowing fishermen of the Intha people. The area is rich in biodiversity and traditional crafts, with vibrant markets and stilt-house communities. Visitors can experience serene boat rides, local cuisine, and the region’s distinctive culture.',
     image:
-      'https://images.pexels.com/photos/5238583/pexels-photo-5238583.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://inledaytours.com/wp-content/uploads/2015/11/slide-1.jpg',
     rating: 4.7,
     region: 'Shan State',
     coordinates: {
@@ -386,9 +386,31 @@ export const towns: Town[] = [
     description:
       'Nyaung Shwe is the bustling gateway to Inle Lake, known for its traditional wooden architecture and lively local markets. The town is a hub for boat tours, cycling, and exploring the unique culture of the Intha people. Its welcoming atmosphere and scenic surroundings make it a favorite stop for travelers.',
     image:
-      'https://www.remotelands.com/storage/media/1123/conversions/b130126005-banner-size.jpg',
+      'https://kite-tales.org/files/uploads/haw.jpg',
     rating: 4.8,
     region: 'Shan State',
+    coordinates: {
+      lat: 20.6667,
+      lng: 96.9333,
+    },
+    attractions: [
+      'Inle Lake Access',
+      'Local Markets',
+      'Traditional Architecture',
+      'Boat Tours',
+    ],
+    restaurants: ['pwe-taw-win', 'mann-mann-rooftop', 'thanakha-garden', 'golden-kite'],
+    signatureDishes: [],
+  },
+  {
+    id: 'Kyauk-se',
+    name: 'Kyaukse',
+    description:
+      'Kyaukse, nestled in central Myanmar, is a city where history and culture blend seamlessly. Known as the birthplace of Myanmar’s famous pagodas, it is dotted with ancient stupas and temples that tell tales of a rich heritage. The city comes alive during the annual Elephant Pagoda Festival, where locals and visitors celebrate with vibrant processions, traditional rituals, and colorful decorations. Beyond its historic charm, Kyaukse is a hub of local life, with bustling markets, friendly communities, and scenic landscapes of surrounding fields and hills. Its unique blend of spiritual significance, cultural festivities, and everyday warmth makes Kyaukse a memorable destination for travelers seeking both history and authenticity.',
+    image:
+      'https://www.shutterstock.com/image-photo/gorgeous-dramatic-sunrise-mandalay-hill-260nw-386376520.jpg',
+    rating: 4.1,
+    region: 'Mandalay Region',
     coordinates: {
       lat: 20.6667,
       lng: 96.9333,
