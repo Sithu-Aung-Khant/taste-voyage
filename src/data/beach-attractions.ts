@@ -14,7 +14,7 @@ const beachAttractions: BeachAttraction[] = [
     description:
       'A scenic viewpoint offering breathtaking views of the sun setting over the Bay of Bengal. Perfect for photography and romantic evening walks.',
     image:
-      'https://thumbs.dreamstime.com/b/chaung-tha-beach-sunset-myanmar-twilight-sky-over-bengal-bay-scenic-kyauk-pa-hto-pagoda-123467412.jpg',
+      'https://www.jacadatravel.com/_next/image/?url=https%3A%2F%2Fcdn.jacadatravel.com%2Fwp-content%2Fuploads%2Fbis-images%2F148395%2Flocation__dreamstimemaximum_25631471-1600x900-f50_50.jpg&w=3840&q=100',
     beachId: 'ngapali',
   },
   {
@@ -42,7 +42,16 @@ const beachAttractions: BeachAttraction[] = [
     description:
       'A romantic island connected to the mainland by a walkable sandbar during low tide. Perfect for couples and photography enthusiasts.',
     image:
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/46/ee/46/lovers-island.jpg?w=1200&h=-1&s=1',
+      'https://myanmartravel.com/images/2020/07/Lover%E2%80%99s-Island-ngwe-saung-.jpg',
+    beachId: 'ngwe-saung',
+  },
+  {
+    id: 'elephant-point',
+    name: 'Elephant Point',
+    description:
+      'A rocky outcrop offering panoramic views of the coastline. Popular for sunrise viewing and bird watching.',
+    image:
+      'https://lh3.googleusercontent.com/proxy/_8PZ0HK85-nVnFT-5lMbKF5KCyDBtNUo2P_th27-TNqflNjy2gLIq8vYzX5uBSz62-FgraiT4DDomOocXUMS5UTTW7KUeqv82pyc3Trd_9_lOveOJV4',
     beachId: 'ngwe-saung',
   },
   {
@@ -60,7 +69,7 @@ const beachAttractions: BeachAttraction[] = [
     description:
       'A protected area home to various species of local and migratory birds. Great for nature lovers and bird watchers.',
     image:
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/93/2e/75/20181201-093608-largejpg.jpg?w=900&h=500&s=1',
+      'https://yangkee.tw/wp-content/uploads/2024/04/ngwesaung-661762669a120.webp',
     beachId: 'ngwe-saung',
   },
 

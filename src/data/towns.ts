@@ -303,7 +303,7 @@ export const towns: Town[] = [
       'Water Sports',
       'Sunset Views',
     ],
-    signatureDishes: ['seafood-curry', 'grilled-fish', 'coconut-noodles'],
+    signatureDishes: ['seafood-curry', 'grilled-fish', ],
   },
   {
     id: 'chaung-tha',
@@ -353,6 +353,7 @@ export const towns: Town[] = [
     ],
     signatureDishes: ['shan-noodles','tofu-nway','yellow-rice'],
   },
+  
   {
     id: 'kalaw',
     name: 'Kalaw',
