@@ -35,6 +35,15 @@ export const dishes: Dish[] = [
       'https://myfoodmyanmar.com/wp-content/uploads/2018/08/shutterstock_590487038.jpg',
   },
   {
+    id: 'burmese-fritters',
+    name: 'burmese-fritters',
+    displayName: 'Burmeses Fritters',
+    description:
+      'Burmese fritters are crispy snacks made from chickpea batter with vegetables or beans, evolving from simple lentil cakes to diverse styles influenced by local flavors and tea culture.',
+    image:
+      'https://media.licdn.com/dms/image/v2/D5622AQHHGe0JhB89ew/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733814141988?e=2147483647&v=beta&t=BMM2QTARQmiUsxdDsxwzMeh6RE8J-1f31IX_W9-VwO8',
+  },
+  {
     id: 'chicken-curry',
     name: 'chicken-curry',
     displayName: 'Chicken Curry',
@@ -57,7 +66,7 @@ export const dishes: Dish[] = [
     name: 'thingyan-rice',
     displayName: 'Thingyan Rice',
     description:
-      'RiThingyan rice is a traditional Burmese festive dish made with turmeric and coconut milk, enjoyed during the Thingyan Water Festival to celebrate the New Year.',
+      'Thingyan rice is a traditional Burmese festive dish made with turmeric and coconut milk, enjoyed during the Thingyan Water Festival to celebrate the New Year.',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pung-Atah.jpg/330px-Pung-Atah.jpg',
   },
@@ -242,6 +251,15 @@ export const dishes: Dish[] = [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP93ko_gzg62VV4rUGP-44gkQUHFjpAC63qQ&s',
   },
   {
+    id: 'jaggery',
+    name: 'jaggery',
+    displayName: 'Jaggery',
+    description:
+      'Burmese jaggery is a traditional unrefined sugar made from the concentrated sap of toddy palm trees. Often shaped into small round blocks, it has a rich caramel-like sweetness and is enjoyed as a natural snack, paired with tea, or used in desserts and traditional medicines in Myanmar.',
+    image:
+      'https://www.chefspencil.com/wp-content/uploads/Toddy-Palm-Jaggery.jpg',
+  },
+  {
     id: 'talabaw',
     name: 'talabaw',
     displayName: 'Talabaw',
@@ -267,6 +285,15 @@ export const dishes: Dish[] = [
       "Fresh fish grilled to perfection and served with herbs and chili sauce - common along Myanmar's rivers and coast.",
     image:
       'https://myfoodmyanmar.com/wp-content/uploads/2020/08/Grilled-Fish-Indian-Recipe-V6-1-e1632195012590.jpg',
+  },
+  {
+    id: 'grilled-seafood',
+    name: 'grilled-seafood',
+    displayName: 'Grilled seafood',
+    description:
+      "Fresh seafood grilled to perfection and served with herbs and chili sauce - common along Myanmar's beaches.",
+    image:
+      'https://silverkris.singaporeair.com/wp-content/uploads/2017/12/DSC_5150_result-1024x705.jpg',
   },
   {
     id: 'falooda',

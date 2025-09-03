@@ -5,7 +5,7 @@ export const towns: Town[] = [
     id: 'pyin-oo-lwin',
     name: 'Pyin Oo Lwin',
     description:
-      'Pyin Oo Lwin, a charming hill town in Myanmar, is famed for its cool climate, colonial-era architecture, and vibrant botanical gardens. Once a summer retreat for British officials, the town blends history with natural beauty, featuring flower-filled parks, cascading waterfalls, and scenic viewpoints. Pyin Oo Lwin is also known for its local strawberry farms, bustling markets, and cultural festivals, offering visitors a peaceful yet lively escape from the lowland heat. Its unique combination of heritage, nature, and local charm makes it a must-visit destination in the Shan Highlands.',
+      'Pyin Oo Lwin, once known as Maymyo during the British colonial era, is a charming hill town just east of Mandalay that still reflects its colonial roots. Founded as a summer retreat for the British in the late 19th century, it became famous for its cool climate, pine forests, and colorful flower gardens. The town is dotted with colonial-style houses, horse-drawn carriages, and Christian churches that preserve its old-world charm. Today, Pyin Oo Lwin is celebrated for its sprawling National Kandawgyi Botanical Gardens, coffee plantations, and nearby waterfalls such as Anisakan and Pwe Kauk, making it a refreshing escape from the heat of the plains. With its blend of history, natural beauty, and cultural diversity, Pyin Oo Lwin stands as a serene retreat where the past gracefully meets the present.',
     image:
       'https://www.goodlifemyanmar.net/wp-content/uploads/2017/06/Botanical-Garden.jpg',
     rating: 4.5,
@@ -106,7 +106,7 @@ export const towns: Town[] = [
     id: 'nay-pyi-daw',
     name: 'Nay Pyi Daw',
     description:
-      "Nay Pyi Daw, Myanmar’s sprawling modern capital, is a city of wide boulevards, landscaped gardens, and monumental government buildings. Designed with meticulous planning, it offers a sense of calm and order rarely found in bustling cities, making it a striking contrast to Myanmar’s historic towns. Beyond its administrative significance, Nay Pyi Taw is home to cultural and spiritual landmarks like Uppatasanti Pagoda and Maravijaya Buddha, as well as serene retreats such as the Water Fountain Garden and National Landmark Garden. With its blend of contemporary design, natural beauty, and cultural heritage, the city presents a unique experience for visitors seeking both modernity and tradition.",
+      "Nay Pyi Taw, officially declared the capital of Myanmar in 2005, is a city that represents the nation’s modern chapter while standing apart from the historical capitals like Mandalay and Yangon. Purpose-built with a vision of order and progress, it is laid out in wide, organized zones that include residential areas, government districts, and business centers. The city’s vast highways, sometimes wide enough to fit more than a dozen lanes, have become one of its most striking and unique features. At its heart stands the Uppatasanti Pagoda, a graceful replica of Yangon’s Shwedagon Pagoda, symbolizing spiritual continuity in a modern setting. Nay Pyi Taw also houses the grand Parliament Complex and impressive ministerial buildings, highlighting its role as the administrative hub of the country. Beyond politics, the city offers family-friendly attractions such as the Nay Pyi Taw Zoological Gardens, Safari Park, and the National Museum, which showcases Myanmar’s rich cultural heritage. With its spacious parks, hotels, and conference centers, the city has also become a growing venue for international events and summits. Though still young compared to other cities, Nay Pyi Taw reflects Myanmar’s aspirations for the future while offering visitors a glimpse into its evolving identity.",
     image:
       'https://blog.bangkokair.com/wp-content/uploads/2019/05/Pyidaungsu-Hluttaw.jpg',
     rating: 4.3,
@@ -163,7 +163,7 @@ export const towns: Town[] = [
     id: 'mandalay',
     name: 'Mandalay',
     description:
-      'Mandalay, the last royal capital of Myanmar, is a city where tradition and modern life beautifully intertwine. Known as the cultural heart of the country, it is home to majestic monasteries, intricate teakwood architecture, and the famed Mandalay Palace. The city holds a deep spiritual aura, with thousands of monks residing in its monasteries and the revered Mahamuni Pagoda drawing daily worshippers. Beyond its history, Mandalay thrives with craftsmanship—gold leaf making, silk weaving, and stone carving remain part of its living heritage. From the panoramic sunset at Mandalay Hill to the timeless beauty of U Bein Bridge, the world’s longest teak bridge, the city offers a journey through history, culture, and local life. Its unique blend of royal legacy and vibrant tradition makes Mandalay an unforgettable destination in Myanmar.',
+      'Mandalay, the last royal capital of Myanmar founded in 1857 by King Mindon, is a city that carries the essence of history while embracing the pulse of modern life. Once centered around the majestic Mandalay Palace, the city still reflects the grandeur of its royal past, even though much of the palace was lost during World War II. At its heart lies the sacred Mahamuni Pagoda, home to one of the most venerated Buddha images in the country, attracting pilgrims and travelers alike. The city is also famed for its artisans who continue to practice age-old crafts such as gold leaf making, wood carving, and silk weaving, keeping traditions alive through generations. Rising above the landscape, Mandalay Hill offers sweeping views of the Irrawaddy River and golden sunsets that captivate every visitor. Beyond its historic charm, Mandalay bustles with local markets, monasteries, and a vibrant daily rhythm, making it a unique blend of spiritual heritage, cultural treasures, and urban energy.',
     image: 'https://media02.stockfood.com/largepreviews/MjIwMzQyODQ0Nw==/71078337-Mandalay-City-Fort-and-Palace-reflected-in-the-moat-surrrounding-the-compound-at-night-Mandalay-Myanmar-Burma.jpg',
     rating: 4.5,
     region: 'Mandalay Region',
@@ -190,7 +190,7 @@ export const towns: Town[] = [
     id: 'bagan',
     name: 'Bagan',
     description:
-      'Bagan, the ancient capital of Myanmar, is a breathtaking archaeological wonder dotted with thousands of temples and pagodas rising across the plains. Once the heart of a powerful kingdom, it remains a spiritual and cultural treasure, where history lingers in every brick and stupa. Visitors are enchanted by its golden sunrises and sunsets, casting a magical glow over the endless temple landscape. Beyond its iconic skyline, Bagan offers vibrant local markets, traditional lacquerware crafts, and a glimpse into the daily rhythms of rural life. With its rare combination of history, spirituality, and timeless beauty, Bagan stands as one of the most unique and unforgettable destinations in the world.',
+      'Bagan, the ancient city of over 2,000 surviving temples and pagodas, stands as Myanmar’s most iconic archaeological treasure and a timeless symbol of its spiritual heritage. Flourishing as the capital of the Pagan Kingdom from the 9th to the 13th century, it was once home to more than 10,000 Buddhist structures, built under the devotion of kings and artisans who shaped the golden era of Myanmar’s history. Today, Bagan is recognized as a UNESCO World Heritage Site, where the plains are dotted with countless stupas, monasteries, and mural-filled temples that glow with golden light at sunrise and sunset. Highlights such as the Ananda Temple, Dhammayangyi Temple, and Shwezigon Pagoda showcase architectural brilliance and centuries of devotion. Beyond history, Bagan enchants visitors with its traditional lacquerware crafts, horse-cart rides, and the unforgettable experience of hot-air ballooning over the temple plain. As one walks among its ancient ruins, Bagan feels like an open-air museum where every brick whispers stories of faith, culture, and a glorious past that continues to inspire.',
     image:
       'https://content.r9cdn.net/rimg/dimg/39/01/de981725-city-41060-167f64bd01e.jpg?crop=true&width=1366&height=768&xhint=1548&yhint=1584',
     rating: 4.8,
@@ -205,7 +205,7 @@ export const towns: Town[] = [
       'Dhammayangyi Temple',
       'Hot Air Balloon Rides',
     ],
-    signatureDishes: ['burmese-curry','palm-wine'],
+    signatureDishes: ['palm-wine','burmese-fritters','jaggery'],
     restaurants: [
       'shwe-myanmar-bagan',
       'tharabar-3',
@@ -407,7 +407,7 @@ export const towns: Town[] = [
     id: 'Kyauk-se',
     name: 'Kyaukse',
     description:
-      'Kyaukse, nestled in central Myanmar, is a city where history and culture blend seamlessly. Known as the birthplace of Myanmar’s famous pagodas, it is dotted with ancient stupas and temples that tell tales of a rich heritage. The city comes alive during the annual Elephant Pagoda Festival, where locals and visitors celebrate with vibrant processions, traditional rituals, and colorful decorations. Beyond its historic charm, Kyaukse is a hub of local life, with bustling markets, friendly communities, and scenic landscapes of surrounding fields and hills. Its unique blend of spiritual significance, cultural festivities, and everyday warmth makes Kyaukse a memorable destination for travelers seeking both history and authenticity.',
+      'Kyaukse, a historic town in Myanmar’s Mandalay Region, is often called the “rice bowl” of the country for its fertile lands that have sustained generations. Its history stretches back to the Bagan era, when ancient irrigation systems built under King Anawrahta turned the region into a prosperous agricultural hub. Today, Kyaukse is most famous for its grand Kyaukse Elephant Dance Festival, held annually during Thadingyut, where life-sized papier-mâché elephants come alive in vibrant performances honoring the Buddha. The town is also home to revered pagodas such as Shwe Tha Lyaung Pagoda and Tamote Shinpin Shwegu Gyi Temple, showcasing ties to Myanmar’s religious and cultural heritage. With its blend of historical importance, spiritual landmarks, and colorful traditions, Kyaukse offers visitors a unique glimpse into Myanmar’s deep-rooted culture and rural charm.',
     image:
       'https://www.shutterstock.com/image-photo/sunset-view-kyaukse-townmandalaymyanmarasia-260nw-1230259012.jpg',
     rating: 4.1,
