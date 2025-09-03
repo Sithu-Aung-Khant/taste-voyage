@@ -234,21 +234,21 @@ export const restaurants: Restaurant[] = [
   {
     id: 'hta-naung',
     name: 'Hta Naung Restaurant',
-    image: '/restaurants/naypyidaw/1.jpg',
+    image: '/restaurants/naypyidaw/htanaung.jpg',
     townId: 'nay-pyi-daw',
     description: 'Famous for Burmese Lunch',
   },
   {
     id: 'mon-ma-2',
     name: 'Mon Ma (II) Restaurant',
-    image: '/restaurants/naypyidaw/2.HEIC',
+    image: '/restaurants/naypyidaw/2.jpg',
     townId: 'nay-pyi-daw',
     description: 'Famous for Mon style dishes',
   },
   {
     id: 'new-thai-yai',
     name: 'New Thai Yai Restaurant',
-    image: '/restaurants/naypyidaw/3.HEIC',
+    image: '/restaurants/naypyidaw/3.jpg',
     townId: 'nay-pyi-daw',
     description: 'Famous for Thai and Shan dishes',
   },
@@ -262,7 +262,7 @@ export const restaurants: Restaurant[] = [
   {
     id: 'cafe-dibar',
     name: 'Cafe DiBar',
-    image: '/restaurants/naypyidaw/5.HEIC',
+    image: '/restaurants/naypyidaw/5.jpg',
     townId: 'nay-pyi-daw',
     description: 'Known for speciality coffee and European Cuisine',
   },
