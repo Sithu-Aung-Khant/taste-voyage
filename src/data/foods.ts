@@ -7,7 +7,7 @@ export const foods: Food[] = [
     description:
       "The national dish of Myanmar, Mohinga is a flavorful fish soup with rice noodles, topped with crispy fritters and fresh herbs. Traditionally eaten for breakfast, it's now enjoyed throughout the day across the country.",
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ssMiP2ZCwVSAEWDy7SvUOr-2MwJsySnNwA&s',
+      'https://pinkysnowfoods.co.uk/cdn/shop/files/A5A48E2A-5072-489B-B768-95EB2EAB65F3.webp?v=1723143581&width=1445',
     rating: 4.8,
     origin: ['Yangon', 'Nationwide'],
     tasteTags: ['savory', 'aromatic', 'spicy', 'fresh'],
@@ -57,7 +57,7 @@ export const foods: Food[] = [
     description:
       'A beloved dish from Shan State featuring thin rice noodles with marinated chicken or pork, tomatoes, and garlic in a flavorful broth. Often served with a side of pickled vegetables.',
     image:
-      'https://hsaba.com/wp-content/uploads/2009/01/shan_noodles_hsaba.jpg',
+      'https://myfoodmyanmar.com/wp-content/uploads/2018/08/shutterstock_590487038.jpg',
     rating: 4.6,
     origin: ['Shan State'],
     tasteTags: ['savory', 'tangy', 'spicy', 'hearty'],
@@ -80,7 +80,7 @@ export const foods: Food[] = [
     description:
       "Rich and oil-based, Burmese curries are less spicy than those of neighboring countries but full of flavor. They're typically served with rice, a variety of side dishes, and soup.",
     image:
-      'https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://www.mingalabarrestaurant.com/images/meals.jpg',
     rating: 4.5,
     origin: ['Mandalay', 'Yangon'],
     tasteTags: ['rich', 'aromatic', 'savory', 'complex'],
@@ -120,7 +120,7 @@ export const foods: Food[] = [
     description:
       'Wheat noodlesin a rich coconut milk broth with chicken, garnished with boiled eggs, sliced onions, chili, and lime. A delicious comfort food with a perfect balance of flavors.',
     image:
-      'https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://images.squarespace-cdn.com/content/v1/56201ac6e4b00f43cb4f11ed/1582598044263-IWSZLBAS8NCBM2TOF9RD/Umi_Rangoon_2447.jpg',
     rating: 4.7,
     origin: ['Central Myanmar'],
     tasteTags: ['creamy', 'aromatic', 'spicy', 'savory'],

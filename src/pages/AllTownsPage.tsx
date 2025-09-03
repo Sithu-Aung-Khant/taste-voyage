@@ -6,7 +6,7 @@ import { towns } from '../data/towns';
 const AllTownsPage: React.FC = () => {
   // Categorize towns
   const topCities = towns.filter((town) =>
-    ['yangon', 'mandalay', 'pyin-oo-lwin', 'nay-pyi-daw', 'bagan'].includes(
+    ['yangon', 'mandalay', 'pyin-oo-lwin', 'nay-pyi-daw', 'bagan','Kyauk-se'].includes(
       town.id
     )
   );

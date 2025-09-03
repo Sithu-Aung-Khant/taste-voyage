@@ -5,7 +5,7 @@ export const towns: Town[] = [
     id: 'pyin-oo-lwin',
     name: 'Pyin Oo Lwin',
     description:
-      'Pyin Oo Lwin, formerly known as Maymyo, is a scenic hill town known for its colonial architecture, botanical gardens, and pleasant climate. The town offers a unique blend of British colonial history and local culture, with beautiful gardens, waterfalls, and a thriving food scene.',
+      'Pyin Oo Lwin, a charming hill town in Myanmar, is famed for its cool climate, colonial-era architecture, and vibrant botanical gardens. Once a summer retreat for British officials, the town blends history with natural beauty, featuring flower-filled parks, cascading waterfalls, and scenic viewpoints. Pyin Oo Lwin is also known for its local strawberry farms, bustling markets, and cultural festivals, offering visitors a peaceful yet lively escape from the lowland heat. Its unique combination of heritage, nature, and local charm makes it a must-visit destination in the Shan Highlands.',
     image:
       'https://www.goodlifemyanmar.net/wp-content/uploads/2017/06/Botanical-Garden.jpg',
     rating: 4.5,
@@ -34,7 +34,7 @@ export const towns: Town[] = [
     id: 'dawei',
     name: 'Dawei',
     description:
-      'Dawei is a charming coastal town in southern Myanmar, known for its pristine beaches, local markets, and authentic Burmese culture. The town offers a glimpse into traditional life while providing modern amenities and diverse dining options.',
+      'Dawei, the southern jewel of Myanmar, is a city where time seems to slow down, offering a peaceful retreat from the hectic pace of modern life. Surrounded by emerald hills and the sparkling waters of the Andaman Sea, it is a place where natural beauty and cultural heritage coexist in harmony. The city’s streets are lined with traditional wooden houses, vibrant local markets, and ancient pagodas that tell stories of centuries past. Dawei is also famed for its golden beaches and quiet coastal villages, where fresh seafood and warm smiles welcome visitors. Whether wandering through lush landscapes, exploring hidden temples, or enjoying the serene coastline, Dawei captivates travelers with its tranquil charm and authentic Myanmar spirit.',
     image:
       'https://images.skypicker.com/?image=https%3A%2F%2Fimages.kiwi.com%2Fphotos%2Foriginals%2Fdawei-township_mm.jpg&width=768&height=395&fit=crop&format=original&dpr=2',
     rating: 4.4,
@@ -56,13 +56,13 @@ export const towns: Town[] = [
       'little-eden',
       'sawardi',
     ],
-    signatureDishes: ['seafood', 'local-breakfast', 'traditional-snacks'],
+    signatureDishes: ['kat-kyi-kaik', 'seafood-curry'],
   },
   {
     id: 'kawthaung',
     name: 'Kawthaung',
     description:
-      "Kawthaung, Myanmar's southernmost city, is a vibrant port town with stunning views of the Andaman Sea. Known for its seafood, mixed culture, and gateway to the Mergui Archipelago, it offers unique dining experiences combining Thai and Burmese flavors.",
+      'Kawthaung, Myanmar’s southernmost town, is a captivating gateway to the Andaman Sea where nature, culture, and history intertwine. Perched on the border with Thailand, the town is a lively hub of trade and travel, yet it preserves a laid-back charm that reflects the slow rhythm of life in southern Myanmar. Lush tropical forests and winding rivers embrace the town, while golden beaches and nearby islands invite travelers to explore serene coastal escapes. Its bustling markets brim with fresh seafood, local produce, and handmade crafts, giving a glimpse into the daily life and traditions of the people. Kawthaung is not just a border town—it is a place of contrasts, where vibrant human activity meets tranquil natural beauty, leaving every visitor with a lasting impression of Myanmar’s southernmost wonders.',
     image:
       'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/63691851ff42b16ac7bec6a7_mrC3tGOv8SBkf5_a7FBCZb4VVtwYT7xwGfuyxGKda7HL9Ycs5sD_8Wy6R4PVkjr_t-pPir1Roo7E2wBbsXow5rZuhUicrNKbHu5cLMRvplhSPALMaJBSu2eMYcK-ZqxQTSrkd49AeO3l9loPEE1vo1_SsEnH08p_hofbcQqkGo8AFgQR6J1MgJXAVj5Stg.jpeg',
     rating: 4.3,
@@ -78,13 +78,13 @@ export const towns: Town[] = [
       'Mergui Archipelago',
     ],
     restaurants: ['sky-view', 'victoria-cliff', 'kawthaung-yummy'],
-    signatureDishes: ['seafood', 'thai-fusion', 'local-specialties'],
+    signatureDishes: ['seafood-curry', 'grilled-fish'],
   },
   {
     id: 'myeik',
     name: 'Myeik',
     description:
-      'Myeik is a historic port city known for its pearl industry and seafood. The city offers a unique blend of colonial architecture, bustling markets, and waterfront dining, making it a fascinating destination for food enthusiasts and culture seekers.',
+      'Myeik, often called the gateway to the Myeik Archipelago, is a coastal city in southern Myanmar where history, culture, and nature converge. The city’s streets are lined with colonial-era buildings, vibrant markets, and traditional wooden houses that echo the charm of its past. Myeik is surrounded by lush hills, winding rivers, and the turquoise waters of the Andaman Sea, offering both scenic beauty and abundant marine life. From bustling local markets filled with fresh seafood to serene coastal villages and nearby islands, Myeik is a place of contrasts—alive with energy yet effortlessly tranquil. Travelers can explore hidden temples, watch traditional fishing communities at work, or take boat trips to countless islands, each offering untouched beaches and natural splendor. Myeik captures the essence of southern Myanmar, blending culture, history, and nature into a destination full of discovery.',
     image:
       'https://cdn.kimkim.com/files/a/content_articles/featured_photos/68082503913e99005eb9ab105c382a58b8bd82c7/big-38d1d89484040ac054f90a3e77b4097e.jpg',
     rating: 4.4,
@@ -100,15 +100,15 @@ export const towns: Town[] = [
       'Night Market',
     ],
     restaurants: ['pin-lae-may', 'my-mergui-bar', 'hotel-drift', 'mr-bamboo'],
-    signatureDishes: ['seafood', 'local-cuisine', 'fresh-fish'],
+    signatureDishes: ['seafood-curry', 'grilled-fish', 'kat-kyi-kaik'],
   },
   {
     id: 'nay-pyi-daw',
     name: 'Nay Pyi Daw',
     description:
-      "Nay Pyi Daw, Myanmar's modern capital city, is known for its wide boulevards, government buildings, and emerging dining scene. The city offers a unique blend of contemporary architecture, hotels, and restaurants, making it an interesting destination for visitors interested in modern Myanmar.",
+      'Nay Pyi Daw, Myanmar’s sprawling modern capital, is a city of wide boulevards, landscaped gardens, and monumental government buildings. Designed with meticulous planning, it offers a sense of calm and order rarely found in bustling cities, making it a striking contrast to Myanmar’s historic towns. Beyond its administrative significance, Nay Pyi Taw is home to cultural and spiritual landmarks like Uppatasanti Pagoda and Maravijaya Buddha, as well as serene retreats such as the Water Fountain Garden and National Landmark Garden. With its blend of contemporary design, natural beauty, and cultural heritage, the city presents a unique experience for visitors seeking both modernity and tradition.',
     image:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000',
+      'https://blog.bangkokair.com/wp-content/uploads/2019/05/Pyidaungsu-Hluttaw.jpg',
     rating: 4.3,
     region: 'Nay Pyi Daw Union Territory',
     coordinates: {
@@ -129,13 +129,13 @@ export const towns: Town[] = [
       'cafe-dibar',
       'u-soe-gyi',
     ],
-    signatureDishes: ['mohinga', 'shan-noodles', 'mont-hin-gar'],
+    signatureDishes: ['mohinga', 'bambooshoot'],
   },
   {
     id: 'yangon',
     name: 'Yangon',
     description:
-      'The former capital and largest city of Myanmar, Yangon is a vibrant metropolis blending colonial-era architecture with bustling street markets and tranquil lakes. It is renowned for its sacred Buddhist sites, especially the golden Shwedagon Pagoda, which dominates the skyline. Visitors can explore a rich tapestry of cultures, diverse cuisine, and a lively arts scene.',
+      'Yangon, the former capital and the largest city of Myanmar, stands as a vibrant and dynamic metropolis that reflects the country’s cultural and historical richness. The city is known for its unique blend of colonial-era architecture, modern developments, and traditional influences, which create a striking urban landscape. Its bustling street markets offer an authentic glimpse into local life, with colorful stalls selling fresh produce, handmade crafts, and traditional snacks. Tranquil lakes and green parks provide refreshing escapes from the busy streets, adding to the city’s charm. At the heart of Yangon’s identity is its spiritual heritage, highlighted by the magnificent Shwedagon Pagoda, a golden stupa that rises majestically over the skyline and serves as one of the most sacred Buddhist sites in the world. Beyond its religious landmarks, Yangon presents a rich tapestry of cultures shaped by diverse communities, offering visitors the chance to explore an array of cuisines, from traditional Burmese dishes to international flavors. The city also boasts a lively arts and cultural scene, with galleries, theaters, and music events that showcase Myanmar’s evolving creativity.',
     image:
       'https://www.eyeonasia.gov.sg/images/asean-countries/Yangon%20snapshot%20iso.jpg',
     rating: 4.6,
@@ -157,14 +157,15 @@ export const towns: Town[] = [
       'Shan Yoe Yar',
       'Monsoon Restaurant & Bar',
     ],
-    signatureDishes: ['mohinga', 'tea-leaf-salad', 'biryani', 'chicken-curry'],
+    signatureDishes: ['mohinga', 'Burmese-pork-offal-skewers', 'biryani'],
   },
   {
     id: 'mandalay',
     name: 'Mandalay',
     description:
-      'Mandalay, the last royal capital of Myanmar, is a city steeped in history and tradition. It is famous for its ancient palaces, vibrant monasteries, and skilled artisans crafting gold leaf and intricate woodwork. The city offers a gateway to cultural treasures, scenic hills, and the timeless Irrawaddy River.',
-    image: 'https://www.hotelredcanal.com/wp-content/uploads/2017/05/10.jpg',
+      'Mandalay, the last royal capital of Myanmar, is a city where tradition and modern life beautifully intertwine. Known as the cultural heart of the country, it is home to majestic monasteries, intricate teakwood architecture, and the famed Mandalay Palace. The city holds a deep spiritual aura, with thousands of monks residing in its monasteries and the revered Mahamuni Pagoda drawing daily worshippers. Beyond its history, Mandalay thrives with craftsmanship—gold leaf making, silk weaving, and stone carving remain part of its living heritage. From the panoramic sunset at Mandalay Hill to the timeless beauty of U Bein Bridge, the world’s longest teak bridge, the city offers a journey through history, culture, and local life. Its unique blend of royal legacy and vibrant tradition makes Mandalay an unforgettable destination in Myanmar.',
+    image:
+      'https://media02.stockfood.com/largepreviews/MjIwMzQyODQ0Nw==/71078337-Mandalay-City-Fort-and-Palace-reflected-in-the-moat-surrrounding-the-compound-at-night-Mandalay-Myanmar-Burma.jpg',
     rating: 4.5,
     region: 'Mandalay Region',
     coordinates: {
@@ -177,7 +178,12 @@ export const towns: Town[] = [
       'U Bein Bridge',
       'Mahamuni Buddha Temple',
     ],
-    signatureDishes: ['nan-gyi-thoke', 'htoe-mont', 'tea-leaf-salad'],
+    signatureDishes: [
+      'nan-gyi-thoke',
+      'htoe-mont',
+      'tea-leaf-salad',
+      'mee-shay',
+    ],
     restaurants: [
       'unique-mandalay-tea-room',
       'bbb-european-restaurant',
@@ -190,7 +196,7 @@ export const towns: Town[] = [
     id: 'bagan',
     name: 'Bagan',
     description:
-      'Bagan is an ancient city in central Myanmar, home to over 2,000 Buddhist temples, pagodas, and stupas that rise majestically from the plains. This UNESCO World Heritage Site offers breathtaking sunrise and sunset views, hot air balloon rides, and a glimpse into the spiritual heart of Myanmar. Its archaeological wonders and serene landscapes make it a must-visit destination.',
+      'Bagan, the ancient capital of Myanmar, is a breathtaking archaeological wonder dotted with thousands of temples and pagodas rising across the plains. Once the heart of a powerful kingdom, it remains a spiritual and cultural treasure, where history lingers in every brick and stupa. Visitors are enchanted by its golden sunrises and sunsets, casting a magical glow over the endless temple landscape. Beyond its iconic skyline, Bagan offers vibrant local markets, traditional lacquerware crafts, and a glimpse into the daily rhythms of rural life. With its rare combination of history, spirituality, and timeless beauty, Bagan stands as one of the most unique and unforgettable destinations in the world.',
     image:
       'https://content.r9cdn.net/rimg/dimg/39/01/de981725-city-41060-167f64bd01e.jpg?crop=true&width=1366&height=768&xhint=1548&yhint=1584',
     rating: 4.8,
@@ -205,7 +211,7 @@ export const towns: Town[] = [
       'Dhammayangyi Temple',
       'Hot Air Balloon Rides',
     ],
-    signatureDishes: [],
+    signatureDishes: ['burmese-curry', 'palm-wine'],
     restaurants: [
       'shwe-myanmar-bagan',
       'tharabar-3',
@@ -218,9 +224,8 @@ export const towns: Town[] = [
     id: 'inle-lake',
     name: 'Inle Lake',
     description:
-      'Inle Lake is a tranquil freshwater lake in Shan State, famous for its floating villages, lush gardens, and the unique leg-rowing fishermen of the Intha people. The area is rich in biodiversity and traditional crafts, with vibrant markets and stilt-house communities. Visitors can experience serene boat rides, local cuisine, and the region’s distinctive culture.',
-    image:
-      'https://images.pexels.com/photos/5238583/pexels-photo-5238583.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'Inle Lake, located in the heart of the Shan Hills, is one of Myanmar’s most enchanting destinations. Famous for its floating gardens, stilted villages, and the unique leg-rowing fishermen, the lake offers a glimpse into a way of life that has remained unchanged for centuries. Local communities cultivate vegetables and flowers directly on the water, while colorful markets and temples thrive along the shores. Visitors can explore the lake by traditional wooden boats, witnessing artisans crafting silverware, weaving silk, and preparing local delicacies. Misty mornings, calm waters, and vibrant local culture create a magical atmosphere, making Inle Lake a perfect blend of natural beauty, tradition, and serenity.',
+    image: 'https://inledaytours.com/wp-content/uploads/2015/11/slide-1.jpg',
     rating: 4.7,
     region: 'Shan State',
     coordinates: {
@@ -233,13 +238,13 @@ export const towns: Town[] = [
       'Indein Pagoda Complex',
       'Traditional Leg Rowing Fishermen',
     ],
-    signatureDishes: ['shan-noodles', 'inle-fish-curry', 'tomato-salad'],
+    signatureDishes: ['shan-noodles', 'inle-fish-curry', 'yellow-rice'],
   },
   {
     id: 'hpa-an',
     name: 'Hpa-An',
     description:
-      'Nestled amid dramatic limestone mountains, Hpa-An is the capital of Kayin State and a haven for nature lovers. The town is surrounded by lush rice paddies, mysterious caves adorned with Buddhist art, and tranquil riverside scenery. Its laid-back atmosphere and stunning landscapes make it a favorite for trekkers and explorers.',
+      'Hpa-An, the peaceful capital of Kayin State, is a city where striking natural beauty and rich cultural heritage come together in perfect harmony. Cradled by the Thanlwin River and surrounded by towering limestone mountains, Hpa-An offers travelers a stunning backdrop of emerald hills and winding waterways. The city is scattered with ancient pagodas, vibrant local markets, and charming wooden houses that reflect its deep-rooted traditions. Iconic natural attractions like Mount Zwekabin, Sadan Cave, and Kawgun Cave reveal dramatic landscapes, hidden shrines, and centuries-old Buddhist carvings, creating a sense of wonder for every visitor. Life in Hpa-An flows at a gentle, calming pace—riverside strolls, lush rice paddies, and interactions with welcoming local communities immerse travelers in an authentic Burmese experience. From tranquil mornings along the river to breathtaking sunsets over the mountains, Hpa-An captivates all who visit, leaving an unforgettable impression of Myanmar’s serene southern heartland.',
     image:
       'https://t3.ftcdn.net/jpg/01/41/01/00/360_F_141010058_KNn5kstKlcVvhckx8B0wdikQVlbiKI7V.jpg',
     rating: 4.5,
@@ -254,7 +259,7 @@ export const towns: Town[] = [
       'Sadan Cave',
       'Lumbini Garden',
     ],
-    signatureDishes: [],
+    signatureDishes: ['talabaw'],
     restaurants: [
       'hpa-an-night-market',
       'cafe-kto',
@@ -330,7 +335,7 @@ export const towns: Town[] = [
     id: 'taunggyi',
     name: 'Taunggyi',
     description:
-      'Taunggyi, the capital of Shan State, sits atop cool highlands and is famous for its vibrant hill tribe culture and annual Tazaungdaing Festival, featuring spectacular hot air balloons. The city is surrounded by scenic vineyards, bustling markets, and ancient pagodas. Its unique blend of traditions and natural beauty attracts visitors year-round.',
+      'Taunggyi, the lively capital of Shan State, rests high in the mountains, offering a refreshing climate and sweeping views of rolling hills. Unlike many cities in Myanmar, it feels both modern and traditional—bustling markets sit alongside serene pagodas, while quiet neighborhoods are framed by pine trees and misty ridges. The city is famous for its colorful Tazaungdaing Balloon Festival, when hot-air balloons carrying fireworks light up the night sky in a dazzling spectacle. Taunggyi also serves as a cultural hub, home to diverse ethnic groups such as Shan, Pa-O, and Intha, each adding their own traditions, cuisines, and festivals to the city’s character. With its cool weather, vibrant local life, and easy access to attractions like Inle Lake and nearby caves, Taunggyi is more than a hill station—it’s a city where nature, culture, and celebration blend together beautifully.',
     image:
       'https://cdn.prod.website-files.com/62de641ce3132f751e31416e/62de641ce3132f6ca331495e_Fire%20Balloon%201.jpg',
     rating: 4.6,
@@ -351,13 +356,13 @@ export const towns: Town[] = [
       'shwe-myanmar',
       'royal-taunggyi',
     ],
-    signatureDishes: [],
+    signatureDishes: ['shan-noodles', 'tofu-nway', 'yellow-rice'],
   },
   {
     id: 'kalaw',
     name: 'Kalaw',
     description:
-      "Kalaw is a charming hill station with a cool climate, pine forests, and colonial-era buildings. It is a trekking paradise, offering scenic routes through ethnic villages and rolling hills. The town's relaxed pace and fresh mountain air make it a perfect retreat for nature lovers.",
+      'Kalaw, a charming hill town in Shan State, is known for its cool mountain air, pine forests, and colonial-era ambiance. Once a British hill station, the town still carries traces of old-world charm with its quaint houses, flower gardens, and quiet streets. Kalaw is especially famous as a trekking paradise travelers set out on scenic trails that wind through green hills, tea plantations, and remote ethnic villages of the Pa-O, Danu, and Taung Yo communities. The town’s lively morning market offers fresh produce and local crafts, giving visitors a taste of authentic daily life. Beyond trekking, Kalaw enchants with its peaceful monasteries, caves filled with Buddha images, and the laid-back rhythm of a town surrounded by natural beauty. Often seen as a gateway to Inle Lake, Kalaw is more than just a stopover it is a refreshing retreat where culture and nature meet in harmony.',
     image:
       'https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Kalaw_0.jpg',
     rating: 4.7,
@@ -373,20 +378,20 @@ export const towns: Town[] = [
       'Kalaw Local Market',
     ],
     restaurants: [
-      'seven-sisters',
-      'thirigayhar',
-      'dream-restaurant',
-      'everest-nepali',
+      'maluca-villa',
+      'kalaw-cafeyard',
+      'sky-house',
+      'thu-maung',
+      'kalaw-market',
     ],
-    signatureDishes: [],
+    signatureDishes: ['shan-noodles', 'tofu-nway', 'local-coffee'],
   },
   {
     id: 'nyaung-shwe',
     name: 'Nyaung Shwe',
     description:
-      'Nyaung Shwe is the bustling gateway to Inle Lake, known for its traditional wooden architecture and lively local markets. The town is a hub for boat tours, cycling, and exploring the unique culture of the Intha people. Its welcoming atmosphere and scenic surroundings make it a favorite stop for travelers.',
-    image:
-      'https://www.remotelands.com/storage/media/1123/conversions/b130126005-banner-size.jpg',
+      'Nyaung Shwe, the lively gateway to Inle Lake, is a town that beautifully blends tradition with modern charm. It is the main hub where travelers begin their journey to the famous lake, yet the town itself has much to offer. Bustling canals lined with boats, narrow streets filled with cozy guesthouses, teahouses, and colorful markets create an inviting atmosphere. Visitors can explore historic monasteries such as Yadana Man Aung Pagoda and Shwe Yan Pyay Monastery, known for its unique oval windows and red teakwood structure. The town is also home to vibrant local markets where ethnic groups like the Pa-O and Shan come to trade fresh produce, handicrafts, and traditional textiles. Cycling around Nyaung Shwe reveals hidden vineyards, peaceful countryside views, and glimpses of daily village life. With its relaxed energy, cultural richness, and convenient access to Inle, Nyaung Shwe is more than just a starting point—it is a destination worth savoring on its own.',
+    image: 'https://kite-tales.org/files/uploads/haw.jpg',
     rating: 4.8,
     region: 'Shan State',
     coordinates: {
@@ -405,15 +410,37 @@ export const towns: Town[] = [
       'thanakha-garden',
       'golden-kite',
     ],
-    signatureDishes: [],
+    signatureDishes: ['inle-fish-curry', 'yellow-rice', 'shan-noodles'],
+  },
+  {
+    id: 'Kyauk-se',
+    name: 'Kyaukse',
+    description:
+      'Kyaukse, nestled in central Myanmar, is a city where history and culture blend seamlessly. Known as the birthplace of Myanmar’s famous pagodas, it is dotted with ancient stupas and temples that tell tales of a rich heritage. The city comes alive during the annual Elephant Pagoda Festival, where locals and visitors celebrate with vibrant processions, traditional rituals, and colorful decorations. Beyond its historic charm, Kyaukse is a hub of local life, with bustling markets, friendly communities, and scenic landscapes of surrounding fields and hills. Its unique blend of spiritual significance, cultural festivities, and everyday warmth makes Kyaukse a memorable destination for travelers seeking both history and authenticity.',
+    image:
+      'https://www.shutterstock.com/image-photo/sunset-view-kyaukse-townmandalaymyanmarasia-260nw-1230259012.jpg',
+    rating: 4.1,
+    region: 'Mandalay Region',
+    coordinates: {
+      lat: 20.7333,
+      lng: 96.1167,
+    },
+    attractions: [
+      'Mahar Shwe Theindaw Buddhist Temple',
+      'Tamote Shinbin Shwegu',
+      'Mahar Shwe Theindaw Buddhist Temple',
+      'Sin Gaung Taung',
+    ],
+    restaurants: ['daw-mya-chit', 'htun-thitsa', 'kyar-pauk'],
+    signatureDishes: ['phat-htamin', 'pratha'],
   },
   {
     id: 'mawlamyaing',
     name: 'Mawlamyaing',
     description:
-      'Mawlamyaing, the fourth-largest city in Myanmar, is set along the Thanlwin River and is known for its colonial architecture and riverside charm. The city features historic pagodas, bustling markets, and scenic islands nearby. Its blend of Mon, Burmese, and colonial influences creates a unique cultural tapestry.',
+      'Mawlamyaing, the charming capital of Mon State, is a riverside city that beautifully weaves together history, culture, and natural scenery. Once an important colonial trading port, the city still preserves its heritage in the form of old churches, mosques, and colonial-era buildings that line its streets, standing gracefully alongside bustling markets and gilded pagodas. Set against the backdrop of the Thanlwin River and rolling green hills, Mawlamyaing is renowned for its breathtaking sunsets—scenes so captivating they inspired poets and writers like Rudyard Kipling. Beyond its urban charm, the city serves as a gateway to unique experiences such as exploring limestone caves filled with Buddha images, visiting quiet islands scattered along the river, and discovering Mon traditions that have shaped the region for centuries. With its blend of cultural diversity, historical significance, and stunning natural landscapes, Mawlamyaing offers travelers a journey into the timeless spirit of southern Myanmar.',
     image:
-      'https://c8.alamy.com/comp/K46JWK/buddhist-pagoda-at-moke-ta-ma-burma-towering-above-mawlamyine-highway-K46JWK.jpg',
+      'https://t3.ftcdn.net/jpg/01/11/67/46/240_F_111674657_xksnWF95QW8FUL7Q9y5Jhb7pWK4glokZ.jpg',
     rating: 4.4,
     region: 'Mon State',
     coordinates: {
@@ -421,7 +448,7 @@ export const towns: Town[] = [
       lng: 97.6167,
     },
     attractions: ['Kyaikthanlan Pagoda', 'Gaungse Kyun', 'Bilu Kyun'],
-    signatureDishes: [],
+    signatureDishes: ['mohinga', 'thingyan-rice', 'hsi-htamin'],
     restaurants: [
       'mawlamyaing-strand-night-market',
       'pyaw-yar-camp',

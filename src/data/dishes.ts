@@ -14,7 +14,7 @@ export const dishes: Dish[] = [
     description:
       "A hearty fish soup with rice noodles, crispy fritters, and aromatic herbs - Myanmar's beloved national breakfast dish.",
     image:
-      'https://burmawalakitchen.com/wp-content/uploads/2024/05/Moginga.jpg',
+      'https://pinkysnowfoods.co.uk/cdn/shop/files/A5A48E2A-5072-489B-B768-95EB2EAB65F3.webp?v=1723143581&width=1445',
   },
   {
     id: 'tea-leaf-salad',
@@ -32,16 +32,16 @@ export const dishes: Dish[] = [
     description:
       'Rice noodles in a light tomato-based sauce with marinated chicken or pork, garnished with peanuts and fresh herbs.',
     image:
-      'https://hsaba.com/wp-content/uploads/2009/01/shan_noodles_hsaba.jpg',
+      'https://myfoodmyanmar.com/wp-content/uploads/2018/08/shutterstock_590487038.jpg',
   },
   {
-    id: 'chicken-currey',
+    id: 'chicken-curry',
     name: 'chicken-curry',
     displayName: 'Chicken Curry',
     description:
-      'Chicken Currey',
+      'Burmese Chicken Curry is a flavorful, aromatic dish simmered with spices and herbs, often served with rice for a comforting meal.',
     image:
-      'https://www.allrecipes.com/thmb/FL-xnyAllLyHcKdkjUZkotVlHR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/46822-indian-chicken-curry-ii-DDMFS-4x3-39160aaa95674ee395b9d4609e3b0988.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZr4eKZtXPvwlTEOTOcw7_nmDNYQ__B3FyeQ&s',
   },
   {
     id: 'burmese-curry',
@@ -53,13 +53,22 @@ export const dishes: Dish[] = [
       'https://images.squarespace-cdn.com/content/v1/5c5c3aa4840b161566ee5eb8/1613592561255-97GOQFKRJ5YZYT7RHXE3/burmese-chicken-curry.jpg',
   },
   {
+    id: 'thingyan-rice',
+    name: 'thingyan-rice',
+    displayName: 'Thingyan Rice',
+    description:
+      'RiThingyan rice is a traditional Burmese festive dish made with turmeric and coconut milk, enjoyed during the Thingyan Water Festival to celebrate the New Year.',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pung-Atah.jpg/330px-Pung-Atah.jpg',
+  },
+  {
     id: 'seafood-curry',
     name: 'seafood-curry',
     displayName: 'Seafood Curry',
     description:
       'Rich and aromatic curry made with meat or vegetables, cooked in oil and spices until tender - a staple of Burmese cuisine.',
     image:
-      'https://images.squarespace-cdn.com/content/v1/5c5c3aa4840b161566ee5eb8/1613592561255-97GOQFKRJ5YZYT7RHXE3/burmese-chicken-curry.jpg',
+      'https://images.deliveryhero.io/image/fd-mm/LH/igt6-listing.jpg',
   },
   {
     id: 'mont-lin-ma-yar',
@@ -75,27 +84,45 @@ export const dishes: Dish[] = [
     name: 'inle-fish-curry',
     displayName: 'Inle Fish Curry',
     description:
-      'Fresh fish from Inle Lake cooked in a rich tomato-based curry sauce with local herbs and spices.',
+      'Fresh fish from Inle Lake cooked by stuffing herbs and greens inside the fish and served by wrapping with bamboo rope. It is an authentic Inle style dish.',
     image:
-      'https://images.squarespace-cdn.com/content/v1/5aa8f119e17ba3c5c4720bef/1597780521463-ZQPZQPZ8V8XWXJ8N8YQF/inle-fish-curry.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLLvbO1fyEE5deEZqdKgFS5CIhENeNNoDL4g&s',
   },
   {
-    id: 'tomato-salad',
-    name: 'tomato-salad',
-    displayName: 'Tomato Salad',
+    id: 'mee-shay',
+    name: 'mee-shay',
+    displayName: 'MeeShay',
     description:
-      'Fresh tomatoes mixed with peanut oil, crispy fried garlic, and dried shrimp - a light and refreshing side dish.',
+      'Mee Shay is a classic noodle dish from Mandalay, with soft noodles, savory starch, and a rich topping of minced pork or chicken, treated with seasoning, garlic oil and chili oil.',
     image:
-      'https://images.squarespace-cdn.com/content/v1/5aa8f119e17ba3c5c4720bef/1597780521463-ZQPZQPZ8V8XWXJ8N8YQF/burmese-tomato-salad.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1cJXZcnFpBxA4i0b8kqFEQTCHnLh-TwnOEw&s',
   },
   {
-    id: 'kayin-sausage',
-    name: 'kayin-sausage',
-    displayName: 'Kayin Sausage',
+    id: 'hta-ma-ne',
+    name: 'hta-ma-ne',
+    displayName: 'Htamane',
     description:
-      'Traditional Karen-style pork sausage seasoned with herbs, garlic, and chilies - a specialty of Kayin State.',
+      'Htamane is a traditional Burmese glutinous rice delicacy, rich and sticky, often cooked with coconut, sesame, and peanuts—celebrated during festive gatherings.',
     image:
-      'https://images.squarespace-cdn.com/content/v1/5aa8f119e17ba3c5c4720bef/1597780521463-ZQPZQPZ8V8XWXJ8N8YQF/kayin-sausage.jpg',
+      'https://i.ytimg.com/vi/u6SY-lYQxKk/sddefault.jpg',
+  },
+  {
+    id: 'yellow-rice',
+    name: 'yellow-rice',
+    displayName: 'Yellow Rice',
+    description:
+      'Shan style yellow rice is made with Shan rice, boiled potatoes and tomatoes. It is treated in round shape along with garlic oil, veggies and chilies.',
+    image:
+      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEpecHep0gWmuswZkLy6ZeCY4Jma6bf5rFwZwjQXKQkpqF7eXJknHIWGjanhkC-ypzhVYj-5ZeJ_izdgONX7g4xtiQ0KPZDsKogKj_C-R7C0c8XgWotgx9g2D9oG1aPG-ZWQ5hdkc3TvalA52w2a-Jn1YtBdM_g-V7Q7CCZVpaUF8B4E3WQTStntd6d6A/w640-h480/IMG_9897.HEIC',
+  },
+  {
+    id: 'kyay-oh',
+    name: 'kyay-oh',
+    displayName: 'Kyay-Oh',
+    description:
+      'Kyay Oh is a beloved Burmese noodle dish, featuring flavorful broth, tender noodles, and a mix of fresh meat or seafood—comfort food at its finest.',
+    image:
+      'https://cdn.tasteatlas.com//images/dishrestaurants/b38cb6d1d4f24a23ae1814d0f6a3df35.jpg?width=800&height=513',
   },
   {
     id: 'biryani',
@@ -104,7 +131,7 @@ export const dishes: Dish[] = [
     description:
       'Fragrant rice cooked with aromatic spices, meat, and caramelized onions - influenced by Indian cuisine.',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVt4aAT6t8SWbxuE7YgThGOLOOPImFMqCpYg&s',
+      'https://www.nilarbiryani.com/wp-content/uploads/2021/03/biryani.jpg',
   },
   {
     id: 'nan-gyi-thoke',
@@ -116,13 +143,58 @@ export const dishes: Dish[] = [
       'https://images.squarespace-cdn.com/content/v1/604fca2357feb3489dacff9b/1615924788667-6AOD4HF3780P26L3TY7B/NanGyiThokeBurmalicious1',
   },
   {
+    id: 'burmese-tofu',
+    name: 'burmese-tofu',
+    displayName: 'Burmese Tofu',
+    description:
+      'Burmese Tofu is a soft, golden legume-based delicacy, often served fried or in salads, celebrated for its light texture and subtle, comforting flavor.',
+    image:
+      'https://www.mangiaviviviaggia.com/wp-content/uploads/2016/09/shan-tofu-birmano.jpg',
+  },
+  {
+    id: 'Burmese-pork-offal-skewers',
+    name: 'Burmese-pork-offal-skewers',
+    displayName: 'Burmese pork offal skewers',
+    description:
+      'Burmese Pork Offal Skewers are savory street snacks, grilled to perfection and bursting with smoky, bold flavors that capture Myanmar’s local taste.',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcfw9ffypbehcxlZ0gvLJ0H4A6FmNAZme0pQ&s',
+  },
+  {
+    id: 'burmese-preserverd-fruits',
+    name: 'burmese-preserverd-fruits',
+    displayName: 'Burmese Preserved Fruits',
+    description:
+      'Burmese Preserved Fruits is a traditional Burmese salad that combines tangy, sour flavors with fresh vegetables and sometimes fruits, creating a refreshing and zesty dish often enjoyed as a side.',
+    image:
+      'https://i.ytimg.com/vi/RBc3PNtvzBo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCh2OeAU2X7S9UALHyqlwO6zWX_TQ',
+  },
+  {
     id: 'htoe-mont',
     name: 'htoe-mont',
     displayName: 'Htoe Mont',
     description:
       'Sweet glutinous rice cake with coconut shavings and poppy seeds - a traditional Mon dessert.',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9zNlhVBIwKljPxq8iPJCePCNLxjdEoxDV5g&s',
+      'https://upload.wikimedia.org/wikipedia/commons/2/26/Freid_Coconut_Htoe_Mont.jpg',
+  },
+  {
+    id: 'assorted-burmese-desserts',
+    name: 'assorted-burmese-desserts',
+    displayName: 'Assorted Burmese Desserts',
+    description:
+      'Assorted burmese desserts are mostly made from rice flour, butter and jaggery.They are treated mostly at an occassion or donation.',
+    image:
+      'https://www.restaurantguide.com.mm/custom/domain_1/image_files/sitemgr_photo_23996.jpg',
+  },
+  {
+    id: 'hsi-htamin',
+    name: 'hsi-htamin',
+    displayName: 'Hsi Htamin',
+    description:
+      'Hsi Htamin is a traditional dish of fragrant, turmeric-infused glutinous rice, often served with savory sides like grilled dried fish. ',
+    image:
+      'https://i.ytimg.com/vi/bLldcqArZys/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCGf5e3BSReAM3nSARgchK9ukn7Zw',
   },
   {
     id: 'local-wine',
@@ -131,7 +203,7 @@ export const dishes: Dish[] = [
     description:
       "Artisanal wine produced in Myanmar's Shan State, particularly from the Red Mountain Estate - known for its unique terroir.",
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJDPJ7fMxLhXyMnzXx3EFCklVLD664oFl52w&s',
+      'https://redmountainestate.com/wp-content/uploads/2023/03/Moscato-3.jpg',
   },
   {
     id: 'local-coffee',
@@ -143,13 +215,49 @@ export const dishes: Dish[] = [
       'https://www.myanmarinsider.com/wp-content/uploads/2018/07/Time-for-Myanmar%E2%80%99s-Specialty-Coffee-.jpg',
   },
   {
+    id: 'cendol',
+    name: 'cendol',
+    displayName: 'Cendol',
+    description:
+      'Mont Lett Saung is a traditional Burmese dessert, featuring soft rice flour cakes soaked in sweet coconut milk and topped with crunchy garnishes. It’s a beloved treat that combines delicate texture with rich, comforting flavors.',
+    image:
+      'https://www.unileverfoodsolutions.co.id/dam/global-ufs/mcos/SEA/calcmenu/recipes/ID-recipes/Cendol-Bango/Cendol%20Bango%20copy.jpg',
+  },
+  {
+    id: 'mont-lone-yay-paw',
+    name: 'mont-lone-yay-paw',
+    displayName: 'Mont Lone Yay Paw',
+    description:
+      'Mont Lone Yay Paw is a traditional Burmese sweet, made of glutinous rice balls filled with jaggery and served during festive occasions. Its chewy texture and caramel-like filling make it a beloved treat across Myanmar.',
+    image:
+      'https://i.pinimg.com/736x/b6/53/62/b65362a4e9a45d1edbed429433bee3ee.jpg',
+  },
+  {
+    id: 'palm-wine',
+    name: 'palm-wine',
+    displayName: 'Palm Wine',
+    description:
+      'Burmese Palm Wine, locally called “Toddy”, is a traditional fermented drink with a sweet, tangy flavor, often enjoyed during gatherings and festive celebrations.',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP93ko_gzg62VV4rUGP-44gkQUHFjpAC63qQ&s',
+  },
+  {
+    id: 'talabaw',
+    name: 'talabaw',
+    displayName: 'Talabaw',
+    description:
+      'Talabaw is a traditional Kayin (Karen) dish, a savory and hearty soup made with fermented tea leaves, local herbs, and vegetables. It reflects the rich culinary heritage and unique flavors of the Kayin community.',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Talabaw_%28cropped%29.jpg/1200px-Talabaw_%28cropped%29.jpg',
+  },
+  {
     id: 'seafood-curry',
     name: 'seafood-curry',
     displayName: 'Seafood Curry',
     description:
       'Fresh seafood cooked in a rich curry sauce with lemongrass, turmeric, and local spices - a coastal specialty.',
     image:
-      'https://www.seriouseats.com/thmb/fXRpYxcmq9YKyHifkQqFYmd_xEI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2020_curry_karides_02-981b0e13b79f46f78ed85bb2e2fdc0ff.jpg',
+      'https://images.deliveryhero.io/image/fd-mm/LH/igt6-listing.jpg',
   },
   {
     id: 'grilled-fish',
@@ -158,16 +266,34 @@ export const dishes: Dish[] = [
     description:
       "Fresh fish grilled to perfection and served with herbs and chili sauce - common along Myanmar's rivers and coast.",
     image:
-      'https://www.butteroverbae.com/wp-content/uploads/2020/12/grilled-fish-2.jpg',
+      'https://myfoodmyanmar.com/wp-content/uploads/2020/08/Grilled-Fish-Indian-Recipe-V6-1-e1632195012590.jpg',
   },
   {
-    id: 'coconut-noodles',
-    name: 'coconut-noodles',
-    displayName: 'Coconut Noodles',
+    id: 'falooda',
+    name: 'falooda',
+    displayName: 'Falooda',
     description:
-      'Wheat noodles in a rich coconut milk broth with chicken, garnished with crispy wonton strips and hard-boiled eggs.',
+      'Falooda is a refreshing Burmese dessert drink, blending sweet syrup, vermicelli, jelly, and creamy milk for a colorful and indulgent treat.',
     image:
-      'https://myanmarlivingimages.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2018/10/kyar-zan-hin.jpg',
+      'https://milkmaid.lk/sites/default/files/2024-03/WS.jpg',
+  },
+  {
+    id:'durian',
+    name: 'durian',
+    displayName: 'Durian',
+    description:
+      'Burmese Durian is a rich and creamy tropical fruit, known for its strong aroma and sweet, custard-like flavor, cherished as a seasonal delicacy in Myanmar.',
+    image:
+      'https://global-geography.org/attach/Geography/Asia/Burma/Pictures/Yangon/Durian_2/scaled-900x599-B068_Durian_Durian.jpg',
+  },
+  {
+    id:'mango',
+    name: 'mango',
+    displayName: 'Mango',
+    description:
+      'Burmese Mango is a sweet and juicy tropical fruit, cherished for its fragrant aroma and vibrant flavor, often enjoyed fresh or in salads and desserts.',
+    image:
+      'https://www.freshplaza.com/remote/https/agfstorage.blob.core.windows.net/misc/FP_cn/2021/06/22/u_95496730_3981864266_fm_26_gp_0.jpg?preset=ContentFullSmall',
   },
   {
     id: 'kat-kyi-kaik',
@@ -176,53 +302,71 @@ export const dishes: Dish[] = [
     description:
       'Stir-fried flat rice noodles with seafood, vegetables, and eggs - a popular street food dish from Yangon.',
     image:
-      'https://img-global.cpcdn.com/recipes/80d66349f2c3902e/1200x630cq70/photo.jpg',
+      'https://i.ytimg.com/vi/qfrjyGdvhao/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGH8gRigTMA8=&rs=AOn4CLBMFHjYdOzfBdSphJG0D5QtcJ_qtg',
   },
   {
-    id: 'mee-shay',
-    name: '',
-    displayName: 'Mee Shay - Taunggyi Style',
+    id: 'shwe-yin-aye',
+    name: 'shwe-yin-aye',
+    displayName: 'Shwe Yin Aye',
     description:
-      'Vermicelli dish made with minced meat, garlic oil, starch and spices.',
+      'Shwe Yin Aye is a traditional Burmese dessert, combining coconut milk, jelly, sago, and bread for a sweet, creamy, and refreshing treat.',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PvI-LJbrT-u0XGCCb8kQIUY-HktLhx2bDQ&s',
+      'https://www.myyangon.com.mm/storage/posts/April2023/SYA.jpg',
   },
   {
-    id: 'aythaya-wine',
-    name: 'aythaya-wine',
-    displayName: 'Aythaya Wine',
+    id: 'burmese-tea',
+    name: 'burmese-tea',
+    displayName: 'Burmese Tea',
     image:
-      'https://www.myanmore.com/wp-content/uploads/2022/09/aythaya_vineyard_wine_myanmar.jpg',
+      'https://www.gomyanmartours.com/wp-content/uploads/2017/08/Myanmar-is-a-fantastic-place-to-enjoy-tea.jpg',
     description:
-      "Myanmar's first vineyard located near Taunggyi, producing high-quality red, white, and rosé wines. Aythaya Wine is a signature of Shan State's modern culinary landscape, offering scenic tastings and vineyard tours.",
+      "Burmese Tea is a rich and aromatic beverage, often served sweetened or with milk, cherished for its comforting flavor and cultural significance.",
   },
   {
-    id: 'kalaw-paratha-curry',
-    name: 'kalaw-paratha-curry',
-    displayName: 'Paratha with Indian-style Curry',
+    id: 'paratha',
+    name: 'pratha',
+    displayName: 'Paratha',
     description:
       "Flaky, pan-fried flatbread (paratha) served with lentil or meat-based curry. A testament to Kalaw's colonial and Indian railway history, offering one of the best paratha and curry combinations in Myanmar.",
     image:
-      'https://media-cdn.tripadvisor.com/media/photo-s/0a/c8/6d/4c/lunch-vegetable-curry.jpg',
+      'https://i.ytimg.com/vi/p5DnbzV0gWY/maxresdefault.jpg',
   },
   {
     id: 'tofu-nway',
     name: 'tofu-nway',
-    displayName: 'Tofu Nway (Shan Tofu Soup)',
+    displayName: 'Tofu Nway',
     description:
       "A warm, creamy yellow tofu porridge made from chickpeas, topped with rice noodles, meat, and chili oil. Made fresh daily in Kalaw, it's a comforting, protein-rich meal perfect for the cool climate.",
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVB0VVUnBThKLv1cnq2gtlWUCbTnIRF2pvw&s',
+      'https://i.ytimg.com/vi/EP0yTE91r0A/maxresdefault.jpg',
   },
   {
-    id: 'shan-tomato-curry',
-    name: 'shan-tomato-curry',
-    displayName: 'Shan-style Tomato Curry',
+    id: 'nga-pi-yay',
+    name: 'nga-pi-yay',
+    displayName: 'Nga Pi Yay',
     description:
-      "A rich, tangy tomato-based curry with meat, flavored with Shan spices and garnished with fried garlic. Kalaw's version is uniquely herbal and fragrant due to the fresh hill-grown herbs and tomatoes from local farms.",
+      "Nga Pi Yay is a traditional Burmese condiment made from fermented fish, often used to add a rich, salty umami flavor to soups, curries, and salads.",
     image:
-      'https://i.ytimg.com/vi/ngvmPvJcyUU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqZli7k0gvBoKj3LKAX3SPvWl6HA',
+      'https://i.ytimg.com/vi/Tb9C3ffQovU/maxresdefault.jpg',
   },
+  {
+    id: 'phat-htamin',
+    name: 'phat-htamin',
+    displayName: 'Phat Htamin',
+    description:
+      "Phat Htamin is a burmese luch packed with lotus leaf which makes the food aromatic in smell and is really assembles the culture of Myanmar.",
+    image:
+      'https://i.ytimg.com/vi/9oi3UeNM9ig/maxresdefault.jpg',
+  },
+  {
+    id: 'roselle-leaves',
+    name: 'roselle-leaves',
+    displayName: 'Roselle leaves',
+    description:
+      "Roselle Leavesis a traditional Burmese stir-fry featuring tender roselle leaves sautéed with garlic, onions, and spices, offering a tangy and flavorful vegetable dish.",
+    image:
+      'https://i.ytimg.com/vi/gxs1c5YlS2g/maxresdefault.jpg',
+  }, 
   {
     id: 'maymyo-coffee',
     name: 'maymyo-coffee',
@@ -241,6 +385,7 @@ export const dishes: Dish[] = [
     image:
       'https://www.mtnewstoday.com/en/wp-content/uploads/2024/02/photo_2024-02-09_11-07-04-1.jpg',
   },
+
   {
     id: 'dairy-products',
     name: 'dairy-products',
@@ -249,6 +394,15 @@ export const dishes: Dish[] = [
       "Fresh dairy products including milk, cheese, yogurt, and butter produced in Pyin Oo Lwin's dairy farms. The town's cool climate and lush pastures make it ideal for dairy farming, producing high-quality, fresh dairy products.",
     image:
       'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ZWn9PIh3I3wXbDv4NlP_ShJf3tRDlQZm2qZg7nsxxux-glQoSG12pnv-Ku7cM5-T8n6tCkFRcZ9HGa_ahUVmlY2FdYVZRhXD8Mbt-HB2TKZxmsj7e2X_6sbGrKQNcWMNMjTudw/s1600/Server_Holding_Strawberries_and_Milk_Pyin_Oo_Lwin_Myanmar_03_2014.jpg',
+  },
+  {
+    id: 'bambooshoot',
+    name: 'bambooshoot',
+    displayName: 'Bambooshoot',
+    description:
+      "Bamboo shoot is a popular ingredient in Burmese cuisine, often cooked in curries, soups, or stir-fries. Its tender texture and subtle earthy flavor make it a versatile addition to savory dishes, reflecting the simplicity and heartiness of Myanmar’s traditional cooking.",
+    image:
+      'https://www.doca.gov.mm/sites/default/files/styles/large/public/field/image/53_1.jpg?itok=qsxJ3ZZ8',
   },
 ];
 
