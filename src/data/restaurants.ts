@@ -498,6 +498,58 @@ export const restaurants: Restaurant[] = [
     townId: 'nyaung-shwe',
     description: 'Famous for Shan and Intha traditional dishes',
   },
+  // Tachileik Restaurants
+  {
+    id: 'vela-varee',
+    name: 'Vela Varee Restaurants',
+    image: '/restaurants/tachileik/1.JPG',
+    townId: 'tachileik',
+    description: 'Famous for its unique location and scenery',
+  },
+  {
+    id: 'sora-cafe',
+    name: 'Sora Cafe and Restaurant',
+    image: '/restaurants/tachileik/2.PNG',
+    townId: 'tachileik',
+    description: 'Famous for its Thai foods',
+  },
+  {
+    id: 'akha-zone-cafe',
+    name: 'Akha Zone Cafe',
+    image: '/restaurants/tachileik/3.WEBP',
+    townId: 'tachileik',
+    description: 'Famous for Akha traditional foods and soft drinks',
+  },
+  {
+    id: 'tachileik-night-market',
+    name: 'Tachileik Night Market',
+    image: '/restaurants/tachileik/IMG_6058.JPG',
+    townId: 'tachileik',
+    description:
+      'Known for variety choices of Shan-Thai Street Foods for Tachileik township',
+  },
+  // Keng Tung Restaurants
+  {
+    id: 'i-visit-keng-tung',
+    name: 'I visit Keng Tung',
+    image: '/restaurants/kengtung/1.PNG',
+    townId: 'kengtung',
+    description: 'Famous for wide variety of Asian dishes',
+  },
+  {
+    id: 'golden-orchid-cafe',
+    name: 'Golden Orchid Cafe',
+    image: '/restaurants/kengtung/2.PNG',
+    townId: 'kengtung',
+    description: 'Famous for wide variety from Breakfast to Dinner',
+  },
+  {
+    id: 'naung-lay-fish-pond',
+    name: 'Naung Lay Fish Pond & Restaurant',
+    image: '/restaurants/kengtung/3.PNG',
+    townId: 'kengtung',
+    description: 'Famous for its peaceful location and foods',
+  },
 ];
 
 export const getRestaurantsByTownId = (townId: string): Restaurant[] => {

@@ -456,4 +456,57 @@ export const towns: Town[] = [
       'doh-yoe-yar',
     ],
   },
+  {
+    id: 'tachileik',
+    name: 'Tachileik',
+    description:
+      "Tachileik, a vibrant border town in eastern Myanmar, serves as a gateway between Myanmar and Thailand, offering a unique blend of cultures and cuisines. Located in the heart of the Golden Triangle region, the town is known for its bustling markets, diverse ethnic communities, and stunning mountain scenery. Visitors can explore traditional Shan architecture, visit local temples, and experience the rich cultural heritage of the region. The town's strategic location makes it a hub for trade and cultural exchange, with influences from both Myanmar and Thailand evident in its food, language, and customs. Tachileik offers travelers an authentic glimpse into border town life while providing access to the natural beauty and cultural richness of eastern Myanmar.",
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tachileik_Myanmar.jpg/1200px-Tachileik_Myanmar.jpg',
+    rating: 4.3,
+    region: 'Shan State',
+    coordinates: {
+      lat: 20.4475,
+      lng: 99.8808,
+    },
+    attractions: [
+      'Border Market',
+      'Shan Temples',
+      'Mountain Views',
+      'Cultural Villages',
+    ],
+    restaurants: [
+      'vela-varee',
+      'sora-cafe',
+      'akha-zone-cafe',
+      'tachileik-night-market',
+    ],
+    signatureDishes: ['shan-noodles', 'thai-curry', 'akha-traditional-food'],
+  },
+  {
+    id: 'kengtung',
+    name: 'Keng Tung',
+    description:
+      "Keng Tung, a historic city in eastern Shan State, is known for its rich cultural heritage, diverse ethnic communities, and stunning natural landscapes. The city is home to various ethnic groups including Shan, Akha, Lahu, and Wa, each contributing to its vibrant cultural tapestry. Keng Tung features traditional Shan architecture, ancient temples, and bustling markets where local crafts and produce are traded. The surrounding mountains and valleys offer opportunities for trekking and exploring remote ethnic villages. The city's unique location and cultural diversity make it a fascinating destination for travelers interested in experiencing the authentic culture and traditions of eastern Myanmar.",
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kengtung_Myanmar.jpg/1200px-Kengtung_Myanmar.jpg',
+    rating: 4.4,
+    region: 'Shan State',
+    coordinates: {
+      lat: 21.2833,
+      lng: 99.6167,
+    },
+    attractions: [
+      'Traditional Markets',
+      'Ethnic Villages',
+      'Mountain Trekking',
+      'Cultural Heritage Sites',
+    ],
+    restaurants: [
+      'i-visit-keng-tung',
+      'golden-orchid-cafe',
+      'naung-lay-fish-pond',
+    ],
+    signatureDishes: ['shan-noodles', 'ethnic-traditional-food', 'fresh-fish'],
+  },
 ];
