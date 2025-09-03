@@ -54,7 +54,7 @@ export const restaurants: Restaurant[] = [
   {
     id: 'daw-mya-chit',
     name: 'Daw Mya Chit Myanmar Cuisine',
-    image: '/restaurants/pyinoolwin/6.jpg',
+    image: 'https://i.imgur.com/oiTKg5y.jpeg',
     townId: 'Kyauk-se',
     description: 'Famous for burmese lunch packed with lotus leaves',
   },
@@ -62,14 +62,14 @@ export const restaurants: Restaurant[] = [
     id: 'tun-thitsa',
     name: 'Tun Thitsa Cafe',
     image:
-      'https://tazaproducts.com/blog/wp-content/uploads/sites/8/2024/05/Why-chai-paratha-is-the-ultimate-comfort-food-scaled.jpg',
+      'https://i.imgur.com/1yCTmPm.jpeg',
     townId: 'Kyauk-se',
     description: 'Famous for its tea and pratha',
   },
   {
     id: 'kyar-pauk',
     name: 'Kyar Pauk Noodle',
-    image: '/restaurants/pyinoolwin/6.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSF0ZewsP_TjJxvNU0nn6G7rUxN8Bjz3lMpSUGp_wxMdibn8y_LQmAvlQjcBulvkv69YY&usqp=CAU',
     townId: 'Kyauk-se',
     description:
       'Famous for fried noodles packed with lotus leaves and chinese stir fry dishes',
