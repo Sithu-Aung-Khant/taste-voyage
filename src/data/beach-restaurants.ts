@@ -89,7 +89,8 @@ const beachRestaurants: BeachRestaurant[] = [
     name: 'Golden Crab Restaurant',
     description:
       'Famous for its crab dishes and local seafood specialties. Offers a casual dining experience with ocean views.',
-    image: '/beaches/restaurants/golden-crab.jpg',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5urM6Kq-PnoN5mQe06YowJzfTS4bmwNZJog&s',
     beachId: 'chaung-tha',
   },
   {
@@ -97,7 +98,8 @@ const beachRestaurants: BeachRestaurant[] = [
     name: 'Beach Breeze Restaurant',
     description:
       'A family-friendly restaurant serving both local and Western dishes. Known for its relaxed atmosphere and reasonable prices.',
-    image: '/beaches/restaurants/beach-breeze.jpg',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/a3/ac/ef/img-20170211-wa0004-largejpg.jpg?w=1600&h=900&s=1',
     beachId: 'chaung-tha',
   },
   {
@@ -105,7 +107,8 @@ const beachRestaurants: BeachRestaurant[] = [
     name: 'Ocean View Restaurant',
     description:
       'An upscale dining venue offering a mix of Asian and European cuisine. Features a romantic setting perfect for special occasions.',
-    image: '/beaches/restaurants/ocean-view.jpg',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyzDk1znU_9RF7ysEtmMsKPWR4cecGKDSiaw&s',
     beachId: 'chaung-tha',
   },
   {
@@ -113,7 +116,8 @@ const beachRestaurants: BeachRestaurant[] = [
     name: 'Palm Grove Restaurant',
     description:
       'A rustic beachside eatery specializing in traditional Myanmar coastal cuisine. Known for its authentic flavors and peaceful garden setting under palm trees.',
-    image: '/beaches/restaurants/palm-grove.jpg',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/a2/bc/88/the-palm-grove-resort.jpg?w=2000&h=-1&s=1',
     beachId: 'chaung-tha',
   },
 ];

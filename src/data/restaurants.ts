@@ -61,7 +61,8 @@ export const restaurants: Restaurant[] = [
   {
     id: 'tun-thitsa',
     name: 'Tun Thitsa Cafe',
-    image: 'https://tazaproducts.com/blog/wp-content/uploads/sites/8/2024/05/Why-chai-paratha-is-the-ultimate-comfort-food-scaled.jpg',
+    image:
+      'https://tazaproducts.com/blog/wp-content/uploads/sites/8/2024/05/Why-chai-paratha-is-the-ultimate-comfort-food-scaled.jpg',
     townId: 'Kyauk-se',
     description: 'Famous for its tea and pratha',
   },
@@ -70,7 +71,8 @@ export const restaurants: Restaurant[] = [
     name: 'Kyar Pauk Noodle',
     image: '/restaurants/pyinoolwin/6.jpg',
     townId: 'Kyauk-se',
-    description: 'Famous for fried noodles packed with lotus leaves and chinese stir fry dishes',
+    description:
+      'Famous for fried noodles packed with lotus leaves and chinese stir fry dishes',
   },
   // Hpa-An Restaurants
   {
@@ -232,42 +234,42 @@ export const restaurants: Restaurant[] = [
   {
     id: 'hta-naung',
     name: 'Hta Naung Restaurant',
-    image: '/src/public/restaurants/naypyidaw/1.jpg',
+    image: '/restaurants/naypyidaw/htanaung.jpg',
     townId: 'nay-pyi-daw',
     description: 'Famous for Burmese Lunch',
   },
   {
     id: 'mon-ma-2',
     name: 'Mon Ma (II) Restaurant',
-    image: '/src/public/restaurants/naypyidaw/2.jpg',
+    image: '/restaurants/naypyidaw/2.jpg',
     townId: 'nay-pyi-daw',
     description: 'Famous for Mon style dishes',
   },
   {
     id: 'new-thai-yai',
     name: 'New Thai Yai Restaurant',
-    image: '/src/public/restaurants/naypyidaw/3.jpg',
+    image: '/restaurants/naypyidaw/3.jpg',
     townId: 'nay-pyi-daw',
     description: 'Famous for Thai and Shan dishes',
   },
   {
     id: 'nature-tea-house',
     name: 'Nature Tea House',
-    image: '/src/public/restaurants/naypyidaw/4.jpg',
+    image: '/restaurants/naypyidaw/4.PNG',
     townId: 'nay-pyi-daw',
     description: 'Famous for wide variety of breakfast',
   },
   {
-    id: 'la-la-leora',
-    name: 'La La Leora',
-    image: '/src/public/restaurants/naypyidaw/5.jpg',
+    id: 'cafe-dibar',
+    name: 'Cafe DiBar',
+    image: '/restaurants/naypyidaw/5.jpg',
     townId: 'nay-pyi-daw',
-    description: 'Known for speciality coffee',
+    description: 'Known for speciality coffee and European Cuisine',
   },
   {
     id: 'u-soe-gyi',
     name: 'U Soe Gyi Grilled Pork Ribs',
-    image: '/src/public/restaurants/naypyidaw/6.jpg',
+    image: '/restaurants/naypyidaw/6.JPG',
     townId: 'nay-pyi-daw',
     description: 'Known for its special grilled pork ribs',
   },
@@ -385,7 +387,8 @@ export const restaurants: Restaurant[] = [
   {
     id: 'maw-kham-restaurant',
     name: 'Maw Kham Restaurant',
-    image: 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4noTIKQ4vgAfWb9e0eFxN0nID3TM6lMQXgLJ293fleb_Au-IpH1Gs79gtBpJkvPruTyv1Fain-VPDqd-UOHSb5KVqhhagU1dy8IEoN-e65aQuAHQKJSnRwSPf_P49lUB0S27eeXg=s680-w680-h510-rw',
+    image:
+      'https://lh3.googleusercontent.com/gps-cs-s/AC9h4noTIKQ4vgAfWb9e0eFxN0nID3TM6lMQXgLJ293fleb_Au-IpH1Gs79gtBpJkvPruTyv1Fain-VPDqd-UOHSb5KVqhhagU1dy8IEoN-e65aQuAHQKJSnRwSPf_P49lUB0S27eeXg=s680-w680-h510-rw',
     townId: 'taunggyi',
     description:
       'Popular restaurant serving authentic Shan and Chinese cuisine',
@@ -393,7 +396,8 @@ export const restaurants: Restaurant[] = [
   {
     id: 'upper-house',
     name: 'Upper House Cafe',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfLWoUzqPQJfn9QCVc26Ya-jO21TwdpQFKdsoKLjKFBkcKNgTHrqXWwPKoL1vHRozeFnk&usqp=CAU',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfLWoUzqPQJfn9QCVc26Ya-jO21TwdpQFKdsoKLjKFBkcKNgTHrqXWwPKoL1vHRozeFnk&usqp=CAU',
     townId: 'taunggyi',
     description: 'Famous for specility coffee',
   },
@@ -407,14 +411,16 @@ export const restaurants: Restaurant[] = [
   {
     id: 'city-view',
     name: 'City View Bar and Restaurant',
-    image: 'https://jasminetaunggyi.com/wp-content/uploads/2023/08/J-Bar-8-scaled.jpg',
+    image:
+      'https://jasminetaunggyi.com/wp-content/uploads/2023/08/J-Bar-8-scaled.jpg',
     townId: 'taunggyi',
     description: 'Famous for dining with panoramic view of the city',
   },
   {
     id: 'daw-pan',
     name: 'Daw Pan Warm Tofu',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalF3cTxyy5KxV1lVjPDyvqAx35kzvUuwleNg2yVz0bQ5EJTfVrRtpNKKwkVJLSdph6BU&usqp=CAU',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalF3cTxyy5KxV1lVjPDyvqAx35kzvUuwleNg2yVz0bQ5EJTfVrRtpNKKwkVJLSdph6BU&usqp=CAU',
     townId: 'taunggyi',
     description: 'Famous for noodles treated with tofu',
   },
@@ -422,35 +428,40 @@ export const restaurants: Restaurant[] = [
   {
     id: 'maluca-villa',
     name: 'Maluca Villa',
-    image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/68/28/60/maluca-villa-restaurant.jpg?w=900&h=500&s=1',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/68/28/60/maluca-villa-restaurant.jpg?w=900&h=500&s=1',
     townId: 'kalaw',
     description: 'Famous for coffee and aesthetic scenery',
   },
   {
     id: 'kalaw-cafeyard',
     name: 'Kalaw Cafeyard',
-    image: 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4npK3trPZV0nzfpvjEiAWPzAHl6rGDsKomThWgMxDNITzbNvuzWjwCKYSLobKboJOe4IAREE5oQDKh2D6y4Ca8W4Gvondd6V9Ep2ORBHOqDOdOoL7Wwsc9eyU4QlbHxfJip2JOAeIH9obXfb=s680-w680-h510-rw',
+    image:
+      'https://lh3.googleusercontent.com/gps-cs-s/AC9h4npK3trPZV0nzfpvjEiAWPzAHl6rGDsKomThWgMxDNITzbNvuzWjwCKYSLobKboJOe4IAREE5oQDKh2D6y4Ca8W4Gvondd6V9Ep2ORBHOqDOdOoL7Wwsc9eyU4QlbHxfJip2JOAeIH9obXfb=s680-w680-h510-rw',
     townId: 'kalaw',
     description: 'Local favorite serving speciality coffee and pasteries',
   },
   {
     id: 'sky-house',
     name: 'Sky House Hot Pot and Barbque',
-    image: 'https://i.ytimg.com/vi/7j-ODk2PAoc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAhHh7EGt5ZEIIhCO4Co2lwbKCy-w',
+    image:
+      'https://i.ytimg.com/vi/7j-ODk2PAoc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAhHh7EGt5ZEIIhCO4Co2lwbKCy-w',
     townId: 'kalaw',
     description: 'Popular spot for fresh meat bbq with fair price',
   },
   {
     id: 'thu-maung',
     name: 'Thu Maung Myanmar Restaurant',
-    image: 'https://cdn.sanity.io/images/ul272611/production/41a86966a2937b6b633b0726e98b7beb177b073e-1080x1440.jpg?rect=0,180,1080,1080&w=600&h=600&fit=max&auto=format',
+    image:
+      'https://cdn.sanity.io/images/ul272611/production/41a86966a2937b6b633b0726e98b7beb177b073e-1080x1440.jpg?rect=0,180,1080,1080&w=600&h=600&fit=max&auto=format',
     townId: 'kalaw',
     description: 'Authentic Myanmar cuisine in the heart of Kalaw',
   },
   {
     id: 'kalaw-market',
     name: 'Kalaw Market',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Kalaw_Market_2021_November.jpg/1200px-Kalaw_Market_2021_November.jpg',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Kalaw_Market_2021_November.jpg/1200px-Kalaw_Market_2021_November.jpg',
     townId: 'kalaw',
     description: 'The best placet to explore Shan authentic foods and dishes',
   },
@@ -458,30 +469,86 @@ export const restaurants: Restaurant[] = [
   {
     id: 'pwe-taw-win',
     name: 'Pwe Taw Win Nature Restaurant',
-    image: 'https://static.where-e.com/Myanmar/Tora-Modern-Izakaya_f8825b862edf2cb33eb60ec5cf4fe8b2.jpg',
+    image:
+      'https://static.where-e.com/Myanmar/Tora-Modern-Izakaya_f8825b862edf2cb33eb60ec5cf4fe8b2.jpg',
     townId: 'nyaung-shwe',
     description: 'Popular for Shan and Intha Style Traditional Food',
   },
   {
     id: 'mann-mann-rooftop',
     name: 'Mann Mann Rooftop Bar and Restaurant',
-    image: 'https://img.p.mapq.st/?url=https://media-cdn.tripadvisor.com/media/photo-o/14/09/5a/22/pagoda-view.jpg?w=3840&q=75',
+    image:
+      'https://img.p.mapq.st/?url=https://media-cdn.tripadvisor.com/media/photo-o/14/09/5a/22/pagoda-view.jpg?w=3840&q=75',
     townId: 'nyaung-shwe',
     description: 'Foods and Beverages with Rooftop View',
   },
   {
     id: 'thanakha-garden',
     name: 'Thanakha Garden Restaurant',
-    image: 'https://www.gomyanmartours.com/wp-content/uploads/2016/03/Thanakha-Garden.jpg',
+    image:
+      'https://www.gomyanmartours.com/wp-content/uploads/2016/03/Thanakha-Garden.jpg',
     townId: 'nyaung-shwe',
     description: 'Traditional Shan cuisine and chinese cuisine',
   },
   {
     id: 'golden-kite',
     name: 'Golden Kite Restaurant',
-    image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c4/ac/da/caption.jpg?w=400&h=-1&s=1',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c4/ac/da/caption.jpg?w=400&h=-1&s=1',
     townId: 'nyaung-shwe',
     description: 'Famous for Shan and Intha traditional dishes',
+  },
+  // Tachileik Restaurants
+  {
+    id: 'vela-varee',
+    name: 'Vela Varee Restaurants',
+    image: '/restaurants/tachileik/1.JPG',
+    townId: 'tachileik',
+    description: 'Famous for its unique location and scenery',
+  },
+  {
+    id: 'sora-cafe',
+    name: 'Sora Cafe and Restaurant',
+    image: '/restaurants/tachileik/2.PNG',
+    townId: 'tachileik',
+    description: 'Famous for its Thai foods',
+  },
+  {
+    id: 'akha-zone-cafe',
+    name: 'Akha Zone Cafe',
+    image: '/restaurants/tachileik/3.WEBP',
+    townId: 'tachileik',
+    description: 'Famous for Akha traditional foods and soft drinks',
+  },
+  {
+    id: 'tachileik-night-market',
+    name: 'Tachileik Night Market',
+    image: '/restaurants/tachileik/IMG_6058.JPG',
+    townId: 'tachileik',
+    description:
+      'Known for variety choices of Shan-Thai Street Foods for Tachileik township',
+  },
+  // Keng Tung Restaurants
+  {
+    id: 'i-visit-keng-tung',
+    name: 'I visit Keng Tung',
+    image: '/restaurants/kengtung/1.PNG',
+    townId: 'kengtung',
+    description: 'Famous for wide variety of Asian dishes',
+  },
+  {
+    id: 'golden-orchid-cafe',
+    name: 'Golden Orchid Cafe',
+    image: '/restaurants/kengtung/2.PNG',
+    townId: 'kengtung',
+    description: 'Famous for wide variety from Breakfast to Dinner',
+  },
+  {
+    id: 'naung-lay-fish-pond',
+    name: 'Naung Lay Fish Pond & Restaurant',
+    image: '/restaurants/kengtung/3.PNG',
+    townId: 'kengtung',
+    description: 'Famous for its peaceful location and foods',
   },
 ];
 
