@@ -1,14 +1,20 @@
 import React from 'react';
 import Layout from '../components/layout/HeaderOnlyLayout';
 import TownCard from '../components/town/TownCard';
+import { BeachCard } from '../components/home/Beaches';
 import { towns } from '../data/towns';
 
 const AllTownsPage: React.FC = () => {
   // Categorize towns
   const topCities = towns.filter((town) =>
-    ['yangon', 'mandalay', 'pyin-oo-lwin', 'nay-pyi-daw', 'bagan','Kyauk-se'].includes(
-      town.id
-    )
+    [
+      'yangon',
+      'mandalay',
+      'pyin-oo-lwin',
+      'nay-pyi-daw',
+      'bagan',
+      'Kyauk-se',
+    ].includes(town.id)
   );
 
   const shanHighlands = towns.filter((town) =>
@@ -112,8 +118,8 @@ const AllTownsPage: React.FC = () => {
               </p>
             </div>
             <div className='grid grid-cols-1 gap-6 md:grid-cols-3'>
-              {beachDestinations.map((town) => (
-                <TownCard key={town.id} town={town} />
+              {beachDestinations.map((beach) => (
+                <BeachCard key={beach.id} beach={beach} />
               ))}
             </div>
           </div>
