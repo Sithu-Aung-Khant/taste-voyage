@@ -9,6 +9,7 @@ import SoutheastMyanmarPage from './pages/SoutheastMyanmarPage';
 import AllTownsPage from './pages/AllTownsPage';
 import AllFoodsPage from './pages/AllFoodsPage';
 import ContactPage from './pages/ContactPage';
+import SanityTestPage from './pages/SanityTestPage';
 import ScrollToTop from './components/layout/ScrollToTop';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/beaches/:id' element={<BeachDetailPage />} />
         <Route path='/foods' element={<AllFoodsPage />} />
         <Route path='/contact' element={<ContactPage />} />
+        <Route path='/sanity-test' element={<SanityTestPage />} />
         {/* Add more routes as pages are developed */}
         <Route path='*' element={<HomePage />} />
       </Routes>
