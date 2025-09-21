@@ -1,0 +1,1 @@
+import{p as e}from"./chunk-B7RQU5TL-B5HybwCP.js";import{H as r}from"./Header-XvGzTZe9.js";const m=({children:s})=>e.jsxs("div",{className:"flex flex-col min-h-screen",children:[e.jsx(r,{}),e.jsx("main",{className:"flex-grow pt-16",children:s})]});export{m as H};
