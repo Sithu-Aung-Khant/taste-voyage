@@ -58,3 +58,23 @@ export interface SanityPost {
   publishedAt: string;
   _type: 'post';
 }
+
+export interface SanityTown {
+  _id: string;
+  name: string;
+  slug: {
+    current: string;
+  };
+  description?: string;
+  imageUrl?: string;
+  rating?: number;
+  region?: string;
+  coordinates?: {
+    lat: number;
+    lng: number;
+  };
+  attractions?: string[];
+  restaurants?: string[];
+  signatureDishes?: string[];
+  _type: 'town';
+}
