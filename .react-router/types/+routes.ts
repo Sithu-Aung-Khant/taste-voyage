@@ -30,6 +30,9 @@ type Pages = {
       "id": string;
     };
   };
+  "/towns-sanity": {
+    params: {};
+  };
   "/beaches": {
     params: {};
   };
@@ -52,7 +55,7 @@ type Pages = {
 type RouteFiles = {
   "root.tsx": {
     id: "root";
-    page: "/" | "/towns" | "/towns/top-cities" | "/towns/shan-highlands" | "/towns/southeast" | "/towns/:id" | "/beaches" | "/beaches/:id" | "/foods" | "/contact" | "/sanity";
+    page: "/" | "/towns" | "/towns/top-cities" | "/towns/shan-highlands" | "/towns/southeast" | "/towns/:id" | "/towns-sanity" | "/beaches" | "/beaches/:id" | "/foods" | "/contact" | "/sanity";
   };
   "routes/_index.tsx": {
     id: "routes/_index";
@@ -77,6 +80,10 @@ type RouteFiles = {
   "routes/towns.$id.tsx": {
     id: "routes/towns.$id";
     page: "/towns/:id";
+  };
+  "routes/towns-sanity.tsx": {
+    id: "routes/towns-sanity";
+    page: "/towns-sanity";
   };
   "routes/beaches._index.tsx": {
     id: "routes/beaches._index";

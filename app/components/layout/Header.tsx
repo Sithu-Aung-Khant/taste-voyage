@@ -1,15 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router';
-import {
-  Search,
-  Menu,
-  X,
-  MapPin,
-  Utensils,
-  Map,
-  Info,
-  FileText,
-} from 'lucide-react';
+import { Search, Menu, X, MapPin, Utensils, Map, Info } from 'lucide-react';
 import SearchResults from '../ui/SearchResults';
 import { searchAll } from '../../utils/search';
 import useDebounce from '../../hooks/useDebounce';
@@ -105,7 +96,6 @@ const Header: React.FC = () => {
   const navLinks = [
     { name: 'Explore Foods', path: '/foods', icon: <Utensils size={18} /> },
     { name: 'Discover Towns', path: '/towns', icon: <MapPin size={18} /> },
-    { name: 'Sanity CMS', path: '/sanity', icon: <FileText size={18} /> },
     {
       name: 'Regional Map',
       path: 'https://www.google.com/maps/place/Myanmar+(Burma)/@20.0419414,95.1523088,5.7z/data=!4m15!1m8!3m7!1s0x305652a7714e2907:0xba7b0ee41c622b11!2sMyanmar+(Burma)!3b1!8m2!3d21.916221!4d95.955974!16zL20vMDR4bl8!3m5!1s0x305652a7714e2907:0xba7b0ee41c622b11!8m2!3d21.916221!4d95.955974!16zL20vMDR4bl8?entry=ttu&g_ep=EgoyMDI1MDYyOS4wIKXMDSoASAFQAw%3D%3D',

@@ -7,6 +7,7 @@ export default [
   route('towns/shan-highlands', 'routes/towns.shan-highlands.tsx'),
   route('towns/southeast', 'routes/towns.southeast.tsx'),
   route('towns/:id', 'routes/towns.$id.tsx'),
+  route('towns-sanity', 'routes/towns-sanity.tsx'),
   route('beaches', 'routes/beaches._index.tsx'),
   route('beaches/:id', 'routes/beaches.$id.tsx'),
   route('foods', 'routes/foods.tsx'),
