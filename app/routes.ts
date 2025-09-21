@@ -11,4 +11,5 @@ export default [
   route('beaches/:id', 'routes/beaches.$id.tsx'),
   route('foods', 'routes/foods.tsx'),
   route('contact', 'routes/contact.tsx'),
+  route('sanity', 'routes/sanity.tsx'),
 ] satisfies RouteConfig;

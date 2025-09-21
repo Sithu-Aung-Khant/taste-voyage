@@ -44,12 +44,15 @@ type Pages = {
   "/contact": {
     params: {};
   };
+  "/sanity": {
+    params: {};
+  };
 };
 
 type RouteFiles = {
   "root.tsx": {
     id: "root";
-    page: "/" | "/towns" | "/towns/top-cities" | "/towns/shan-highlands" | "/towns/southeast" | "/towns/:id" | "/beaches" | "/beaches/:id" | "/foods" | "/contact";
+    page: "/" | "/towns" | "/towns/top-cities" | "/towns/shan-highlands" | "/towns/southeast" | "/towns/:id" | "/beaches" | "/beaches/:id" | "/foods" | "/contact" | "/sanity";
   };
   "routes/_index.tsx": {
     id: "routes/_index";
@@ -90,5 +93,9 @@ type RouteFiles = {
   "routes/contact.tsx": {
     id: "routes/contact";
     page: "/contact";
+  };
+  "routes/sanity.tsx": {
+    id: "routes/sanity";
+    page: "/sanity";
   };
 };

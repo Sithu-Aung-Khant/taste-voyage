@@ -47,3 +47,14 @@ export interface Beach {
   restaurants: string[];
   attractions: string[];
 }
+
+// Sanity CMS Types
+export interface SanityPost {
+  _id: string;
+  title: string;
+  slug: {
+    current: string;
+  };
+  publishedAt: string;
+  _type: 'post';
+}
