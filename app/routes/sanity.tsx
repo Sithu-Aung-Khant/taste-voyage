@@ -5,7 +5,19 @@ import SanityPage from '../pages/SanityPage';
 const TOWNS_QUERY = `*[
   _type == "Town"
   && defined(slug.current)
-]|order(publishedAt desc)[0...12]{_id, name, slug, description, imageUrl, rating, region, coordinates, attractions, restaurants, signatureDishes}`;
+]|order(publishedAt desc)[0...12]{
+  _id,
+  name,
+  slug,
+  description,
+  "imageUrl": image.asset->url,
+  rating,
+  region,
+  coordinates,
+  attractions,
+  restaurants,
+  signatureDishes
+}`;
 
 export async function loader() {
   return { towns: await client.fetch<SanityTown[]>(TOWNS_QUERY) };
