@@ -29,45 +29,44 @@ const AllTownsSanityPage: React.FC<AllTownsSanityPageProps> = ({
     convertSanityTownToTown
   );
 
-  // Categorize Sanity towns by region (similar to original structure)
-  const topCities = sanityTownsAsTowns.filter(
-    (town) =>
-      town.region.toLowerCase().includes('yangon') ||
-      town.region.toLowerCase().includes('mandalay') ||
-      town.region.toLowerCase().includes('bagan') ||
-      town.region.toLowerCase().includes('naypyidaw') ||
-      town.name.toLowerCase().includes('yangon') ||
-      town.name.toLowerCase().includes('mandalay') ||
-      town.name.toLowerCase().includes('bagan') ||
-      town.name.toLowerCase().includes('naypyidaw')
+  // Match filtering logic and hyphenation with AllTownsPage (by IDs)
+  const topCitiesIds = new Set([
+    'yangon',
+    'mandalay',
+    'pyin-oo-lwin',
+    'nay-pyi-daw',
+    'bagan',
+    'kyauk-se',
+  ]);
+  const shanHighlandsIds = new Set([
+    'taunggyi',
+    'kalaw',
+    'nyaung-shwe',
+    'inle-lake',
+  ]);
+  const southeastMyanmarIds = new Set([
+    'hpa-an',
+    'mawlamyaing',
+    'dawei',
+    'kawthaung',
+    'myeik',
+  ]);
+  const beachDestinationIds = new Set(['ngapali', 'ngwe-saung', 'chaung-tha']);
+
+  const topCities = sanityTownsAsTowns.filter((town) =>
+    topCitiesIds.has((town.id || '').toLowerCase())
   );
 
-  const shanHighlands = sanityTownsAsTowns.filter(
-    (town) =>
-      town.region.toLowerCase().includes('shan') ||
-      town.name.toLowerCase().includes('taunggyi') ||
-      town.name.toLowerCase().includes('kalaw') ||
-      town.name.toLowerCase().includes('inle')
+  const shanHighlands = sanityTownsAsTowns.filter((town) =>
+    shanHighlandsIds.has((town.id || '').toLowerCase())
   );
 
-  const southeastMyanmar = sanityTownsAsTowns.filter(
-    (town) =>
-      town.region.toLowerCase().includes('mon') ||
-      town.region.toLowerCase().includes('kayin') ||
-      town.region.toLowerCase().includes('tanintharyi') ||
-      town.name.toLowerCase().includes('hpa-an') ||
-      town.name.toLowerCase().includes('mawlamyaing') ||
-      town.name.toLowerCase().includes('dawei') ||
-      town.name.toLowerCase().includes('kawthaung') ||
-      town.name.toLowerCase().includes('myeik')
+  const southeastMyanmar = sanityTownsAsTowns.filter((town) =>
+    southeastMyanmarIds.has((town.id || '').toLowerCase())
   );
 
-  const beachDestinations = sanityTownsAsTowns.filter(
-    (town) =>
-      town.name.toLowerCase().includes('ngapali') ||
-      town.name.toLowerCase().includes('ngwe-saung') ||
-      town.name.toLowerCase().includes('chaung-tha') ||
-      town.name.toLowerCase().includes('beach')
+  const beachDestinations = sanityTownsAsTowns.filter((town) =>
+    beachDestinationIds.has((town.id || '').toLowerCase())
   );
 
   // Towns that don't fit into any category
@@ -209,7 +208,7 @@ const AllTownsSanityPage: React.FC<AllTownsSanityPageProps> = ({
           <section className='py-16'>
             <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
               <div className='text-center'>
-                <h2 className='text-3xl font-bold text-gray-900 mb-4'>
+                <h2 className='mb-4 text-3xl font-bold text-gray-900'>
                   No Towns Found
                 </h2>
                 <p className='text-lg text-gray-600'>
