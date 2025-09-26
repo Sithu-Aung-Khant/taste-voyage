@@ -19,20 +19,17 @@ const AllFoodsPage: React.FC = () => {
         image: dish.image,
         rating: 4.5, // Default rating
         origin: ['Myanmar'], // Default origin
-        tasteTags: [], // Empty taste tags
         ingredients: [], // Empty ingredients
         category: dish.name.toLowerCase().includes('curry')
           ? 'main'
           : dish.name.toLowerCase().includes('salad')
-          ? 'appetizer'
-          : dish.name.toLowerCase().includes('wine')
-          ? 'drink'
-          : 'main', // Basic category logic
-        spiceLevel: dish.name.toLowerCase().includes('curry') ? 3 : 2, // Basic spice level logic
+            ? 'appetizer'
+            : dish.name.toLowerCase().includes('wine')
+              ? 'drink'
+              : 'main', // Basic category logic
         isVegetarian:
           dish.name.toLowerCase().includes('salad') ||
           dish.name.toLowerCase().includes('vegetable'), // Basic vegetarian logic
-        wikipediaUrl: null,
       }));
 
     return [...foods, ...transformedDishes];
