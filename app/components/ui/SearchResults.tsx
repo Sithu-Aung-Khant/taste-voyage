@@ -42,10 +42,12 @@ const SearchResults: React.FC<SearchResultsProps> = ({ results, onClose }) => {
       case 'beach':
         navigate(`/beaches/${result.id}`);
         break;
-      case 'attraction':
-        // Find the parent town and navigate there
-        navigate(`/towns/${result.id.split('-')[0]}`);
+      case 'attraction': {
+        // Open Google Maps search for the attraction in a new tab
+        const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(result.name)}`;
+        window.open(mapsUrl, '_blank', 'noopener,noreferrer');
         break;
+      }
     }
     onClose();
   };
@@ -56,14 +58,14 @@ const SearchResults: React.FC<SearchResultsProps> = ({ results, onClose }) => {
 
   return (
     <div className='absolute left-0 right-0 z-50 mt-2 overflow-hidden bg-white rounded-lg shadow-lg'>
-      <div className='max-h-96 overflow-y-auto'>
+      <div className='overflow-y-auto max-h-96'>
         {results.map((result) => (
           <button
             key={`${result.type}-${result.id}`}
             className='flex items-start w-full p-4 text-left transition-colors hover:bg-gray-50'
             onClick={() => handleClick(result)}
           >
-            <div className='flex items-center justify-center w-8 h-8 mr-4 text-amber-600 bg-amber-100 rounded-full'>
+            <div className='flex items-center justify-center w-8 h-8 mr-4 rounded-full text-amber-600 bg-amber-100'>
               {getIcon(result.type)}
             </div>
             <div className='flex-1 min-w-0'>
@@ -71,7 +73,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ results, onClose }) => {
                 <p className='text-sm font-medium text-gray-900'>
                   {result.name}
                 </p>
-                <span className='px-2 py-1 text-xs font-medium text-amber-800 bg-amber-100 rounded-full'>
+                <span className='px-2 py-1 text-xs font-medium rounded-full text-amber-800 bg-amber-100'>
                   {result.type}
                 </span>
               </div>
