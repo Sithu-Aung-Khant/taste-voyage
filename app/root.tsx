@@ -6,6 +6,8 @@ import {
   Scripts,
   ScrollRestoration,
 } from 'react-router';
+import { useLocation, useNavigate } from 'react-router';
+import { useEffect } from 'react';
 
 import type { Route } from './+types/root';
 import './app.css';
@@ -42,6 +44,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Redirect all routes except home page to home with maintenance overlay
+    if (location.pathname !== '/') {
+      navigate('/', { replace: true });
+    }
+  }, [location.pathname, navigate]);
+
   return <Outlet />;
 }
 
