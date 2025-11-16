@@ -13,7 +13,6 @@ const HomePage: React.FC = () => {
     <Layout>
       <HeroSection />
       <TopCities />
-      {/* <FeaturedDestinations /> */}
       <Beaches />
       <PopularFoods />
       <ShanHighlands />
@@ -81,36 +80,6 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      {/* <section
-        className='relative py-20 bg-center bg-cover'
-        style={{
-          backgroundImage:
-            'url(https://images.pexels.com/photos/3689859/pexels-photo-3689859.jpeg?auto=compress&cs=tinysrgb&w=1800)',
-        }}
-      >
-        <div className='absolute inset-0 bg-gray-900 opacity-75'></div>
-        <div className='relative px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8'>
-          <h2 className='mb-6 text-3xl font-bold text-white sm:text-4xl'>
-            Ready to Explore Myanmar's Culinary Wonders?
-          </h2>
-          <p className='max-w-3xl mx-auto mb-8 text-lg text-white/90'>
-            Discover the authentic tastes and breathtaking destinations that
-            make Myanmar a hidden treasure for food lovers and travelers alike.
-          </p>
-          <div className='inline-flex rounded-md shadow'>
-            <a
-              href='https://www.google.com/maps/place/Myanmar'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='px-8 py-3 text-base font-medium text-gray-900 transition-colors bg-white border border-transparent rounded-md hover:bg-gray-50'
-            >
-              Explore Interactive Map
-            </a>
-          </div>
-        </div>
-      </section> */}
     </Layout>
   );
 };
